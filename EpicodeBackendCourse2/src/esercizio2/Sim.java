@@ -13,11 +13,18 @@ public class Sim {
 	
 	public void infoSim () {
 		System.out.println("Numero: "+ this.numero);
-		System.out.println("Credito residuo: "+ this.credito);
 		System.out.println("Lista chiamate:");
 		for (int i=chiamate.length-1; i>chiamate.length-6; i--) {
-			System.out.println("da: " + chiamate[i].from + " a: " + chiamate[i].to + " durata: " + chiamate[i].time);
-		}
+			if (chiamate[i]!=null) {
+			System.out.println("Numero chiamato: " + chiamate[i].to + " - durata: " + chiamate[i].time + " - credito utilizzato: " + chiamate[i].creditUsed);
+			this.credito-= chiamate[i].creditUsed;
+		}}
+		System.out.println("Credito residuo: "+ this.credito);
 	}
-
+	public void ricarica (int c)
+	{
+		this.credito+= c;
+		 System.out.println("CREDITO RICARICATO: " + c + "€");
+		System.out.println("CREDITO ATTUALE: "+ this.credito + "€");
+	}
 }
