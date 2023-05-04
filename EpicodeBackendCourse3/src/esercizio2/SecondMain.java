@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class SecondMain {
 
-	public static boolean r;
+	public static String r;
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -12,12 +12,13 @@ public class SecondMain {
 		do{
 		System.out.println("----------StampaInLettere----------");
 		stampaInLettere();
-		System.out.println("Vuoi inserire un altro numero? true/false");
+		System.out.println("Vuoi inserire un altro numero? y/n");
 		@SuppressWarnings("resource")
 		Scanner sc = new Scanner(System.in);
-		r=sc.nextBoolean();
+		r=sc.nextLine();
+
 		}
-		while (r);
+		while (r.equals("y"));
 
 	}
 	
