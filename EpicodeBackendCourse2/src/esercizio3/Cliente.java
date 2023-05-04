@@ -1,11 +1,13 @@
 package esercizio3;
 
+import java.time.LocalDate;
+
 public class Cliente {
 	public String codiceCliente;
 	public String nome;
 	public String cognome;
 	public String email;
-	public String dataIscrizione;
+	public LocalDate dataIscrizione;
 	public Carrello carrello;
 
 	
@@ -14,7 +16,7 @@ public class Cliente {
 		this.nome=nome;
 		this.cognome=cognome;
 		this.email=email;
-		this.dataIscrizione=dataIscrizione;
+		this.dataIscrizione= LocalDate.now();
 		this.carrello=cart;
 	}
 	

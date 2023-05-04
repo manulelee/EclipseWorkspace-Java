@@ -21,6 +21,7 @@ public class Sim {
 		}}
 		System.out.println("Credito residuo: "+ this.credito);
 	}
+	
 	public void ricarica (int c)
 	{
 		this.credito+= c;
