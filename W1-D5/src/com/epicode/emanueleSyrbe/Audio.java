@@ -2,13 +2,16 @@ package com.epicode.emanueleSyrbe;
 
 public class Audio extends ElementoMultimediale implements Volume{
 	
- public int durata;
- public static int volume = 1;
+ private int durata;
+ private static int volume = 1;
  
 	public Audio(String titolo, int durata) {
 		super(titolo);
 		this.durata=durata;
 		
+	}
+	public int getDurata() {
+		return this.durata;
 	}
 
 	public void play() {
@@ -18,7 +21,7 @@ public class Audio extends ElementoMultimediale implements Volume{
 			}
 			
 			for (int i=0; i<this.durata; i++) {
-				System.out.println(this.titolo + " - volume: " + puntiEsclamativi);
+				System.out.println(this.getTitolo() + " - volume: " + puntiEsclamativi);
 			}
 	}
 
@@ -47,6 +50,6 @@ public class Audio extends ElementoMultimediale implements Volume{
 	
 	@Override
 	public String toString() {
-		return this.titolo +" - " + this.durata + " min." + " (audio)";
+		return this.getTitolo() +" - " + this.durata + " min." + " (audio)";
 	}
 }

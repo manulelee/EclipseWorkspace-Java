@@ -2,15 +2,19 @@ package com.epicode.emanueleSyrbe;
 
 public class Video   extends ElementoMultimediale implements  Volume, Luminosita {
 	
-	 public int durata;
-	 public static int volume = 2;
-	 public static int luminosità = 2;
+	 private int durata;
+	 private static int volume = 2;
+	 private static int luminosità = 2;
 	 
 		public Video(String titolo, int durata) {
 			super(titolo);
 			this.durata=durata;
 	
 		}
+		public int getDurata() {
+			return this.durata;
+		}
+
 		
 		public void play() {
 			String puntiEsclamativi="";
@@ -23,7 +27,7 @@ public class Video   extends ElementoMultimediale implements  Volume, Luminosita
 				asterischi+="*";
 			}
 			for (int i=0; i<this.durata; i++) {
-				System.out.println(this.titolo + " - volume: " + puntiEsclamativi + " - luminosità: " + asterischi);
+				System.out.println(this.getTitolo() + " - volume: " + puntiEsclamativi + " - luminosità: " + asterischi);
 			} 
 		}
 		
@@ -72,7 +76,7 @@ public class Video   extends ElementoMultimediale implements  Volume, Luminosita
 		
 		@Override
 		public String toString() {
-			return this.titolo +" - " + this.durata + " min." + " (video)";
+			return this.getTitolo() +" - " + this.durata + " min." + " (video)";
 		}
 	}
 		

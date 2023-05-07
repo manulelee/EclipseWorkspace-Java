@@ -10,7 +10,7 @@ public class MainProject {
 		String title;
 		int time;
 		
-		ElementoMultimediale[] myElements = new ElementoMultimediale[2];
+		ElementoMultimediale[] myElements = new ElementoMultimediale[5];
 		System.out.println("Inserisci " + myElements.length + " elementi multimediali per iniziare...");
 		
 		for(int i=0; i<myElements.length; i++) {
@@ -87,7 +87,7 @@ public class MainProject {
 						Immagine i = (Immagine) myElements[selected-1];
 						int m;
 						do {
-							System.out.println("Possibili metodi per " + i.titolo);
+							System.out.println("Possibili metodi per " + i.getTitolo());
 							System.out.println("1 - Riproduci.");
 							System.out.println("2 - Aumenta luminosità.");
 							System.out.println("3 - Diminuisci luminosità.");
@@ -112,7 +112,7 @@ public class MainProject {
 						Audio a = (Audio) myElements[selected-1];
 						int m;
 						do {
-							System.out.println("Possibili metodi per " + a.titolo);
+							System.out.println("Possibili metodi per " + a.getTitolo());
 							System.out.println("1 - Riproduci.");
 							System.out.println("2 - Alza volume.");
 							System.out.println("3 - Abbassa volume.");
@@ -127,11 +127,11 @@ public class MainProject {
 						
 						switch (m) {
 							case 1: 
-								if (a.durata > 0) {
+								if (a.getDurata() > 0) {
 									a.play();
 								}
 								else {
-									System.out.println(a.titolo + " non riproducibile; la durata deve essere maggiore di 0");
+									System.out.println(a.getTitolo() + " non riproducibile; la durata deve essere maggiore di 0");
 								}
 								break;
 							case 2: a.alzaVolume();break;
@@ -145,7 +145,7 @@ public class MainProject {
 						Video v = (Video) myElements[selected-1];
 						int m;
 						do {
-							System.out.println("Possibili metodi per " + v.titolo);
+							System.out.println("Possibili metodi per " + v.getTitolo());
 							System.out.println("1 - Riproduci.");
 							System.out.println("2 - Alza volume.");
 							System.out.println("3 - Abbassa volume.");
@@ -163,11 +163,11 @@ public class MainProject {
 						
 						switch (m) {
 							case 1: 
-								if (v.durata > 0) {
+								if (v.getDurata() > 0) {
 									v.play();
 								}
 								else {
-									System.out.println(v.titolo + " non riproducibile; la durata deve essere maggiore di 0");
+									System.out.println(v.getTitolo() + " non riproducibile; la durata deve essere maggiore di 0");
 								}
 								break;
 							case 2: v.alzaVolume();break;

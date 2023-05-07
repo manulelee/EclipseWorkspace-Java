@@ -2,7 +2,7 @@ package com.epicode.emanueleSyrbe;
 
 public class Immagine extends ElementoMultimediale implements Luminosita {
 	
-	 public static int luminosità = 2;
+	 private static int luminosità = 2;
 	public Immagine(String titolo) {
 		super(titolo);
 		
@@ -16,7 +16,7 @@ public class Immagine extends ElementoMultimediale implements Luminosita {
 				asterischi+="*";
 			}
 			
-			System.out.println(this.titolo + " - luminosità: " + asterischi);
+			System.out.println(this.getTitolo() + " - luminosità: " + asterischi);
 		}
 
 	public void aumentaLuminosita() {
@@ -42,7 +42,7 @@ public class Immagine extends ElementoMultimediale implements Luminosita {
 	
 	@Override
 	public String toString() {
-		return this.titolo + " (immagine)";
+		return this.getTitolo() + " (immagine)";
 	}
 }
 	

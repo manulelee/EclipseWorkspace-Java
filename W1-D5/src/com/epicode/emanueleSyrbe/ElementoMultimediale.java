@@ -2,10 +2,13 @@ package com.epicode.emanueleSyrbe;
 
 public abstract class ElementoMultimediale {
 	
- public String titolo;
+ private String titolo;
  
 	public ElementoMultimediale (String titolo) {
 	 this.titolo=titolo;
+	}
+	protected String getTitolo () {
+		return this.titolo;
 	}
 	
 	@Override
