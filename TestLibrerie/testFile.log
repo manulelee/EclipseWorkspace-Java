@@ -1,0 +1,12 @@
+10:39:57.479 [main] INFO  Test Logger!!!
+10:39:57.487 [main] ERROR Test Error!
+10:39:57.488 [main] WARN  Test Warning!
+10:39:57.488 [main] DEBUG Test Debug
+10:40:27.799 [main] INFO  Test Logger!!!
+10:40:27.805 [main] ERROR Test Error!
+10:40:27.806 [main] WARN  Test Warning!
+10:40:27.806 [main] DEBUG Test Debug
+10:40:36.449 [main] INFO  Test Logger!!!
+10:40:36.454 [main] ERROR Test Error!
+10:40:36.455 [main] WARN  Test Warning!
+10:40:36.455 [main] DEBUG Test Debug

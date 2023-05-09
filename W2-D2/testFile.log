@@ -1,0 +1,665 @@
+14:47:50.389 [main] INFO  Inserisci un il numero di elementi da inserire
+14:47:59.969 [main] INFO  Inserisci il nuovo valore
+14:48:02.630 [main] INFO  Inserisci il nuovo valore
+14:48:04.316 [main] INFO  Inserisci il nuovo valore
+14:48:05.695 [main] INFO  Inserisci il nuovo valore
+14:48:07.739 [main] INFO  Inserisci il nuovo valore
+14:48:08.988 [main] WARN  Elemento4già presente!
+14:48:08.989 [main] INFO  Lunghezza totale: 4
+14:48:08.990 [main] INFO  1
+14:48:08.990 [main] INFO  2
+14:48:08.990 [main] INFO  3
+14:48:08.990 [main] INFO  4
+14:48:52.718 [main] INFO  Inserisci un il numero di elementi da inserire
+14:48:54.883 [main] INFO  Inserisci il nuovo valore
+14:48:56.820 [main] INFO  Inserisci il nuovo valore
+14:48:57.330 [main] INFO  Inserisci il nuovo valore
+14:48:57.676 [main] INFO  Inserisci il nuovo valore
+14:48:58.006 [main] INFO  Inserisci il nuovo valore
+14:48:58.337 [main] INFO  Inserisci il nuovo valore
+14:48:58.659 [main] INFO  Inserisci il nuovo valore
+14:48:59.296 [main] WARN  Elemento 6 già presente!
+14:48:59.296 [main] INFO  Inserisci il nuovo valore
+14:49:01.597 [main] WARN  Elemento 6 già presente!
+14:49:01.597 [main] INFO  Inserisci il nuovo valore
+14:49:02.683 [main] WARN  Elemento 6 già presente!
+14:49:02.683 [main] INFO  Inserisci il nuovo valore
+14:49:03.231 [main] WARN  Elemento 6 già presente!
+14:49:03.232 [main] INFO  Inserisci il nuovo valore
+14:49:03.736 [main] WARN  Elemento 6 già presente!
+14:49:03.736 [main] INFO  Inserisci il nuovo valore
+14:49:04.331 [main] WARN  Elemento 6 già presente!
+14:49:04.331 [main] INFO  Inserisci il nuovo valore
+14:49:04.809 [main] WARN  Elemento 6 già presente!
+14:49:04.819 [main] INFO  Inserisci il nuovo valore
+14:49:06.390 [main] INFO  Inserisci il nuovo valore
+14:49:06.960 [main] INFO  Inserisci il nuovo valore
+14:49:07.556 [main] INFO  Inserisci il nuovo valore
+14:49:10.160 [main] WARN  Elemento 9 già presente!
+14:49:10.161 [main] INFO  Inserisci il nuovo valore
+14:49:10.638 [main] WARN  Elemento 9 già presente!
+14:49:10.638 [main] INFO  Inserisci il nuovo valore
+14:49:11.497 [main] INFO  Inserisci il nuovo valore
+14:49:17.742 [main] WARN  Elemento 10 già presente!
+14:49:17.742 [main] INFO  Inserisci il nuovo valore
+14:49:18.864 [main] WARN  Elemento 10 già presente!
+14:49:18.864 [main] INFO  Inserisci il nuovo valore
+14:49:20.180 [main] INFO  Inserisci il nuovo valore
+14:49:21.036 [main] INFO  Inserisci il nuovo valore
+14:49:21.999 [main] INFO  Inserisci il nuovo valore
+14:49:23.060 [main] WARN  Elemento 23 già presente!
+14:49:23.060 [main] INFO  Inserisci il nuovo valore
+14:49:23.634 [main] INFO  Inserisci il nuovo valore
+14:49:24.141 [main] WARN  Elemento 5 già presente!
+14:49:24.141 [main] INFO  Inserisci il nuovo valore
+14:49:24.687 [main] INFO  Inserisci il nuovo valore
+14:49:25.130 [main] WARN  Elemento 6 già presente!
+14:49:25.131 [main] INFO  Inserisci il nuovo valore
+14:49:25.565 [main] INFO  Inserisci il nuovo valore
+14:49:26.064 [main] WARN  Elemento 6 già presente!
+14:49:26.065 [main] INFO  Inserisci il nuovo valore
+14:49:26.544 [main] INFO  Inserisci il nuovo valore
+14:49:27.089 [main] WARN  Elemento 5 già presente!
+14:49:27.089 [main] INFO  Inserisci il nuovo valore
+14:50:41.936 [main] INFO  Inserisci un il numero di elementi da inserire
+14:50:43.939 [main] INFO  Inserisci il nuovo valore
+14:50:44.293 [main] INFO  Inserisci il nuovo valore
+14:50:48.096 [main] INFO  Inserisci il nuovo valore
+14:50:49.192 [main] INFO  Inserisci il nuovo valore
+14:50:49.685 [main] INFO  Inserisci il nuovo valore
+14:50:50.294 [main] INFO  Inserisci il nuovo valore
+14:50:51.378 [main] INFO  Inserisci il nuovo valore
+14:50:51.850 [main] INFO  Inserisci il nuovo valore
+14:50:52.309 [main] INFO  Inserisci il nuovo valore
+14:50:53.855 [main] INFO  Inserisci il nuovo valore
+14:50:56.474 [main] INFO  Inserisci il nuovo valore
+14:51:10.828 [main] INFO  Inserisci un il numero di elementi da inserire
+14:53:34.542 [main] INFO  Inserisci un il numero di elementi da inserire
+14:53:38.561 [main] INFO  Inserisci il nuovo valore
+14:53:41.517 [main] INFO  Lunghezza totale: 1
+14:53:41.518 [main] INFO  2
+14:53:45.399 [main] INFO  Inserisci un il numero di elementi da inserire
+14:53:47.201 [main] INFO  Inserisci il nuovo valore
+14:53:53.350 [main] INFO  Inserisci il nuovo valore
+14:53:55.017 [main] INFO  Inserisci il nuovo valore
+14:53:56.061 [main] INFO  Inserisci il nuovo valore
+14:53:57.085 [main] INFO  Inserisci il nuovo valore
+14:53:58.448 [main] WARN  Elemento 2 già presente!
+14:53:58.448 [main] INFO  Lunghezza totale: 4
+14:53:58.449 [main] INFO  1
+14:53:58.449 [main] INFO  2
+14:53:58.449 [main] INFO  3
+14:53:58.449 [main] INFO  4
+14:54:37.798 [main] INFO  Inserisci il nuovo valore
+14:54:39.229 [main] INFO  Inserisci il nuovo valore
+14:54:40.705 [main] WARN  Elemento 1 già presente!
+14:54:40.705 [main] INFO  Lunghezza totale: 1
+14:54:40.706 [main] INFO  1
+14:55:33.258 [main] INFO  Inserisci un il numero di elementi da inserire
+14:55:35.888 [main] INFO  Inserisci il nuovo valore
+14:55:36.997 [main] INFO  Inserisci il nuovo valore
+14:55:37.913 [main] WARN  Elemento 1 già presente!
+14:55:37.913 [main] INFO  Inserisci il nuovo valore
+14:55:40.461 [main] INFO  Inserisci il nuovo valore
+14:55:42.092 [main] INFO  Inserisci il nuovo valore
+14:55:42.932 [main] INFO  Lunghezza totale: 4
+14:55:42.933 [main] INFO  1
+14:55:42.934 [main] INFO  2
+14:55:42.934 [main] INFO  3
+14:55:42.934 [main] INFO  4
+15:13:34.693 [main] INFO  Inserisci un il numero di elementi da inserire
+15:13:55.416 [main] INFO  Inserisci un il numero di elementi da inserire
+15:17:45.513 [main] INFO  Inserisci un il numero di elementi da inserire
+15:18:11.997 [main] INFO  Inserisci un il numero di elementi da inserire
+15:19:32.033 [main] INFO  Inserisci un il numero di elementi da inserire
+15:19:33.884 [main] INFO  Inserisci il nuovo valore
+15:19:34.792 [main] INFO  Inserisci il nuovo valore
+15:19:35.358 [main] INFO  Inserisci il nuovo valore
+15:19:35.735 [main] INFO  Inserisci il nuovo valore
+15:19:36.170 [main] INFO  Inserisci il nuovo valore
+15:19:37.457 [main] WARN  Elemento 4 già presente!
+15:19:37.457 [main] INFO  Inserisci il nuovo valore
+15:19:40.048 [main] INFO  Inserisci il nuovo valore
+15:19:40.675 [main] INFO  Inserisci il nuovo valore
+15:19:41.265 [main] INFO  Inserisci il nuovo valore
+15:19:41.895 [main] INFO  Inserisci il nuovo valore
+15:19:42.608 [main] INFO  Lunghezza totale: 9
+15:19:42.609 [main] INFO  1
+15:19:42.609 [main] INFO  2
+15:19:42.609 [main] INFO  3
+15:19:42.609 [main] INFO  4
+15:19:42.609 [main] INFO  5
+15:19:42.609 [main] INFO  6
+15:19:42.609 [main] INFO  7
+15:19:42.609 [main] INFO  8
+15:19:42.609 [main] INFO  9
+15:21:17.507 [main] INFO  Inserisci un il numero di elementi da inserire
+15:21:20.271 [main] INFO  Inserisci il nuovo valore
+15:21:21.790 [main] INFO  Inserisci il nuovo valore
+15:21:22.857 [main] INFO  Inserisci il nuovo valore
+15:21:23.271 [main] INFO  Inserisci il nuovo valore
+15:21:23.653 [main] INFO  Inserisci il nuovo valore
+15:21:24.030 [main] INFO  Inserisci il nuovo valore
+15:21:25.132 [main] INFO  Inserisci il nuovo valore
+15:21:25.443 [main] INFO  Inserisci il nuovo valore
+15:21:25.888 [main] INFO  Inserisci il nuovo valore
+15:21:26.901 [main] INFO  Inserisci il nuovo valore
+15:21:28.354 [main] INFO  Lunghezza totale: 10
+15:21:28.356 [main] INFO  0
+15:21:28.356 [main] INFO  1
+15:21:28.356 [main] INFO  2
+15:21:28.356 [main] INFO  3
+15:21:28.356 [main] INFO  4
+15:21:28.356 [main] INFO  5
+15:21:28.356 [main] INFO  6
+15:21:28.356 [main] INFO  7
+15:21:28.356 [main] INFO  8
+15:21:28.356 [main] INFO  9
+15:21:35.198 [main] INFO  Inserisci un il numero di elementi da inserire
+15:21:36.730 [main] INFO  Inserisci il nuovo valore
+15:21:38.308 [main] INFO  Lunghezza totale: 1
+15:21:38.309 [main] INFO  1
+15:21:41.212 [main] INFO  Inserisci un il numero di elementi da inserire
+15:21:42.545 [main] INFO  Inserisci il nuovo valore
+15:21:43.504 [main] INFO  Inserisci il nuovo valore
+15:21:43.815 [main] WARN  Elemento 1 già presente!
+15:21:43.816 [main] INFO  Lunghezza totale: 1
+15:21:43.817 [main] INFO  1
+15:21:46.990 [main] INFO  Inserisci un il numero di elementi da inserire
+15:21:48.075 [main] INFO  Inserisci il nuovo valore
+15:21:48.500 [main] INFO  Inserisci il nuovo valore
+15:21:48.872 [main] WARN  Elemento 1 già presente!
+15:21:48.872 [main] INFO  Inserisci il nuovo valore
+15:21:50.415 [main] INFO  Lunghezza totale: 2
+15:21:50.417 [main] INFO  1
+15:21:50.417 [main] INFO  2
+15:24:45.596 [main] INFO  Inserisci un il numero di elementi da inserire
+15:44:35.276 [main] INFO  60
+15:44:35.282 [main] INFO  10
+15:44:35.282 [main] INFO  61
+15:44:35.282 [main] INFO  73
+15:44:35.282 [main] INFO  43
+15:44:35.282 [main] INFO  11
+15:44:35.282 [main] INFO  16
+15:44:35.282 [main] INFO  41
+15:44:35.282 [main] INFO  6
+15:44:35.282 [main] INFO  5
+15:44:47.254 [main] INFO  65
+15:44:47.259 [main] INFO  4
+15:44:47.259 [main] INFO  97
+15:44:47.259 [main] INFO  40
+15:44:47.260 [main] INFO  50
+15:44:47.260 [main] INFO  24
+15:44:47.260 [main] INFO  4
+15:44:47.260 [main] INFO  26
+15:44:47.260 [main] INFO  65
+15:44:47.260 [main] INFO  18
+15:45:07.891 [main] INFO  58
+15:45:07.899 [main] INFO  66
+15:45:07.899 [main] INFO  43
+15:45:07.900 [main] INFO  11
+15:45:07.900 [main] INFO  100
+15:45:07.900 [main] INFO  98
+15:45:07.900 [main] INFO  76
+15:45:07.900 [main] INFO  7
+15:45:07.900 [main] INFO  86
+15:45:07.900 [main] INFO  78
+16:15:42.861 [main] INFO  66
+16:15:42.868 [main] INFO  53
+16:15:42.868 [main] INFO  89
+16:15:42.868 [main] INFO  47
+16:15:42.868 [main] INFO  13
+16:15:42.868 [main] INFO  66
+16:15:42.868 [main] INFO  55
+16:15:42.868 [main] INFO  14
+16:15:42.869 [main] INFO  43
+16:15:42.869 [main] INFO  16
+16:16:33.254 [main] INFO  20
+16:16:33.260 [main] INFO  79
+16:16:33.260 [main] INFO  44
+16:16:33.260 [main] INFO  2
+16:16:33.260 [main] INFO  25
+16:16:33.260 [main] INFO  44
+16:16:33.260 [main] INFO  2
+16:16:33.260 [main] INFO  13
+16:16:33.260 [main] INFO  80
+16:16:33.260 [main] INFO  99
+16:16:33.261 [main] INFO  99
+16:16:33.261 [main] INFO  80
+16:16:33.261 [main] INFO  13
+16:16:33.261 [main] INFO  2
+16:16:33.261 [main] INFO  44
+16:16:33.261 [main] INFO  25
+16:16:33.261 [main] INFO  2
+16:16:33.261 [main] INFO  44
+16:16:33.261 [main] INFO  79
+16:17:13.384 [main] INFO  92
+16:17:13.392 [main] INFO  92
+16:17:13.393 [main] INFO  91
+16:17:13.393 [main] INFO  69
+16:17:13.393 [main] INFO  23
+16:17:13.393 [main] INFO  10
+16:17:13.393 [main] INFO  3
+16:17:13.393 [main] INFO  78
+16:17:13.393 [main] INFO  24
+16:17:13.393 [main] INFO  74
+16:17:13.394 [main] INFO  92
+16:17:13.395 [main] INFO  92
+16:17:13.395 [main] INFO  91
+16:17:13.395 [main] INFO  69
+16:17:13.395 [main] INFO  23
+16:17:13.395 [main] INFO  10
+16:17:13.395 [main] INFO  3
+16:17:13.395 [main] INFO  78
+16:17:13.395 [main] INFO  24
+16:17:13.395 [main] INFO  74
+16:17:13.395 [main] INFO  74
+16:17:13.396 [main] INFO  24
+16:17:13.396 [main] INFO  78
+16:17:13.396 [main] INFO  3
+16:17:13.396 [main] INFO  10
+16:17:13.396 [main] INFO  23
+16:17:13.396 [main] INFO  69
+16:17:13.396 [main] INFO  91
+16:17:13.396 [main] INFO  92
+16:23:05.973 [main] INFO  91
+16:23:05.982 [main] INFO  10
+16:23:05.982 [main] INFO  33
+16:23:05.982 [main] INFO  5
+16:23:05.982 [main] INFO  35
+16:23:05.982 [main] INFO  97
+16:23:05.983 [main] INFO  96
+16:23:05.983 [main] INFO  61
+16:23:05.983 [main] INFO  49
+16:23:05.983 [main] INFO  89
+16:23:05.983 [main] INFO  91
+16:23:05.984 [main] INFO  10
+16:23:05.984 [main] INFO  33
+16:23:05.984 [main] INFO  5
+16:23:05.984 [main] INFO  35
+16:23:05.984 [main] INFO  97
+16:23:05.984 [main] INFO  96
+16:23:05.984 [main] INFO  61
+16:23:05.984 [main] INFO  49
+16:23:05.984 [main] INFO  89
+16:23:05.984 [main] INFO  89
+16:23:05.984 [main] INFO  49
+16:23:05.984 [main] INFO  61
+16:23:05.984 [main] INFO  96
+16:23:05.984 [main] INFO  97
+16:23:05.984 [main] INFO  35
+16:23:05.984 [main] INFO  5
+16:23:05.985 [main] INFO  33
+16:23:05.985 [main] INFO  10
+16:23:05.985 [main] INFO  Indice pari 0: 91
+16:23:05.985 [main] INFO  Indice pari 2: 33
+16:23:05.985 [main] INFO  Indice pari 4: 35
+16:23:05.985 [main] INFO  Indice pari 6: 96
+16:23:05.985 [main] INFO  Indice pari 8: 49
+16:23:05.985 [main] INFO  Indice pari 10: 89
+16:23:05.985 [main] INFO  Indice pari 12: 61
+16:23:05.985 [main] INFO  Indice pari 14: 97
+16:23:05.985 [main] INFO  Indice pari 16: 5
+16:23:05.985 [main] INFO  Indice pari 18: 10
+16:24:16.270 [main] INFO  92
+16:24:16.278 [main] INFO  4
+16:24:16.278 [main] INFO  20
+16:24:16.278 [main] INFO  81
+16:24:16.278 [main] INFO  13
+16:24:16.278 [main] INFO  100
+16:24:16.278 [main] INFO  39
+16:24:16.278 [main] INFO  91
+16:24:16.279 [main] INFO  55
+16:24:16.279 [main] INFO  92
+16:24:16.279 [main] INFO  92
+16:24:16.280 [main] INFO  4
+16:24:16.280 [main] INFO  20
+16:24:16.280 [main] INFO  81
+16:24:16.280 [main] INFO  13
+16:24:16.280 [main] INFO  100
+16:24:16.280 [main] INFO  39
+16:24:16.280 [main] INFO  91
+16:24:16.280 [main] INFO  55
+16:24:16.280 [main] INFO  92
+16:24:16.280 [main] INFO  92
+16:24:16.280 [main] INFO  55
+16:24:16.280 [main] INFO  91
+16:24:16.280 [main] INFO  39
+16:24:16.281 [main] INFO  100
+16:24:16.281 [main] INFO  13
+16:24:16.281 [main] INFO  81
+16:24:16.281 [main] INFO  20
+16:24:16.281 [main] INFO  4
+16:24:16.281 [main] INFO  Indice pari 0: 92
+16:24:16.281 [main] INFO  Indice pari 2: 20
+16:24:16.281 [main] INFO  Indice pari 4: 13
+16:24:16.282 [main] INFO  Indice pari 6: 39
+16:24:16.282 [main] INFO  Indice pari 8: 55
+16:24:16.282 [main] INFO  Indice pari 10: 92
+16:24:16.282 [main] INFO  Indice pari 12: 91
+16:24:16.282 [main] INFO  Indice pari 14: 100
+16:24:16.282 [main] INFO  Indice pari 16: 81
+16:24:16.282 [main] INFO  Indice pari 18: 4
+16:25:06.057 [main] INFO  40
+16:25:06.063 [main] INFO  79
+16:25:06.063 [main] INFO  57
+16:25:06.063 [main] INFO  32
+16:25:06.063 [main] INFO  53
+16:25:06.063 [main] INFO  15
+16:25:06.063 [main] INFO  55
+16:25:06.063 [main] INFO  45
+16:25:06.064 [main] INFO  94
+16:25:06.064 [main] INFO  32
+16:25:06.064 [main] INFO  32
+16:25:06.064 [main] INFO  94
+16:25:06.064 [main] INFO  45
+16:25:06.064 [main] INFO  55
+16:25:06.064 [main] INFO  15
+16:25:06.064 [main] INFO  53
+16:25:06.064 [main] INFO  32
+16:25:06.064 [main] INFO  57
+16:25:06.064 [main] INFO  79
+16:25:06.065 [main] INFO  Indice pari 0: 32
+16:25:06.065 [main] INFO  Indice pari 2: 45
+16:25:06.065 [main] INFO  Indice pari 4: 15
+16:25:06.065 [main] INFO  Indice pari 6: 32
+16:25:06.065 [main] INFO  Indice pari 8: 79
+16:25:41.421 [main] INFO  54
+16:25:41.427 [main] INFO  17
+16:25:41.427 [main] INFO  29
+16:25:41.427 [main] INFO  76
+16:25:41.427 [main] INFO  73
+16:25:41.427 [main] INFO  43
+16:25:41.427 [main] INFO  30
+16:25:41.427 [main] INFO  21
+16:25:41.427 [main] INFO  78
+16:25:41.427 [main] INFO  14
+16:25:41.428 [main] INFO  14
+16:25:41.428 [main] INFO  78
+16:25:41.428 [main] INFO  21
+16:25:41.428 [main] INFO  30
+16:25:41.428 [main] INFO  43
+16:25:41.428 [main] INFO  73
+16:25:41.428 [main] INFO  76
+16:25:41.428 [main] INFO  29
+16:25:41.428 [main] INFO  17
+16:25:41.428 [main] INFO  Indice pari 0: 54
+16:25:41.428 [main] INFO  Indice pari 2: 29
+16:25:41.429 [main] INFO  Indice pari 4: 73
+16:25:41.429 [main] INFO  Indice pari 6: 30
+16:25:41.429 [main] INFO  Indice pari 8: 78
+16:25:41.429 [main] INFO  Indice dispari 1: 17
+16:25:41.429 [main] INFO  Indice dispari 3: 76
+16:25:41.429 [main] INFO  Indice dispari 5: 43
+16:25:41.429 [main] INFO  Indice dispari 7: 21
+16:25:41.429 [main] INFO  Indice dispari 9: 14
+16:26:12.103 [main] INFO  52
+16:26:12.108 [main] INFO  13
+16:26:12.109 [main] INFO  11
+16:26:12.109 [main] INFO  63
+16:26:12.109 [main] INFO  67
+16:26:12.109 [main] INFO  85
+16:26:12.109 [main] INFO  55
+16:26:12.109 [main] INFO  45
+16:26:12.109 [main] INFO  20
+16:26:12.109 [main] INFO  15
+16:26:12.109 [main] INFO  52
+16:26:12.109 [main] INFO  13
+16:26:12.109 [main] INFO  11
+16:26:12.110 [main] INFO  63
+16:26:12.110 [main] INFO  67
+16:26:12.110 [main] INFO  85
+16:26:12.110 [main] INFO  55
+16:26:12.110 [main] INFO  45
+16:26:12.110 [main] INFO  20
+16:26:12.110 [main] INFO  15
+16:26:12.110 [main] INFO  15
+16:26:12.110 [main] INFO  20
+16:26:12.110 [main] INFO  45
+16:26:12.110 [main] INFO  55
+16:26:12.110 [main] INFO  85
+16:26:12.110 [main] INFO  67
+16:26:12.110 [main] INFO  63
+16:26:12.110 [main] INFO  11
+16:26:12.110 [main] INFO  13
+16:26:12.110 [main] INFO  Indice pari 0: 52
+16:26:12.110 [main] INFO  Indice pari 2: 11
+16:26:12.110 [main] INFO  Indice pari 4: 67
+16:26:12.110 [main] INFO  Indice pari 6: 55
+16:26:12.110 [main] INFO  Indice pari 8: 20
+16:26:12.111 [main] INFO  Indice pari 10: 15
+16:26:12.111 [main] INFO  Indice pari 12: 45
+16:26:12.111 [main] INFO  Indice pari 14: 85
+16:26:12.111 [main] INFO  Indice pari 16: 63
+16:26:12.111 [main] INFO  Indice pari 18: 13
+16:26:12.111 [main] INFO  Indice dispari 1: 13
+16:26:12.111 [main] INFO  Indice dispari 3: 63
+16:26:12.111 [main] INFO  Indice dispari 5: 85
+16:26:12.111 [main] INFO  Indice dispari 7: 45
+16:26:12.111 [main] INFO  Indice dispari 9: 15
+16:26:12.111 [main] INFO  Indice dispari 11: 20
+16:26:12.111 [main] INFO  Indice dispari 13: 55
+16:26:12.111 [main] INFO  Indice dispari 15: 67
+16:26:12.111 [main] INFO  Indice dispari 17: 11
+16:26:41.962 [main] INFO  33
+16:26:41.967 [main] INFO  83
+16:26:41.967 [main] INFO  66
+16:26:41.967 [main] INFO  23
+16:26:41.967 [main] INFO  69
+16:26:41.967 [main] INFO  34
+16:26:41.967 [main] INFO  43
+16:26:41.967 [main] INFO  0
+16:26:41.967 [main] INFO  37
+16:26:41.967 [main] INFO  81
+16:26:41.968 [main] INFO  81
+16:26:41.968 [main] INFO  37
+16:26:41.968 [main] INFO  0
+16:26:41.968 [main] INFO  43
+16:26:41.968 [main] INFO  34
+16:26:41.968 [main] INFO  69
+16:26:41.968 [main] INFO  23
+16:26:41.968 [main] INFO  66
+16:26:41.968 [main] INFO  83
+16:26:41.968 [main] INFO  Indice pari 0: 33
+16:26:41.968 [main] INFO  Indice pari 2: 66
+16:26:41.968 [main] INFO  Indice pari 4: 69
+16:26:41.969 [main] INFO  Indice pari 6: 43
+16:26:41.969 [main] INFO  Indice pari 8: 37
+16:26:41.969 [main] INFO  Indice dispari 1: 83
+16:26:41.969 [main] INFO  Indice dispari 3: 23
+16:26:41.969 [main] INFO  Indice dispari 5: 34
+16:26:41.969 [main] INFO  Indice dispari 7: 0
+16:26:41.969 [main] INFO  Indice dispari 9: 81
+16:27:05.668 [main] INFO  43
+16:27:05.673 [main] INFO  92
+16:27:05.673 [main] INFO  35
+16:27:05.673 [main] INFO  66
+16:27:05.673 [main] INFO  68
+16:27:05.673 [main] INFO  24
+16:27:05.673 [main] INFO  73
+16:27:05.674 [main] INFO  86
+16:27:05.674 [main] INFO  27
+16:27:05.674 [main] INFO  15
+16:27:05.674 [main] INFO  15
+16:27:05.674 [main] INFO  27
+16:27:05.674 [main] INFO  86
+16:27:05.674 [main] INFO  73
+16:27:05.674 [main] INFO  24
+16:27:05.675 [main] INFO  68
+16:27:05.675 [main] INFO  66
+16:27:05.675 [main] INFO  35
+16:27:05.675 [main] INFO  92
+16:27:05.675 [main] INFO  Indice pari 0: 43
+16:27:05.675 [main] INFO  Indice pari 2: 35
+16:27:05.675 [main] INFO  Indice pari 4: 68
+16:27:05.675 [main] INFO  Indice pari 6: 73
+16:27:05.675 [main] INFO  Indice pari 8: 27
+16:27:05.675 [main] INFO  Indice dispari 1: 92
+16:27:05.675 [main] INFO  Indice dispari 3: 66
+16:27:05.675 [main] INFO  Indice dispari 5: 24
+16:27:05.675 [main] INFO  Indice dispari 7: 86
+16:27:05.675 [main] INFO  Indice dispari 9: 15
+16:27:53.031 [main] INFO  2
+16:27:53.037 [main] INFO  58
+16:27:53.037 [main] INFO  88
+16:27:53.037 [main] INFO  35
+16:27:53.037 [main] INFO  46
+16:27:53.037 [main] INFO  61
+16:27:53.038 [main] INFO  17
+16:27:53.038 [main] INFO  18
+16:27:53.038 [main] INFO  84
+16:27:53.038 [main] INFO  74
+16:27:53.038 [main] INFO  74
+16:27:53.038 [main] INFO  84
+16:27:53.038 [main] INFO  18
+16:27:53.038 [main] INFO  17
+16:27:53.039 [main] INFO  61
+16:27:53.039 [main] INFO  46
+16:27:53.039 [main] INFO  35
+16:27:53.039 [main] INFO  88
+16:27:53.039 [main] INFO  58
+16:27:53.039 [main] INFO  Indice pari 0: 2
+16:27:53.039 [main] INFO  Indice pari 2: 88
+16:27:53.039 [main] INFO  Indice pari 4: 46
+16:27:53.039 [main] INFO  Indice pari 6: 17
+16:27:53.039 [main] INFO  Indice pari 8: 84
+16:27:53.039 [main] INFO  Indice dispari 1: 58
+16:27:53.039 [main] INFO  Indice dispari 3: 35
+16:27:53.039 [main] INFO  Indice dispari 5: 61
+16:27:53.039 [main] INFO  Indice dispari 7: 18
+16:27:53.039 [main] INFO  Indice dispari 9: 74
+16:28:18.492 [main] INFO  57
+16:28:18.498 [main] INFO  69
+16:28:18.498 [main] INFO  9
+16:28:18.498 [main] INFO  82
+16:28:18.498 [main] INFO  22
+16:28:18.498 [main] INFO  62
+16:28:18.498 [main] INFO  35
+16:28:18.498 [main] INFO  36
+16:28:18.498 [main] INFO  45
+16:28:18.498 [main] INFO  2
+16:28:18.498 [main] INFO  2
+16:28:18.499 [main] INFO  45
+16:28:18.499 [main] INFO  36
+16:28:18.499 [main] INFO  35
+16:28:18.499 [main] INFO  62
+16:28:18.499 [main] INFO  22
+16:28:18.499 [main] INFO  82
+16:28:18.499 [main] INFO  9
+16:28:18.499 [main] INFO  69
+16:28:18.499 [main] INFO  Indice pari 0: 57
+16:28:18.499 [main] INFO  Indice pari 2: 9
+16:28:18.499 [main] INFO  Indice pari 4: 22
+16:28:18.499 [main] INFO  Indice pari 6: 35
+16:28:18.499 [main] INFO  Indice pari 8: 45
+16:28:18.499 [main] INFO  Indice dispari 1: 69
+16:28:18.499 [main] INFO  Indice dispari 3: 82
+16:28:18.499 [main] INFO  Indice dispari 5: 62
+16:28:18.499 [main] INFO  Indice dispari 7: 36
+16:28:18.499 [main] INFO  Indice dispari 9: 2
+16:28:42.707 [main] INFO  68
+16:28:42.716 [main] INFO  62
+16:28:42.716 [main] INFO  63
+16:28:42.716 [main] INFO  30
+16:28:42.716 [main] INFO  94
+16:28:42.716 [main] INFO  39
+16:28:42.716 [main] INFO  56
+16:28:42.716 [main] INFO  97
+16:28:42.716 [main] INFO  87
+16:28:42.716 [main] INFO  95
+16:28:42.717 [main] INFO  95
+16:28:42.717 [main] INFO  87
+16:28:42.717 [main] INFO  97
+16:28:42.717 [main] INFO  56
+16:28:42.717 [main] INFO  39
+16:28:42.717 [main] INFO  94
+16:28:42.717 [main] INFO  30
+16:28:42.717 [main] INFO  63
+16:28:42.717 [main] INFO  62
+16:28:42.718 [main] INFO  Indice pari 0: 68
+16:28:42.718 [main] INFO  Indice pari 2: 63
+16:28:42.718 [main] INFO  Indice pari 4: 94
+16:28:42.718 [main] INFO  Indice pari 6: 56
+16:28:42.718 [main] INFO  Indice pari 8: 87
+16:28:42.718 [main] INFO  Indice dispari 1: 62
+16:28:42.718 [main] INFO  Indice dispari 3: 30
+16:28:42.718 [main] INFO  Indice dispari 5: 39
+16:28:42.718 [main] INFO  Indice dispari 7: 97
+16:28:42.718 [main] INFO  Indice dispari 9: 95
+16:29:02.282 [main] INFO  0
+16:29:02.287 [main] INFO  66
+16:29:02.287 [main] INFO  14
+16:29:02.287 [main] INFO  75
+16:29:02.287 [main] INFO  49
+16:29:02.288 [main] INFO  13
+16:29:02.288 [main] INFO  57
+16:29:02.288 [main] INFO  71
+16:29:02.288 [main] INFO  38
+16:29:02.288 [main] INFO  85
+16:29:02.288 [main] INFO  0
+16:29:02.288 [main] INFO  66
+16:29:02.288 [main] INFO  14
+16:29:02.288 [main] INFO  75
+16:29:02.288 [main] INFO  49
+16:29:02.288 [main] INFO  13
+16:29:02.288 [main] INFO  57
+16:29:02.288 [main] INFO  71
+16:29:02.289 [main] INFO  38
+16:29:02.289 [main] INFO  85
+16:29:02.289 [main] INFO  85
+16:29:02.289 [main] INFO  38
+16:29:02.289 [main] INFO  71
+16:29:02.289 [main] INFO  57
+16:29:02.289 [main] INFO  13
+16:29:02.289 [main] INFO  49
+16:29:02.289 [main] INFO  75
+16:29:02.289 [main] INFO  14
+16:29:02.289 [main] INFO  66
+16:29:02.289 [main] INFO  Indice pari 0: 0
+16:29:02.289 [main] INFO  Indice pari 2: 14
+16:29:02.289 [main] INFO  Indice pari 4: 49
+16:29:02.289 [main] INFO  Indice pari 6: 57
+16:29:02.289 [main] INFO  Indice pari 8: 38
+16:29:02.289 [main] INFO  Indice pari 10: 85
+16:29:02.289 [main] INFO  Indice pari 12: 71
+16:29:02.289 [main] INFO  Indice pari 14: 13
+16:29:02.289 [main] INFO  Indice pari 16: 75
+16:29:02.289 [main] INFO  Indice pari 18: 66
+16:29:02.290 [main] INFO  Indice dispari 1: 66
+16:29:02.290 [main] INFO  Indice dispari 3: 75
+16:29:02.290 [main] INFO  Indice dispari 5: 13
+16:29:02.290 [main] INFO  Indice dispari 7: 71
+16:29:02.290 [main] INFO  Indice dispari 9: 85
+16:29:02.290 [main] INFO  Indice dispari 11: 38
+16:29:02.290 [main] INFO  Indice dispari 13: 57
+16:29:02.290 [main] INFO  Indice dispari 15: 49
+16:29:02.290 [main] INFO  Indice dispari 17: 14
+16:29:48.359 [main] INFO  60
+16:29:48.364 [main] INFO  9
+16:29:48.365 [main] INFO  93
+16:29:48.365 [main] INFO  77
+16:29:48.365 [main] INFO  0
+16:29:48.365 [main] INFO  62
+16:29:48.365 [main] INFO  19
+16:29:48.365 [main] INFO  79
+16:29:48.365 [main] INFO  12
+16:29:48.365 [main] INFO  1
+16:29:48.365 [main] INFO  1
+16:29:48.365 [main] INFO  12
+16:29:48.366 [main] INFO  79
+16:29:48.366 [main] INFO  19
+16:29:48.366 [main] INFO  62
+16:29:48.366 [main] INFO  0
+16:29:48.366 [main] INFO  77
+16:29:48.366 [main] INFO  93
+16:29:48.366 [main] INFO  9
+16:29:48.366 [main] INFO  Indice pari 0: 60
+16:29:48.366 [main] INFO  Indice pari 2: 93
+16:29:48.366 [main] INFO  Indice pari 4: 0
+16:29:48.366 [main] INFO  Indice pari 6: 19
+16:29:48.366 [main] INFO  Indice pari 8: 12
+16:29:48.366 [main] INFO  Indice dispari 1: 9
+16:29:48.366 [main] INFO  Indice dispari 3: 77
+16:29:48.366 [main] INFO  Indice dispari 5: 62
+16:29:48.366 [main] INFO  Indice dispari 7: 79
+16:29:48.366 [main] INFO  Indice dispari 9: 1
