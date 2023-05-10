@@ -44,7 +44,7 @@ public class SecondMain {
 	public static List<Integer>  returnReverted(List<Integer> list) {
 		List<Integer> revertedList = new ArrayList<Integer>();
 		Object[] arr = list.toArray();
-		//revertedList=list;
+		revertedList.addAll(list);
 		for (int i=arr.length-1; i>0; i--) {
 			revertedList.add((Integer) arr[i]);
 		}

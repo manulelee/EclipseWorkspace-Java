@@ -663,3 +663,92 @@
 16:29:48.366 [main] INFO  Indice dispari 5: 62
 16:29:48.366 [main] INFO  Indice dispari 7: 79
 16:29:48.366 [main] INFO  Indice dispari 9: 1
+18:01:42.142 [main] INFO  28
+18:01:42.152 [main] INFO  89
+18:01:42.152 [main] INFO  90
+18:01:42.153 [main] INFO  47
+18:01:42.153 [main] INFO  95
+18:01:42.153 [main] INFO  17
+18:01:42.153 [main] INFO  95
+18:01:42.153 [main] INFO  54
+18:01:42.153 [main] INFO  25
+18:01:42.154 [main] INFO  26
+18:01:42.155 [main] INFO  28
+18:01:42.156 [main] INFO  89
+18:01:42.156 [main] INFO  90
+18:01:42.156 [main] INFO  47
+18:01:42.156 [main] INFO  95
+18:01:42.157 [main] INFO  17
+18:01:42.157 [main] INFO  95
+18:01:42.157 [main] INFO  54
+18:01:42.157 [main] INFO  25
+18:01:42.157 [main] INFO  26
+18:01:42.158 [main] INFO  26
+18:01:42.158 [main] INFO  25
+18:01:42.158 [main] INFO  54
+18:01:42.158 [main] INFO  95
+18:01:42.158 [main] INFO  17
+18:01:42.158 [main] INFO  95
+18:01:42.158 [main] INFO  47
+18:01:42.158 [main] INFO  90
+18:01:42.158 [main] INFO  89
+18:01:42.159 [main] INFO  Indice pari 0: 28
+18:01:42.159 [main] INFO  Indice pari 2: 90
+18:01:42.159 [main] INFO  Indice pari 4: 95
+18:01:42.159 [main] INFO  Indice pari 6: 95
+18:01:42.159 [main] INFO  Indice pari 8: 25
+18:01:42.159 [main] INFO  Indice dispari 1: 89
+18:01:42.160 [main] INFO  Indice dispari 3: 47
+18:01:42.160 [main] INFO  Indice dispari 5: 17
+18:01:42.160 [main] INFO  Indice dispari 7: 54
+18:01:42.160 [main] INFO  Indice dispari 9: 26
+20:06:32.800 [main] INFO  Inserisci il nome
+20:06:38.104 [main] INFO  Inserisci il numero
+20:06:40.937 [main] INFO  Inserisci il nome
+20:06:43.867 [main] INFO  Inserisci il numero
+20:06:45.618 [main] INFO  Inserisci il nome
+20:06:52.118 [main] INFO  Nome: 28478893943849 - numero: alessio
+20:06:52.118 [main] INFO  Inserisci il nome
+20:07:08.353 [main] INFO  Nome: 3782382 - numero: null
+20:08:28.596 [main] INFO  Inserisci il nome
+20:08:33.106 [main] INFO  Inserisci il numero
+20:08:34.661 [main] INFO  Inserisci il nome
+20:08:36.362 [main] INFO  Inserisci il numero
+20:08:37.783 [main] INFO  Inserisci il numero
+20:08:55.745 [main] INFO  Nome: null - numero: 3uy92u39
+20:08:55.746 [main] INFO  Inserisci il nome
+20:09:05.616 [main] INFO  Nome: emanuele - numero: 3uy92u39
+20:13:18.076 [main] INFO  Inserisci il nome
+20:13:21.776 [main] INFO  Inserisci il numero
+20:13:23.485 [main] INFO  Inserisci il nome
+20:13:26.002 [main] INFO  Inserisci il numero
+20:13:29.490 [main] INFO  Inserisci il nome
+20:13:33.376 [main] INFO  Nome: emanuele - numero: 3765472657
+20:13:33.377 [main] INFO  Inserisci il numero
+20:13:43.820 [main] INFO  Nome: null - numero: jkshkjw
+20:17:55.880 [main] INFO  Inserisci il nome
+20:17:58.893 [main] INFO  Inserisci il numero
+20:18:00.397 [main] INFO  Inserisci il nome
+20:18:02.936 [main] INFO  Inserisci il numero
+20:18:04.266 [main] INFO  Inserisci il nome
+20:18:06.781 [main] INFO  Nome: alessio - numero: [emanuele, alessio]
+20:18:06.781 [main] INFO  Inserisci il numero
+20:18:29.643 [main] INFO  Nome: null - numero: 2487934
+20:19:15.339 [main] INFO  Inserisci il nome
+20:19:21.490 [main] INFO  Inserisci il numero
+20:19:24.057 [main] INFO  Inserisci il nome
+20:19:26.180 [main] INFO  Inserisci il numero
+20:19:27.705 [main] INFO  Inserisci il nome
+20:19:31.055 [main] INFO  Nome: emanuele - numero: 9845793
+20:19:31.056 [main] INFO  Inserisci il numero
+20:19:40.615 [main] INFO  Nome: [emanuele, alessio] - numero: 9845793
+09:50:04.930 [main] INFO  Inserisci il nome
+09:50:09.858 [main] INFO  Inserisci il nome
+09:50:14.951 [main] INFO  Inserisci il nome
+09:50:16.422 [main] INFO  Nome: 1232231 - numero: null
+09:50:16.423 [main] INFO  Inserisci il numero
+09:58:53.145 [main] INFO  Inserisci il nome
+09:59:02.789 [main] INFO  Inserisci il nome
+10:00:38.493 [main] INFO  Inserisci il nome
+10:00:46.826 [main] INFO  Inserisci il nome
+10:00:52.185 [main] INFO  Inserisci il nome
