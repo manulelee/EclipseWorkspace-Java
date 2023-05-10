@@ -1,0 +1,288 @@
+15:22:31.655 [Thread-0] INFO  Index: 0 - Symbol: *
+15:22:31.655 [Thread-1] INFO  Index: 0 - Symbol: #
+15:22:31.662 [Thread-0] INFO  Index: 1 - Symbol: *
+15:22:31.662 [Thread-1] INFO  Index: 1 - Symbol: #
+15:22:31.662 [Thread-0] INFO  Index: 2 - Symbol: *
+15:22:31.662 [Thread-1] INFO  Index: 2 - Symbol: #
+15:22:31.662 [Thread-1] INFO  Index: 3 - Symbol: #
+15:22:31.662 [Thread-0] INFO  Index: 3 - Symbol: *
+15:22:31.662 [Thread-1] INFO  Index: 4 - Symbol: #
+15:22:31.662 [Thread-0] INFO  Index: 4 - Symbol: *
+15:22:31.662 [Thread-1] INFO  Index: 5 - Symbol: #
+15:22:31.662 [Thread-0] INFO  Index: 5 - Symbol: *
+15:22:31.662 [Thread-1] INFO  Index: 6 - Symbol: #
+15:22:31.662 [Thread-1] INFO  Index: 7 - Symbol: #
+15:22:31.663 [Thread-0] INFO  Index: 6 - Symbol: *
+15:22:31.663 [Thread-1] INFO  Index: 8 - Symbol: #
+15:22:31.663 [Thread-0] INFO  Index: 7 - Symbol: *
+15:22:31.663 [Thread-1] INFO  Index: 9 - Symbol: #
+15:22:31.663 [Thread-0] INFO  Index: 8 - Symbol: *
+15:22:31.663 [Thread-0] INFO  Index: 9 - Symbol: *
+15:25:34.307 [Thread-0] INFO  Index: 0 - Symbol: *
+15:25:34.307 [Thread-1] INFO  Index: 0 - Symbol: #
+15:25:34.314 [Thread-0] INFO  Index: 1 - Symbol: *
+15:25:34.314 [Thread-1] INFO  Index: 1 - Symbol: #
+15:25:34.314 [Thread-0] INFO  Index: 2 - Symbol: *
+15:25:34.314 [Thread-1] INFO  Index: 2 - Symbol: #
+15:25:34.314 [Thread-0] INFO  Index: 3 - Symbol: *
+15:25:34.314 [Thread-1] INFO  Index: 3 - Symbol: #
+15:25:34.314 [Thread-0] INFO  Index: 4 - Symbol: *
+15:25:34.314 [Thread-1] INFO  Index: 4 - Symbol: #
+15:25:34.314 [Thread-0] INFO  Index: 5 - Symbol: *
+15:25:34.314 [Thread-1] INFO  Index: 5 - Symbol: #
+15:25:34.314 [Thread-0] INFO  Index: 6 - Symbol: *
+15:25:34.314 [Thread-1] INFO  Index: 6 - Symbol: #
+15:25:34.314 [Thread-0] INFO  Index: 7 - Symbol: *
+15:25:34.314 [Thread-0] INFO  Index: 8 - Symbol: *
+15:25:34.314 [Thread-0] INFO  Index: 9 - Symbol: *
+15:25:34.314 [Thread-1] INFO  Index: 7 - Symbol: #
+15:25:34.315 [Thread-1] INFO  Index: 8 - Symbol: #
+15:25:34.315 [Thread-1] INFO  Index: 9 - Symbol: #
+15:27:20.064 [main] INFO  ----- Primo Esercizio ------
+15:27:20.071 [Thread-1] INFO  Index: 0 - Symbol: #
+15:27:20.071 [Thread-1] INFO  Index: 1 - Symbol: #
+15:27:20.071 [Thread-0] INFO  Index: 0 - Symbol: *
+15:27:20.071 [Thread-1] INFO  Index: 2 - Symbol: #
+15:27:20.071 [Thread-0] INFO  Index: 1 - Symbol: *
+15:27:20.071 [Thread-1] INFO  Index: 3 - Symbol: #
+15:27:20.071 [Thread-0] INFO  Index: 2 - Symbol: *
+15:27:20.071 [Thread-1] INFO  Index: 4 - Symbol: #
+15:27:20.071 [Thread-0] INFO  Index: 3 - Symbol: *
+15:27:20.071 [Thread-1] INFO  Index: 5 - Symbol: #
+15:27:20.071 [Thread-0] INFO  Index: 4 - Symbol: *
+15:27:20.071 [Thread-1] INFO  Index: 6 - Symbol: #
+15:27:20.071 [Thread-1] INFO  Index: 7 - Symbol: #
+15:27:20.071 [Thread-0] INFO  Index: 5 - Symbol: *
+15:27:20.071 [Thread-1] INFO  Index: 8 - Symbol: #
+15:27:20.071 [Thread-1] INFO  Index: 9 - Symbol: #
+15:27:20.071 [Thread-0] INFO  Index: 6 - Symbol: *
+15:27:20.072 [Thread-0] INFO  Index: 7 - Symbol: *
+15:27:20.072 [Thread-0] INFO  Index: 8 - Symbol: *
+15:27:20.072 [Thread-0] INFO  Index: 9 - Symbol: *
+15:27:34.216 [main] INFO  ----- Primo Esercizio ------
+15:27:34.223 [Thread-1] INFO  Index: 0 - Symbol: #
+15:27:34.223 [Thread-0] INFO  Index: 0 - Symbol: *
+15:27:34.224 [Thread-1] INFO  Index: 1 - Symbol: #
+15:27:34.224 [Thread-0] INFO  Index: 1 - Symbol: *
+15:27:34.224 [Thread-1] INFO  Index: 2 - Symbol: #
+15:27:34.224 [Thread-0] INFO  Index: 2 - Symbol: *
+15:27:34.224 [Thread-1] INFO  Index: 3 - Symbol: #
+15:27:34.224 [Thread-0] INFO  Index: 3 - Symbol: *
+15:27:34.224 [Thread-1] INFO  Index: 4 - Symbol: #
+15:27:34.224 [Thread-1] INFO  Index: 5 - Symbol: #
+15:27:34.224 [Thread-0] INFO  Index: 4 - Symbol: *
+15:27:34.224 [Thread-1] INFO  Index: 6 - Symbol: #
+15:27:34.224 [Thread-0] INFO  Index: 5 - Symbol: *
+15:27:34.224 [Thread-1] INFO  Index: 7 - Symbol: #
+15:27:34.224 [Thread-1] INFO  Index: 8 - Symbol: #
+15:27:34.224 [Thread-0] INFO  Index: 6 - Symbol: *
+15:27:34.224 [Thread-1] INFO  Index: 9 - Symbol: #
+15:27:34.225 [Thread-0] INFO  Index: 7 - Symbol: *
+15:27:34.225 [Thread-0] INFO  Index: 8 - Symbol: *
+15:27:34.225 [Thread-0] INFO  Index: 9 - Symbol: *
+15:27:47.085 [Thread-0] INFO  Index: 0 - Symbol: *
+15:27:47.085 [main] INFO  ----- Primo Esercizio ------
+15:27:47.085 [Thread-1] INFO  Index: 0 - Symbol: #
+15:27:47.092 [Thread-1] INFO  Index: 1 - Symbol: #
+15:27:47.092 [Thread-1] INFO  Index: 2 - Symbol: #
+15:27:47.092 [Thread-0] INFO  Index: 1 - Symbol: *
+15:27:47.092 [Thread-1] INFO  Index: 3 - Symbol: #
+15:27:47.092 [Thread-0] INFO  Index: 2 - Symbol: *
+15:27:47.092 [Thread-1] INFO  Index: 4 - Symbol: #
+15:27:47.092 [Thread-0] INFO  Index: 3 - Symbol: *
+15:27:47.092 [Thread-1] INFO  Index: 5 - Symbol: #
+15:27:47.092 [Thread-0] INFO  Index: 4 - Symbol: *
+15:27:47.092 [Thread-0] INFO  Index: 5 - Symbol: *
+15:27:47.092 [Thread-1] INFO  Index: 6 - Symbol: #
+15:27:47.092 [Thread-0] INFO  Index: 6 - Symbol: *
+15:27:47.092 [Thread-0] INFO  Index: 7 - Symbol: *
+15:27:47.092 [Thread-1] INFO  Index: 7 - Symbol: #
+15:27:47.092 [Thread-0] INFO  Index: 8 - Symbol: *
+15:27:47.092 [Thread-1] INFO  Index: 8 - Symbol: #
+15:27:47.092 [Thread-0] INFO  Index: 9 - Symbol: *
+15:27:47.093 [Thread-1] INFO  Index: 9 - Symbol: #
+15:28:24.348 [main] INFO  ----- Primo Esercizio ------
+15:28:24.355 [Thread-0] INFO  Index: 0 - Symbol: *
+15:28:24.355 [Thread-0] INFO  Index: 1 - Symbol: *
+15:28:24.355 [Thread-0] INFO  Index: 2 - Symbol: *
+15:28:24.355 [Thread-0] INFO  Index: 3 - Symbol: *
+15:28:24.355 [Thread-0] INFO  Index: 4 - Symbol: *
+15:28:24.355 [Thread-1] INFO  Index: 0 - Symbol: #
+15:28:24.355 [Thread-0] INFO  Index: 5 - Symbol: *
+15:28:24.355 [Thread-0] INFO  Index: 6 - Symbol: *
+15:28:24.355 [Thread-1] INFO  Index: 1 - Symbol: #
+15:28:24.355 [Thread-0] INFO  Index: 7 - Symbol: *
+15:28:24.355 [Thread-1] INFO  Index: 2 - Symbol: #
+15:28:24.356 [Thread-1] INFO  Index: 3 - Symbol: #
+15:28:24.356 [Thread-0] INFO  Index: 8 - Symbol: *
+15:28:24.356 [Thread-1] INFO  Index: 4 - Symbol: #
+15:28:24.356 [Thread-0] INFO  Index: 9 - Symbol: *
+15:28:24.356 [Thread-1] INFO  Index: 5 - Symbol: #
+15:28:24.356 [Thread-1] INFO  Index: 6 - Symbol: #
+15:28:24.356 [Thread-1] INFO  Index: 7 - Symbol: #
+15:28:24.356 [Thread-1] INFO  Index: 8 - Symbol: #
+15:28:24.356 [Thread-1] INFO  Index: 9 - Symbol: #
+15:29:09.027 [main] INFO  ----- Primo Esercizio ------
+15:29:09.033 [main] INFO  Stampoa terminata
+15:29:09.033 [Thread-1] INFO  Index: 0 - Symbol: #
+15:29:09.033 [Thread-0] INFO  Index: 0 - Symbol: *
+15:29:09.034 [Thread-1] INFO  Index: 1 - Symbol: #
+15:29:09.034 [Thread-0] INFO  Index: 1 - Symbol: *
+15:29:09.034 [Thread-1] INFO  Index: 2 - Symbol: #
+15:29:09.034 [Thread-0] INFO  Index: 2 - Symbol: *
+15:29:09.034 [Thread-1] INFO  Index: 3 - Symbol: #
+15:29:09.034 [Thread-0] INFO  Index: 3 - Symbol: *
+15:29:09.034 [Thread-1] INFO  Index: 4 - Symbol: #
+15:29:09.034 [Thread-0] INFO  Index: 4 - Symbol: *
+15:29:09.034 [Thread-1] INFO  Index: 5 - Symbol: #
+15:29:09.034 [Thread-0] INFO  Index: 5 - Symbol: *
+15:29:09.034 [Thread-1] INFO  Index: 6 - Symbol: #
+15:29:09.034 [Thread-0] INFO  Index: 6 - Symbol: *
+15:29:09.034 [Thread-1] INFO  Index: 7 - Symbol: #
+15:29:09.034 [Thread-0] INFO  Index: 7 - Symbol: *
+15:29:09.034 [Thread-1] INFO  Index: 8 - Symbol: #
+15:29:09.034 [Thread-1] INFO  Index: 9 - Symbol: #
+15:29:09.034 [Thread-0] INFO  Index: 8 - Symbol: *
+15:29:09.034 [Thread-0] INFO  Index: 9 - Symbol: *
+15:31:00.392 [main] INFO  ----- Primo Esercizio ------
+15:31:00.399 [main] INFO  Stampa terminata
+15:31:01.404 [Thread-1] INFO  Index: 0 - Symbol: #
+15:31:01.404 [Thread-0] INFO  Index: 0 - Symbol: *
+15:31:02.408 [Thread-1] INFO  Index: 1 - Symbol: #
+15:31:02.409 [Thread-0] INFO  Index: 1 - Symbol: *
+15:31:03.413 [Thread-1] INFO  Index: 2 - Symbol: #
+15:31:03.414 [Thread-0] INFO  Index: 2 - Symbol: *
+15:31:04.418 [Thread-1] INFO  Index: 3 - Symbol: #
+15:31:04.418 [Thread-0] INFO  Index: 3 - Symbol: *
+15:31:05.422 [Thread-0] INFO  Index: 4 - Symbol: *
+15:31:05.422 [Thread-1] INFO  Index: 4 - Symbol: #
+15:31:06.426 [Thread-0] INFO  Index: 5 - Symbol: *
+15:31:06.426 [Thread-1] INFO  Index: 5 - Symbol: #
+15:31:07.431 [Thread-0] INFO  Index: 6 - Symbol: *
+15:31:07.431 [Thread-1] INFO  Index: 6 - Symbol: #
+15:31:08.436 [Thread-0] INFO  Index: 7 - Symbol: *
+15:31:08.437 [Thread-1] INFO  Index: 7 - Symbol: #
+15:31:09.441 [Thread-1] INFO  Index: 8 - Symbol: #
+15:31:09.441 [Thread-0] INFO  Index: 8 - Symbol: *
+15:31:10.446 [Thread-0] INFO  Index: 9 - Symbol: *
+15:31:10.446 [Thread-1] INFO  Index: 9 - Symbol: #
+15:32:10.399 [main] INFO  ----- Primo Esercizio ------
+15:32:10.405 [main] INFO  Stampa terminata
+15:32:11.410 [Thread-1] INFO  Index: 0 - Symbol: #
+15:32:11.410 [Thread-0] INFO  Index: 0 - Symbol: *
+15:32:12.414 [Thread-1] INFO  Index: 1 - Symbol: #
+15:32:12.414 [Thread-0] INFO  Index: 1 - Symbol: *
+15:32:13.417 [Thread-0] INFO  Index: 2 - Symbol: *
+15:32:13.417 [Thread-1] INFO  Index: 2 - Symbol: #
+15:32:14.422 [Thread-1] INFO  Index: 3 - Symbol: #
+15:32:14.422 [Thread-0] INFO  Index: 3 - Symbol: *
+15:32:15.426 [Thread-1] INFO  Index: 4 - Symbol: #
+15:32:15.426 [Thread-0] INFO  Index: 4 - Symbol: *
+15:32:16.431 [Thread-1] INFO  Index: 5 - Symbol: #
+15:32:16.431 [Thread-0] INFO  Index: 5 - Symbol: *
+15:32:17.436 [Thread-1] INFO  Index: 6 - Symbol: #
+15:32:17.436 [Thread-0] INFO  Index: 6 - Symbol: *
+15:32:18.441 [Thread-1] INFO  Index: 7 - Symbol: #
+15:32:18.441 [Thread-0] INFO  Index: 7 - Symbol: *
+15:32:19.446 [Thread-0] INFO  Index: 8 - Symbol: *
+15:32:19.446 [Thread-1] INFO  Index: 8 - Symbol: #
+15:32:20.449 [Thread-0] INFO  Index: 9 - Symbol: *
+15:32:20.449 [Thread-1] INFO  Index: 9 - Symbol: #
+15:33:50.194 [main] INFO  ----- Primo Esercizio ------
+15:33:51.205 [Thread-1] INFO  Index: 0 - Symbol: #
+15:33:51.205 [Thread-0] INFO  Index: 0 - Symbol: *
+15:33:51.206 [Thread-1] INFO  Index: 1 - Symbol: #
+15:33:51.206 [Thread-0] INFO  Index: 1 - Symbol: *
+15:33:51.206 [Thread-1] INFO  Index: 2 - Symbol: #
+15:33:51.206 [Thread-0] INFO  Index: 2 - Symbol: *
+15:33:51.206 [Thread-0] INFO  Index: 3 - Symbol: *
+15:33:51.206 [Thread-1] INFO  Index: 3 - Symbol: #
+15:33:51.206 [Thread-0] INFO  Index: 4 - Symbol: *
+15:33:51.206 [Thread-1] INFO  Index: 4 - Symbol: #
+15:33:51.206 [Thread-0] INFO  Index: 5 - Symbol: *
+15:33:51.206 [Thread-1] INFO  Index: 5 - Symbol: #
+15:33:51.206 [Thread-0] INFO  Index: 6 - Symbol: *
+15:33:51.206 [Thread-1] INFO  Index: 6 - Symbol: #
+15:33:51.206 [Thread-0] INFO  Index: 7 - Symbol: *
+15:33:51.206 [Thread-1] INFO  Index: 7 - Symbol: #
+15:33:51.206 [Thread-0] INFO  Index: 8 - Symbol: *
+15:33:51.206 [Thread-1] INFO  Index: 8 - Symbol: #
+15:33:51.207 [Thread-1] INFO  Index: 9 - Symbol: #
+15:33:51.207 [Thread-0] INFO  Index: 9 - Symbol: *
+15:33:58.132 [main] INFO  ----- Primo Esercizio ------
+15:33:59.142 [Thread-1] INFO  Index: 0 - Symbol: #
+15:33:59.142 [Thread-1] INFO  Index: 1 - Symbol: #
+15:33:59.142 [Thread-0] INFO  Index: 0 - Symbol: *
+15:33:59.143 [Thread-1] INFO  Index: 2 - Symbol: #
+15:33:59.143 [Thread-0] INFO  Index: 1 - Symbol: *
+15:33:59.143 [Thread-1] INFO  Index: 3 - Symbol: #
+15:33:59.143 [Thread-0] INFO  Index: 2 - Symbol: *
+15:33:59.143 [Thread-1] INFO  Index: 4 - Symbol: #
+15:33:59.143 [Thread-0] INFO  Index: 3 - Symbol: *
+15:33:59.143 [Thread-1] INFO  Index: 5 - Symbol: #
+15:33:59.143 [Thread-0] INFO  Index: 4 - Symbol: *
+15:33:59.143 [Thread-1] INFO  Index: 6 - Symbol: #
+15:33:59.143 [Thread-0] INFO  Index: 5 - Symbol: *
+15:33:59.143 [Thread-1] INFO  Index: 7 - Symbol: #
+15:33:59.143 [Thread-0] INFO  Index: 6 - Symbol: *
+15:33:59.143 [Thread-1] INFO  Index: 8 - Symbol: #
+15:33:59.143 [Thread-0] INFO  Index: 7 - Symbol: *
+15:33:59.143 [Thread-1] INFO  Index: 9 - Symbol: #
+15:33:59.143 [Thread-0] INFO  Index: 8 - Symbol: *
+15:33:59.143 [Thread-0] INFO  Index: 9 - Symbol: *
+15:34:13.799 [main] INFO  ----- Primo Esercizio ------
+15:34:15.811 [Thread-0] INFO  Index: 0 - Symbol: *
+15:34:15.811 [Thread-1] INFO  Index: 0 - Symbol: #
+15:34:16.816 [Thread-0] INFO  Index: 1 - Symbol: *
+15:34:16.816 [Thread-1] INFO  Index: 1 - Symbol: #
+15:34:17.821 [Thread-1] INFO  Index: 2 - Symbol: #
+15:34:17.821 [Thread-0] INFO  Index: 2 - Symbol: *
+15:34:18.825 [Thread-0] INFO  Index: 3 - Symbol: *
+15:34:18.825 [Thread-1] INFO  Index: 3 - Symbol: #
+15:34:19.829 [Thread-1] INFO  Index: 4 - Symbol: #
+15:34:19.829 [Thread-0] INFO  Index: 4 - Symbol: *
+15:34:20.834 [Thread-0] INFO  Index: 5 - Symbol: *
+15:34:20.834 [Thread-1] INFO  Index: 5 - Symbol: #
+15:34:21.839 [Thread-0] INFO  Index: 6 - Symbol: *
+15:34:21.839 [Thread-1] INFO  Index: 6 - Symbol: #
+15:34:22.843 [Thread-1] INFO  Index: 7 - Symbol: #
+15:34:22.843 [Thread-0] INFO  Index: 7 - Symbol: *
+15:34:23.848 [Thread-0] INFO  Index: 8 - Symbol: *
+15:34:23.848 [Thread-1] INFO  Index: 8 - Symbol: #
+15:34:24.853 [Thread-0] INFO  Index: 9 - Symbol: *
+15:34:24.853 [Thread-1] INFO  Index: 9 - Symbol: #
+15:35:34.754 [main] INFO  ----- Primo Esercizio ------
+15:35:35.765 [Thread-0] INFO  Index: 0 - Symbol: *
+15:35:35.765 [Thread-1] INFO  Index: 0 - Symbol: #
+15:35:36.768 [Thread-0] INFO  Index: 1 - Symbol: *
+15:35:36.768 [Thread-1] INFO  Index: 1 - Symbol: #
+15:35:37.773 [Thread-1] INFO  Index: 2 - Symbol: #
+15:35:37.773 [Thread-0] INFO  Index: 2 - Symbol: *
+15:35:38.778 [Thread-0] INFO  Index: 3 - Symbol: *
+15:35:38.778 [Thread-1] INFO  Index: 3 - Symbol: #
+15:35:39.783 [Thread-1] INFO  Index: 4 - Symbol: #
+15:35:39.783 [Thread-0] INFO  Index: 4 - Symbol: *
+15:35:40.788 [Thread-1] INFO  Index: 5 - Symbol: #
+15:35:40.788 [Thread-0] INFO  Index: 5 - Symbol: *
+15:35:41.791 [Thread-1] INFO  Index: 6 - Symbol: #
+15:35:41.791 [Thread-0] INFO  Index: 6 - Symbol: *
+15:35:42.796 [Thread-0] INFO  Index: 7 - Symbol: *
+15:35:42.796 [Thread-1] INFO  Index: 7 - Symbol: #
+15:35:43.801 [Thread-0] INFO  Index: 8 - Symbol: *
+15:35:43.801 [Thread-1] INFO  Index: 8 - Symbol: #
+15:35:44.804 [Thread-1] INFO  Index: 9 - Symbol: #
+15:35:44.804 [Thread-0] INFO  Index: 9 - Symbol: *
+16:39:00.265 [main] INFO  Somma dei parziali: 117
+16:41:27.839 [main] INFO  Somma dei parziali: 589
+16:42:11.973 [Thread-0] INFO  190
+16:42:11.981 [Thread-1] INFO  180
+16:42:11.982 [Thread-2] INFO  151
+16:42:11.982 [main] INFO  Somma dei parziali: 521
+16:45:00.482 [Thread-0] INFO  Parziale: 130
+16:45:00.489 [Thread-1] INFO  Parziale: 207
+16:45:00.489 [Thread-2] INFO  Parziale: 180
+16:45:00.489 [main] INFO  Somma dei parziali: 517
+16:45:57.539 [Thread-0] INFO  Parziale: 50033
+16:45:57.550 [Thread-1] INFO  Parziale: 50696
+16:45:57.551 [Thread-2] INFO  Parziale: 51007
+16:45:57.551 [main] INFO  Somma dei parziali: 151736

@@ -752,3 +752,42 @@
 10:00:38.493 [main] INFO  Inserisci il nome
 10:00:46.826 [main] INFO  Inserisci il nome
 10:00:52.185 [main] INFO  Inserisci il nome
+15:45:47.139 [main] INFO  100
+15:45:47.145 [main] INFO  73
+15:45:47.145 [main] INFO  31
+15:45:47.145 [main] INFO  41
+15:45:47.145 [main] INFO  56
+15:45:47.145 [main] INFO  93
+15:45:47.145 [main] INFO  81
+15:45:47.145 [main] INFO  70
+15:45:47.145 [main] INFO  79
+15:45:47.146 [main] INFO  59
+15:45:47.146 [main] INFO  100
+15:45:47.146 [main] INFO  73
+15:45:47.146 [main] INFO  31
+15:45:47.146 [main] INFO  41
+15:45:47.146 [main] INFO  56
+15:45:47.147 [main] INFO  93
+15:45:47.147 [main] INFO  81
+15:45:47.147 [main] INFO  70
+15:45:47.147 [main] INFO  79
+15:45:47.147 [main] INFO  59
+15:45:47.147 [main] INFO  59
+15:45:47.147 [main] INFO  79
+15:45:47.147 [main] INFO  70
+15:45:47.147 [main] INFO  81
+15:45:47.147 [main] INFO  93
+15:45:47.147 [main] INFO  56
+15:45:47.148 [main] INFO  41
+15:45:47.148 [main] INFO  31
+15:45:47.148 [main] INFO  73
+15:45:47.148 [main] INFO  Indice pari 0: 100
+15:45:47.148 [main] INFO  Indice pari 2: 31
+15:45:47.148 [main] INFO  Indice pari 4: 56
+15:45:47.148 [main] INFO  Indice pari 6: 81
+15:45:47.148 [main] INFO  Indice pari 8: 79
+15:45:47.148 [main] INFO  Indice dispari 1: 73
+15:45:47.148 [main] INFO  Indice dispari 3: 41
+15:45:47.148 [main] INFO  Indice dispari 5: 93
+15:45:47.149 [main] INFO  Indice dispari 7: 70
+15:45:47.149 [main] INFO  Indice dispari 9: 59
