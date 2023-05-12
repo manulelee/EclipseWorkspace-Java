@@ -131,8 +131,8 @@ public class MainProject {
 				default : p = Periodicità.SETTIMANALE; break;
 			}
 			result = new Rivista(isbn, nome, LocalDate.of(anno, mese, giorno), pagine, p);
-			
 		}
+		System.out.println("Elemento salvato: " + result.toString());
 		return result;
 	}
 	
