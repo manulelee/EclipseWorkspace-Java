@@ -18,4 +18,11 @@ public class Presenze implements Runnable{
 		// TODO Auto-generated method stub
 		
 	}
+
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return this.nome + "@" + this.presenze;
+	}
+	
 }
