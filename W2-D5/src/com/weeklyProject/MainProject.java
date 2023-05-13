@@ -2,6 +2,7 @@ package com.weeklyProject;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
 import java.util.stream.Collectors;
@@ -31,7 +32,7 @@ public class MainProject {
 		biblioteca.add(new Rivista(2002, "Stab Magazine", LocalDate.of(2023, 02, 10), 46, Periodicità.MENSILE));
 		
 		int s;
-		
+		try {
 		System.out.println("Benvenut* nella biblioteca virtuale in Java");
 		do {
 		System.out.println();
@@ -47,20 +48,29 @@ public class MainProject {
 		System.out.println("*** 8 - Lettura backup da file ***");
 		s = sc.nextInt();
 		switch (s) {
-		
+		case 0: break;
 		case 1:  biblioteca.forEach(e-> System.out.println(e));break;
 		case 2:  biblioteca.add(aggiungiElemento());break;
 		case 3:  eliminaElemento();break;
 		case 4: filtraIsbn();break;
 		case 5: filtraAnno();break;
 		case 6: filtraAutore();break;
-		case 7: try{ scriviElementi(); } catch (IOException e) { e.printStackTrace(); }; break;
-		case 8: System.out.println("In lavorazione (Work in progress!)");break;
+		case 7: scriviElementi(); break;
+		case 8: System.out.println("In lavorazione (Work in progress!)");
+		leggiElementiDaFile();break;
 		default: System.out.println("Scelta invalida - inserire un numero da 0 a 8");break;
 		}
 		}	
 		while (s!=0);
-
+		}
+		//catch (InputMismatchException e){
+			//log.error(e.getMessage());
+		//}
+		catch (IOException e) {
+			e.printStackTrace(); }
+		catch (InputMismatchException e){
+			log.error("Errore: tipo di dato non corretto! "+ e);
+		}
 	}
 	
 	public static ElementoBibliotecario aggiungiElemento () {
@@ -175,7 +185,9 @@ public class MainProject {
 				 												.collect(Collectors.toList());
 		 
 		 list.forEach(e -> System.out.println(e));
-		 
+		 if (list.size()==0) {
+				System.out.println("Neasun risultato...");
+			}
 		return list;
 	}
 	
@@ -187,6 +199,9 @@ public class MainProject {
 																.filter(e -> ((Libro) e).getAutore().toLowerCase().contains(autore.toLowerCase()))
                                                                 .collect(Collectors.toList());
 		list.forEach(e -> System.out.println(e));
+		if (list.size()==0) {
+			System.out.println("Neasun risultato...");
+		}
 		
        return list;
    }
@@ -207,20 +222,36 @@ public class MainProject {
 	
 	public static void leggiElementiDaFile() throws IOException {
 		String elementi = FileUtils.readFileToString(file, "UTF-8");
-		String[] arrEl = elementi.split("/");
-		//System.out.println(presenzeTxt);
-		for (int i = 0; i < arrEl.length; i++) {
-			//System.out.println("indice: " + i + " Valore: " + arr[i]);
-			String[] fields = arrEl[i].split(",");
-			System.out.println("Elementi: " + arrEl[i]);
+		String[] arrEl = elementi.split("/"); //Singoli elementi bibliotecari
+		
+		long isbn;
+		String titolo;
+		LocalDate annoPubblicazione;
+		int numeroPagine;
+
+		for (int i=0; i<arrEl.length; i++) {
+			System.out.println("Elementi: " + arrEl[i]);//Singoli elementi bibliotecari
+			String[] fields = arrEl[i].split(",");// Campo + valore
+			
 			for (int j=0; j<fields.length; j++) {
-				System.out.println("Campi: " + fields[j]);
-				String[] values = fields[i].split(":");	
-				for (int k=1; k< values.length; k++) {
-					System.out.println("Valori: " + values[k]);
-					//String[] data = values[2].split("-");
+				System.out.println("Campi: " + fields[j].toString());// Campo + valore
+				String values = fields[j].split(":")[1];
+				System.out.println("Valore: " + values);
+				
+				 
+				 if (fields.length>5) {
+					 String autore;
+					 String genere;
+				 }
+				 
+				 else {
+				Periodicità periodicita;
+				
+				 }
+				 isbn= arrEl[i].fields[0].values;
+				
+				
 				}
-			}
 			
 			
 			

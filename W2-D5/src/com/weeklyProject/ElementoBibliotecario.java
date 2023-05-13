@@ -34,8 +34,8 @@ public int getNumeroPagine() {
 
 @Override
 public String toString() {
-	return "ElementoBibliotecario [isbn=" + isbn + ", titolo=" + titolo + ", annoPubblicazione=" + annoPubblicazione
-			+ ", numeroPagine=" + numeroPagine + "]";
+	return "ElementoBibliotecario isbn=" + isbn + ", titolo=" + titolo + ", annoPubblicazione=" + annoPubblicazione
+			+ ", numeroPagine=" + numeroPagine;
 } 
  
 }

@@ -23,8 +23,8 @@ public class Libro extends ElementoBibliotecario{
 	
 	@Override
 	public String toString() {
-		return "Libro [ISBN:" + super.getIsbn() + ", titolo: " + super.getTitolo() + ", anno di pubblicazione: " + super.getAnnoPubblicazione()
-				+ ", numero di pagine: " + super.getNumeroPagine() + ", autore: " + autore + ", genere: " + genere +"]";
+		return "Libro ISBN:" + super.getIsbn() + ", titolo: " + super.getTitolo() + ", anno di pubblicazione: " + super.getAnnoPubblicazione()
+				+ ", numero di pagine: " + super.getNumeroPagine() + ", autore: " + autore + ", genere: " + genere;
 	} 
 
 

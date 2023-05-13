@@ -3,3 +3,16 @@
 00:37:55.502 [main] ERROR null
 00:43:14.325 [main] INFO  File di backup aggiornato correttamete!
 01:03:15.028 [main] INFO  File di backup aggiornato correttamete!
+16:10:06.566 [main] ERROR null
+16:10:45.226 [main] ERROR null
+16:12:10.536 [main] ERROR null
+16:13:19.452 [main] ERROR null
+16:15:53.089 [main] ERROR Errore: null
+16:16:08.198 [main] ERROR Errore: null
+16:16:27.884 [main] ERROR Errore: java.util.InputMismatchException
+16:19:07.047 [main] ERROR Errore: tipo di dato non corretto!java.util.InputMismatchException
+16:19:16.514 [main] ERROR Errore: tipo di dato non corretto! java.util.InputMismatchException
+16:20:24.039 [main] INFO  File di backup aggiornato correttamete!
+16:31:00.430 [main] INFO  File di backup aggiornato correttamete!
+17:02:01.608 [main] INFO  File di backup aggiornato correttamete!
+17:03:04.526 [main] INFO  File di backup aggiornato correttamete!
