@@ -68,7 +68,7 @@ public class MainProject {
 		catch (IOException e) {
 			e.printStackTrace(); }
 		catch (InputMismatchException e){
-			log.error("Errore: tipo di dato non corretto! "+ e);
+			log.error("Errore: tipo di dato (formato) non corretto! "+ e);
 		}
 		catch (Exception e){
 			log.error("Errore: "+ e);

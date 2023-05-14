@@ -18,3 +18,5 @@
 17:03:04.526 [main] INFO  File di backup aggiornato correttamete!
 19:59:34.193 [main] ERROR Errore: java.lang.NumberFormatException: For input string: " 1954"
 20:02:03.753 [main] ERROR Errore: java.lang.NumberFormatException: For input string: " 700"
+20:11:26.839 [main] ERROR Errore: tipo di dato non corretto! java.util.InputMismatchException
+20:12:05.659 [main] ERROR Errore: tipo di dato (formato) non corretto! java.util.InputMismatchException
