@@ -56,8 +56,7 @@ public class MainProject {
 		case 5: filtraAnno();break;
 		case 6: filtraAutore();break;
 		case 7: scriviElementi(); break;
-		case 8: System.out.println("In lavorazione (Work in progress!)");
-		leggiElementiDaFile();break;
+		case 8: leggiElementiDaFile();break;
 		default: System.out.println("Scelta invalida - inserire un numero da 0 a 8");break;
 		}
 		}	
@@ -70,6 +69,9 @@ public class MainProject {
 			e.printStackTrace(); }
 		catch (InputMismatchException e){
 			log.error("Errore: tipo di dato non corretto! "+ e);
+		}
+		catch (Exception e){
+			log.error("Errore: "+ e);
 		}
 	}
 	
@@ -155,7 +157,7 @@ public class MainProject {
 			biblioteca.remove(res[0]);
 		}
 		else {
-			System.out.println("Neasun risultato...");
+			System.out.println("Nessun risultato...");
 		}
 		
 
@@ -221,41 +223,87 @@ public class MainProject {
 	}
 	
 	public static void leggiElementiDaFile() throws IOException {
+		List<ElementoBibliotecario> biblioteca2 = new ArrayList<ElementoBibliotecario>();
 		String elementi = FileUtils.readFileToString(file, "UTF-8");
 		String[] arrEl = elementi.split("/"); //Singoli elementi bibliotecari
 		
-		long isbn;
-		String titolo;
-		LocalDate annoPubblicazione;
-		int numeroPagine;
 
 		for (int i=0; i<arrEl.length; i++) {
-			System.out.println("Elementi: " + arrEl[i]);//Singoli elementi bibliotecari
-			String[] fields = arrEl[i].split(",");// Campo + valore
+			
+			long isbn=0;
+			String titolo="";
+			LocalDate annoPubblicazione = LocalDate.now();
+			int numeroPagine=0;
+			
+			String autore="";
+			String genere="";
+			Periodicità periodicita = Periodicità.SETTIMANALE;
+			
+			String[] fields;
+			String values;
+			
+			//System.out.println("Elementi: " + arrEl[i]);//Singoli elementi bibliotecari
+			fields = arrEl[i].split(",");// Campo + valore
 			
 			for (int j=0; j<fields.length; j++) {
-				System.out.println("Campi: " + fields[j].toString());// Campo + valore
-				String values = fields[j].split(":")[1];
-				System.out.println("Valore: " + values);
+				//System.out.println("Campi: " + fields[j].toString());// Campo + valore
+				values = fields[j].split(":")[1];
+				//System.out.println("Valore: " + values);
 				
-				 
+				if (j==0) {
+					isbn = Long.parseLong(values);
+				}
+				else if (j==1) {
+					titolo= values.substring(1, values.length());
+				}
+				else if (j==2) {
+					annoPubblicazione = LocalDate.of(Integer.parseInt(values.split("-")[0].substring(1,5)), Integer.parseInt(values.split("-")[1]), Integer.parseInt(values.split("-")[2]));
+				}
+				else if (j==3) {
+					numeroPagine = Integer.parseInt(values.substring(1, values.length()));
+				}
 				 if (fields.length>5) {
-					 String autore;
-					 String genere;
+					 
+					 if (j==4) {
+							autore = values.substring(1, values.length());
+						}
+					 else if (j==5) {
+							genere = values.substring(1, values.length());
+							
+						}
 				 }
 				 
-				 else {
-				Periodicità periodicita;
+				 else if (fields.length<=5 ){
 				
+				if (j==4) {
+					if (values.equals(" SETTIMANALE"))
+							{
+					periodicita = Periodicità.SETTIMANALE;
+					}
+					else if (values.equals(" MENSILE"))
+					{
+						periodicita = Periodicità.MENSILE;
+					}
+					else if (values.equals(" SEMESTRALE"))
+					{
+						periodicita = Periodicità.SEMESTRALE;
+					}
+					
+				}
+
 				 }
-				 isbn= arrEl[i].fields[0].values;
-				
 				
 				}
 			
-			
-			
+			 if (fields.length<=5) {
+				biblioteca2.add(new Rivista(isbn, titolo, annoPubblicazione, numeroPagine, periodicita));
+			 }
+			 else {
+				 biblioteca2.add(new Libro(isbn, titolo, annoPubblicazione, numeroPagine, autore, genere));
+			 }
 		}
+		System.out.println("Biblioteca 2");
+		biblioteca2.forEach(e-> System.out.println(e));
 	}
 
 }

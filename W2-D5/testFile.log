@@ -16,3 +16,5 @@
 16:31:00.430 [main] INFO  File di backup aggiornato correttamete!
 17:02:01.608 [main] INFO  File di backup aggiornato correttamete!
 17:03:04.526 [main] INFO  File di backup aggiornato correttamete!
+19:59:34.193 [main] ERROR Errore: java.lang.NumberFormatException: For input string: " 1954"
+20:02:03.753 [main] ERROR Errore: java.lang.NumberFormatException: For input string: " 700"
