@@ -50,7 +50,7 @@ public class DbConnection {
 				+ "max_vote = '"+s.getMax_vote()+"'"
 				+ "WHERE id =  '"+ s.getId()+"'";
 		st.executeUpdate(sql);
-		System.out.println( s.getNome() + " " + s.getCognome() + " modificato nel DB!!");
+		System.out.println( s.getNome() + " " + s.getCognome() + " modificato nel sistema...");
 	}
 	
 	
@@ -62,7 +62,7 @@ public class DbConnection {
 		if(rs.next()) {
 			s = new Studente(
 					rs.getInt("id"), 
-					rs.getString("name"), 
+					rs.getString("nome"), 
 					rs.getString("last_name"), 
 					rs.getString("gender"),
 					LocalDate.parse(rs.getString("birthdate")), 
@@ -72,7 +72,7 @@ public class DbConnection {
 		return s;
 	}
 	
-	public void deleteStudent(int id) throws SQLException  {
+	public void cancellaId (int id) throws SQLException  {
 		String sql = "DELETE FROM studenti WHERE id = " + id;
 		st.executeUpdate(sql);
 	}

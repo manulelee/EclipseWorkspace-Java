@@ -15,9 +15,14 @@ public class jdbcMain {
 			DbConnection dbStudenti = new DbConnection();
 			dbStudenti.inserisciStudente(me);
 			
+			me = dbStudenti.ricercaId(1);
+			
 			me.setNome("Carlo Emanuele");
 			
 			dbStudenti.aggiornaStudente(me);
+			
+			dbStudenti.cancellaId(2);
+
 			
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
