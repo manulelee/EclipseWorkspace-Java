@@ -1,8 +1,10 @@
 package model;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.List;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.EnumType;
@@ -10,41 +12,47 @@ import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.NamedQuery;
+import javax.persistence.OneToMany;
+import javax.persistence.OrderBy;
 import javax.persistence.Table;
 
+import utils.Sesso;
 
 @Entity
-@Table (name="persone")
+@Table(name = "persone")
+@NamedQuery(name = "findAllPersone", query = "SELECT p FROM Persona p")
 public class Persona {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
-	@Column (nullable = false)
+	@Column(nullable = false)
 	private String nome;
-	@Column (nullable = false)
+	@Column(nullable = false)
 	private String cognome;
-	@Column (nullable = false)
+	@Column(nullable = false, unique = true)
 	private String email;
-	@Column (name="data_nascita", nullable = false)
 	private LocalDate dataNascita;
-	@Column (nullable = false)
-	@Enumerated (EnumType.STRING)
+	@Enumerated(EnumType.STRING)
 	private Sesso sesso;
-	private List<Partecipazione> listaPartecipazione;
 	
+	@OneToMany(mappedBy = "persona", cascade = CascadeType.REMOVE)
+	@OrderBy(value = "evento.dataEvento")
+	private List<Partecipazione> listaPartecipazioni;
 	
 	public Persona() {
+		super();
 	}
 
-	public Persona(String nome, String cognome, String email, LocalDate dataNascita, Sesso sesso,
-			List<Partecipazione> listaPartecipazione) {
+	public Persona(String nome, String cognome, String email, LocalDate dataNascita, Sesso sesso) {
+		super();
 		this.nome = nome;
 		this.cognome = cognome;
 		this.email = email;
 		this.dataNascita = dataNascita;
 		this.sesso = sesso;
-		this.listaPartecipazione = listaPartecipazione;
+		this.listaPartecipazioni = new ArrayList<Partecipazione>();
 	}
 
 	public Integer getId() {
@@ -95,19 +103,18 @@ public class Persona {
 		this.sesso = sesso;
 	}
 
-	public List<Partecipazione> getListaPartecipazione() {
-		return listaPartecipazione;
+	public List<Partecipazione> getListaPartecipazioni() {
+		return listaPartecipazioni;
 	}
 
-	public void setListaPartecipazione(List<Partecipazione> listaPartecipazione) {
-		this.listaPartecipazione = listaPartecipazione;
+	public void setListaPartecipazioni(List<Partecipazione> listaPartecipazioni) {
+		this.listaPartecipazioni = listaPartecipazioni;
 	}
 
 	@Override
 	public String toString() {
 		return "Persona [id=" + id + ", nome=" + nome + ", cognome=" + cognome + ", email=" + email + ", dataNascita="
-				+ dataNascita + ", sesso=" + sesso + ", listaPartecipazione=" + listaPartecipazione + "]";
+				+ dataNascita + ", sesso=" + sesso + ", listaPartecipazioni=" + listaPartecipazioni + "]";
 	}
-	
-	
+
 }

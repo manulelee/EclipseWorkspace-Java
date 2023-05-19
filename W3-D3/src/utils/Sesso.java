@@ -1,6 +1,6 @@
-package model;
+package utils;
 
 public enum Sesso {
-	MASCHIO,
+	MASCHIO, 
 	FEMMINA
 }

@@ -1,6 +1,6 @@
-package model;
+package utils;
 
 public enum TipoEvento {
-	PUBBLICO,
+	PUBBLICO, 
 	PRIVATO
 }

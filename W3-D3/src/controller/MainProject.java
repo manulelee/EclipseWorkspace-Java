@@ -1,69 +1,44 @@
 package controller;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.Set;
 
 import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.Persistence;
 
-import model.Evento;
-import model.TipoEvento;
-
+import dao.GaraDiAtleticaDAO;
+import dao.PartitaDiCalcioDAO;
+import model.GaraDiAtletica;
+import model.Location;
+import model.Partecipazione;
+import model.PartitaDiCalcio;
+import model.Persona;
+import utils.JpaUtil;
+import utils.TipoEvento;
 
 public class MainProject {
+
+	static EntityManager em = JpaUtil.getEntityManagerFactory().createEntityManager();
 	
-	static EntityManagerFactory emf = Persistence.createEntityManagerFactory("W3-D3");
-    static EntityManager em = emf.createEntityManager();
-    
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
-//		Evento e1 = new Evento("Aperitivo con Emanuele Umberto",LocalDate.of(2023, 5, 20), "Aperitivo a Parioli", TipoEvento.PRIVATO, 10);
-//		save(e1);		
-//		
-//		Evento e1=getById(1);
-//		System.out.println(e1);
-//		
-//		Evento e2 = new Evento("Aperitivo con Stefano Casasola",LocalDate.of(2023, 6, 2), "Aperitivo a Milano", TipoEvento.PUBBLICO, 200);
-//		save(e2);	
-//		
-//		Evento e2=getById(2);
-//		System.out.println(e2);
-//		e2.setDataEvento(LocalDate.of(2023, 05, 17));
-//		System.out.println(e2);
-//		refresh(e2);
-//		System.out.println(e2);
-//		
-//		Evento e2=getById(2);
-//		delete(e2);		
-		
-		
+	    
+        Location l1 = new Location("Stadio","Cagliari");
+        Location l2 = new Location ("Stadio", "nonSoDove");
+      
+        Set<Partecipazione> s1 = Set.of(new Partecipazione());
+        Set<Partecipazione> s2 = Set.of(new Partecipazione(), new Partecipazione());
+        
+        Set<Persona> atleti = Set.of(new Persona(), new Persona(), new Persona());
+     
+       PartitaDiCalcio partita1 = new PartitaDiCalcio("Partita cagliari - Roma", LocalDate.of(2023, 5, 20), null, TipoEvento.PUBBLICO, 2500, s1, l1, "Cagliari", "Roma", "Roma", 1,2);
+       
+      //new PartitaDiCalcioDAO().save(partita1);
+      
+      //GaraDiAtletica gara1 = new GaraDiAtletica("Corsa 4km", LocalDate.of(2023, 8, 12), "Pazzi quelli che corrono", TipoEvento.PUBBLICO, 300, s2, l2, atleti, new Persona());
+      GaraDiAtletica gara1 = new GaraDiAtletica();
+      new GaraDiAtleticaDAO().save(gara1);
+        	
 	}
 
-	
-	public static void save(Evento e) {
-		em.getTransaction().begin();
-		em.persist(e);
-		em.getTransaction().commit();
-		System.out.println("Evento " + e.getTitolo() + "("+ e.getDataEvento()+") "+ " aggiunto nel sistema...");
-	}
-	
-	public static Evento getById(Integer id) {
-		em.getTransaction().begin();
-		Evento e = em.find(Evento.class, id);
-		em.getTransaction().commit();
-		return e;
-	}
-	
-	public static void delete(Evento e) {
-		em.getTransaction().begin();
-		em.remove(e);
-		em.getTransaction().commit();
-		System.out.println("Evento " + e.getTitolo() + "("+ e.getDataEvento()+") "+ " eliminato dal sistema...");
-	}
-	
-	public static Evento refresh(Evento e) {
-		em.refresh(e);
-		return e;
-	}
 }

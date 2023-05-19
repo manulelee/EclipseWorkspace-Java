@@ -5,25 +5,28 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.NamedQuery;
 import javax.persistence.Table;
 
 @Entity
-@Table (name="locations")
+@Table(name = "locations")
+@NamedQuery(name = "findAllLocation", query = "SELECT l FROM Location l")
 public class Location {
-
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
-	@Column (nullable = false)
+	@Column(nullable = false)
 	private String nome;
-	@Column (nullable = false)
+	@Column(nullable = false)
 	private String citta;
 	
-	
 	public Location() {
+		super();
 	}
 
 	public Location(String nome, String citta) {
+		super();
 		this.nome = nome;
 		this.citta = citta;
 	}
@@ -57,4 +60,6 @@ public class Location {
 		return "Location [id=" + id + ", nome=" + nome + ", citta=" + citta + "]";
 	}
 	
+	
+
 }
