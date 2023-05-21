@@ -15,15 +15,20 @@ import javax.persistence.Table;
 @Table(name="utenti")
 public class Utente {
 	
-	private String nome;
-	private String cognome;
-	@Column(name="data_nascita")
-	private LocalDate dataNascita;
 	@Id
 	@SequenceGenerator(name="tessera2023_0", sequenceName="tessera2023_0", initialValue =0, allocationSize = 1 )
 	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "tessera2023_0")
 	@Column(name="numero_tessera")
 	private String numeroTessera;
+	
+	@Column(nullable = false)
+	private String nome;
+	
+	@Column(nullable = false)
+	private String cognome;
+	
+	@Column(name="data_nascita", nullable = false)
+	private LocalDate dataNascita;
 	
 	
 	public Utente() {

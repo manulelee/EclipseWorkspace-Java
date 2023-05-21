@@ -12,18 +12,21 @@ import javax.persistence.InheritanceType;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "elementi_bibliotecari")
-@Inheritance(strategy = InheritanceType.SINGLE_TABLE) 
-@DiscriminatorColumn(name = "tipo_elemento", discriminatorType = DiscriminatorType.STRING)
+//@Table(name = "elementi_bibliotecari")
+@Inheritance(strategy = InheritanceType.TABLE_PER_CLASS) 
 public abstract class ElementoBibliotecario {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Integer isbn;
+	private String isbn;
+	
+	@Column(nullable=false)
 	private String titolo;
-	@Column(name="anno_pubblicazione")
+	
+	@Column(name="anno_pubblicazione", nullable=false)
 	private int annoPubblicazione;
-	@Column(name="numero_pagine")
+	
+	@Column(name="numero_pagine", nullable=false)
 	private int numeroPagine;
 	 
 	public ElementoBibliotecario() {
@@ -37,11 +40,11 @@ public abstract class ElementoBibliotecario {
 		this.numeroPagine = numeroPagine;
 	}
 
-	public long getIsbn() {
+	public String getIsbn() {
 		return isbn;
 	}
 
-	public void setIsbn(Integer isbn) {
+	public void setIsbn(String isbn) {
 		this.isbn = isbn;
 	}
 

@@ -47,34 +47,44 @@ public class ElementoBibliotecarioDAO implements InterfaceElementoBibliotecarioD
 	}
 
 	@Override
-	public ElementoBibliotecario cercaAnnoPubblicazione(int anno) {
+	public List<ElementoBibliotecario>  cercaAnnoPubblicazione(int anno) {
 		// TODO Auto-generated method stub
-		return null;
+		EntityManager em = JpaUtil.getEntityManagerFactory().createEntityManager();
+		try {
+			Query q = em.createQuery("SELECT elemento FROM ElementoBibliotecario elemento WHERE elemento.annoPubblicazione = " + anno);
+			return q.getResultList();
+		} finally {
+			em.close();
+		}
+	
 	}
 
 	@Override
-	public ElementoBibliotecario cercaAutore(String autore) {
+	public List<ElementoBibliotecario>  cercaAutore(String autore) {
 		// TODO Auto-generated method stub
-		return null;
+		EntityManager em = JpaUtil.getEntityManagerFactory().createEntityManager();
+		try {
+			Query q = em.createQuery("SELECT elemento FROM ElementoBibliotecario elemento WHERE elemento.autore = :autor");
+			q.setParameter(":autor", autore);
+			return q.getResultList();
+		} finally {
+			em.close();
+		}
 	}
 
 	@Override
-	public ElementoBibliotecario cercaTitolo(String titolo) {
+	public List<ElementoBibliotecario>  cercaTitolo(String titolo) {
 		// TODO Auto-generated method stub
-		return null;
+		EntityManager em = JpaUtil.getEntityManagerFactory().createEntityManager();
+		try {
+			Query q = em.createQuery("SELECT elemento FROM ElementoBibliotecario elemento WHERE elemento.autore = :title");
+			q.setParameter(":title", titolo);
+			return q.getResultList();
+		} finally {
+			em.close();
+		}
 	}
 
-	@Override
-	public List<ElementoBibliotecario> cercaPrenotazioniDaNumeroTessera(String numeroTessera) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public List<ElementoBibliotecario> cercaPrenotazioniScadute() {
-		// TODO Auto-generated method stub
-		return null;
-	}
 
 	@Override
 	public List<ElementoBibliotecario> tuttiGliElementiBibliotecari() {

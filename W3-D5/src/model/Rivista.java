@@ -1,15 +1,21 @@
 package model;
 
 
+import javax.persistence.Column;
 import javax.persistence.DiscriminatorValue;
 import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
+import javax.persistence.Table;
 
 import utils.Periodicità;
 
 @Entity
-@DiscriminatorValue("Rivista")
+@Table(name = "riviste")
 public class Rivista extends ElementoBibliotecario{
 
+	@Column(nullable = false)
+	@Enumerated(EnumType.STRING)
 	Periodicità periodicita;
 
 	public Rivista() {

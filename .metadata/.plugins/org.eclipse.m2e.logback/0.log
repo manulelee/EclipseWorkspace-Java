@@ -5097,3 +5097,591 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact antlr:antlr:j
 2023-05-19 16:13:12,465 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
 2023-05-19 16:13:12,469 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2023-05-19 16:13:12,470 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-19 16:18:13,903 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:18:13,904 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-19 16:18:13,906 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:18:13,907 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-19 16:18:15,939 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:18:15,940 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-19 16:18:15,945 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:18:15,945 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-19 16:18:39,108 [Worker-58: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:18:39,109 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-19 16:18:39,111 [Worker-58: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:18:39,111 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-19 16:19:30,756 [Worker-59: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:19:30,757 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-19 16:19:30,759 [Worker-59: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:19:30,760 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-19 16:20:09,975 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:20:09,975 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-19 16:20:09,977 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:20:09,977 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-19 16:21:03,506 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:21:03,507 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-19 16:21:03,509 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:21:03,509 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-19 16:21:39,939 [Worker-59: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:21:39,939 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-19 16:21:39,941 [Worker-59: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:21:39,942 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-19 16:22:24,259 [Worker-58: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:22:24,260 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-19 16:22:24,262 [Worker-58: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:22:24,262 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-19 16:26:08,124 [Worker-51: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:26:08,125 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-19 16:26:08,126 [Worker-51: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:26:08,127 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-19 16:26:24,659 [Worker-62: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:26:24,660 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-19 16:26:24,662 [Worker-62: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:26:24,662 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-19 16:26:28,538 [Worker-61: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:26:28,538 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-19 16:26:28,539 [Worker-61: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:26:28,540 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-19 16:27:23,392 [Worker-59: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:27:23,393 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-19 16:27:23,394 [Worker-59: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:27:23,395 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-19 16:28:23,194 [Worker-64: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:28:23,196 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-19 16:28:23,198 [Worker-64: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:28:23,199 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-19 16:29:14,737 [Worker-51: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:29:14,737 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-19 16:29:14,739 [Worker-51: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:29:14,740 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-19 16:29:23,836 [Worker-63: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:29:23,840 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-19 16:29:23,844 [Worker-63: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:29:23,844 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-19 16:30:10,275 [Worker-62: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:30:10,276 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-19 16:30:10,279 [Worker-62: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:30:10,280 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-19 16:30:31,163 [Worker-61: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:30:31,164 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-19 16:30:31,165 [Worker-61: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:30:31,165 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-19 16:31:24,190 [Worker-59: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:31:24,191 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-19 16:31:24,193 [Worker-59: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:31:24,194 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-19 16:31:36,877 [Worker-51: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:31:36,877 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-19 16:31:36,879 [Worker-51: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:31:36,879 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-19 16:32:36,161 [Worker-59: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:32:36,161 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-19 16:32:36,163 [Worker-59: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:32:36,163 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-19 16:32:41,852 [Worker-64: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:32:41,852 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-19 16:32:41,856 [Worker-64: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:32:41,857 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-19 16:50:32,956 [Worker-65: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:50:32,958 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-19 16:50:32,960 [Worker-65: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:50:32,961 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-19 16:50:58,256 [Worker-65: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:50:58,257 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-19 16:50:58,259 [Worker-65: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:50:58,261 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-19 16:52:17,370 [Worker-59: Launching MainProject (6)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:52:17,372 [Worker-59: Launching MainProject (6)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-19 16:52:17,374 [Worker-59: Launching MainProject (6)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:52:17,375 [Worker-59: Launching MainProject (6)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-19 16:53:24,673 [Worker-68: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:53:24,673 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-19 16:53:24,676 [Worker-68: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:53:24,677 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-19 16:54:01,411 [Worker-66: Launching MainProject (6)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:54:01,413 [Worker-66: Launching MainProject (6)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-19 16:54:01,416 [Worker-66: Launching MainProject (6)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:54:01,417 [Worker-66: Launching MainProject (6)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-19 16:55:19,841 [Worker-68: Launching MainProject (6)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:55:19,843 [Worker-68: Launching MainProject (6)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-19 16:55:19,844 [Worker-68: Launching MainProject (6)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:55:19,846 [Worker-68: Launching MainProject (6)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-19 16:56:49,037 [Worker-67: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:56:49,039 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-19 16:56:49,041 [Worker-67: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:56:49,042 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-19 16:56:52,550 [Worker-69: Launching MainProject (6)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:56:52,550 [Worker-69: Launching MainProject (6)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-19 16:56:52,552 [Worker-69: Launching MainProject (6)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:56:52,553 [Worker-69: Launching MainProject (6)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-19 16:57:09,188 [Worker-66: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:57:09,189 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-19 16:57:09,192 [Worker-66: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:57:09,192 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-19 16:57:49,236 [Worker-66: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:57:49,237 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-19 16:57:49,239 [Worker-66: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:57:49,239 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-19 16:58:08,049 [Worker-66: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:58:08,050 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-19 16:58:08,052 [Worker-66: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:58:08,053 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-19 16:58:12,340 [Worker-59: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:58:12,340 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-19 16:58:12,342 [Worker-59: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 16:58:12,343 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-19 17:09:23,918 [Worker-72: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 17:09:23,920 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-19 17:09:23,921 [Worker-72: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 17:09:23,922 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-19 17:09:42,682 [Worker-66: Launching MainProject (6)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 17:09:42,683 [Worker-66: Launching MainProject (6)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-19 17:09:42,685 [Worker-66: Launching MainProject (6)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 17:09:42,686 [Worker-66: Launching MainProject (6)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-19 17:10:06,392 [Worker-74: Launching MainProject (6)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 17:10:06,393 [Worker-74: Launching MainProject (6)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-19 17:10:06,395 [Worker-74: Launching MainProject (6)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 17:10:06,395 [Worker-74: Launching MainProject (6)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-19 17:10:29,990 [Worker-69: Launching MainProject (6)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 17:10:29,991 [Worker-69: Launching MainProject (6)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-19 17:10:29,993 [Worker-69: Launching MainProject (6)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 17:10:29,994 [Worker-69: Launching MainProject (6)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-19 17:11:34,913 [Worker-69: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 17:11:34,917 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-19 17:11:34,919 [Worker-69: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 17:11:34,919 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-19 17:12:48,848 [Worker-73: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 17:12:48,850 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-19 17:12:48,852 [Worker-73: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 17:12:48,852 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-19 17:13:03,125 [Worker-66: Launching MainProject (6)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 17:13:03,125 [Worker-66: Launching MainProject (6)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-19 17:13:03,127 [Worker-66: Launching MainProject (6)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 17:13:03,128 [Worker-66: Launching MainProject (6)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-19 17:13:30,086 [Worker-74: Launching MainProject (6)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 17:13:30,087 [Worker-74: Launching MainProject (6)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-19 17:13:30,089 [Worker-74: Launching MainProject (6)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 17:13:30,089 [Worker-74: Launching MainProject (6)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-19 17:13:42,990 [Worker-73: Launching MainProject (6)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 17:13:42,992 [Worker-73: Launching MainProject (6)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-19 17:13:42,996 [Worker-73: Launching MainProject (6)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-19 17:13:42,997 [Worker-73: Launching MainProject (6)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 20:23:28,532 [Worker-72: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:23:28,541 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 20:23:28,545 [Worker-72: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:23:28,545 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 20:24:17,080 [Worker-69: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:24:17,081 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 20:24:17,083 [Worker-69: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:24:17,083 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 20:25:02,526 [Worker-79: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:25:02,527 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 20:25:02,528 [Worker-79: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:25:02,529 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 20:26:06,979 [Worker-78: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:26:06,980 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 20:26:06,981 [Worker-78: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:26:06,981 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 20:26:11,471 [Worker-69: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:26:11,472 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 20:26:11,473 [Worker-69: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:26:11,474 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 20:30:01,786 [Worker-82: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:30:01,788 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 20:30:01,789 [Worker-82: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:30:01,790 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 20:30:13,734 [Worker-72: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:30:13,734 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 20:30:13,736 [Worker-72: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:30:13,736 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 20:30:19,499 [Worker-72: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:30:19,499 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 20:30:19,501 [Worker-72: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:30:19,501 [Worker-72: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 20:30:51,655 [Worker-81: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:30:51,655 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 20:30:51,656 [Worker-81: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:30:51,657 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 20:31:35,557 [Worker-83: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:31:35,558 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 20:31:35,559 [Worker-83: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:31:35,559 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 20:33:19,313 [Worker-86: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:33:19,314 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 20:33:19,315 [Worker-86: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:33:19,315 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 20:34:39,935 [Worker-82: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:34:39,935 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 20:34:39,937 [Worker-82: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:34:39,937 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 20:35:13,493 [Worker-80: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:35:13,495 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 20:35:13,497 [Worker-80: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:35:13,499 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 20:35:14,520 [Worker-85: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:35:14,520 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 20:35:14,521 [Worker-85: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:35:14,521 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 20:35:21,394 [Worker-86: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:35:21,394 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 20:35:21,396 [Worker-86: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:35:21,396 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 20:36:37,731 [Worker-85: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:36:37,732 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 20:36:37,733 [Worker-85: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:36:37,734 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 20:37:52,612 [Worker-87: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:37:52,613 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 20:37:52,614 [Worker-87: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:37:52,615 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 20:40:13,619 [Worker-87: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:40:13,619 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 20:40:13,621 [Worker-87: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:40:13,621 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 20:43:06,895 [Worker-87: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:43:06,896 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 20:43:06,898 [Worker-87: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:43:06,899 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 20:43:16,552 [Worker-91: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:43:16,553 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 20:43:16,554 [Worker-91: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:43:16,555 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 20:43:54,422 [Worker-87: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:43:54,423 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 20:43:54,425 [Worker-87: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:43:54,425 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 20:43:59,300 [Worker-87: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:43:59,302 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 20:43:59,305 [Worker-87: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:43:59,306 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 20:44:22,571 [Worker-85: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:44:22,572 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 20:44:22,574 [Worker-85: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:44:22,574 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 20:47:04,905 [Worker-92: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:47:04,906 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 20:47:04,907 [Worker-92: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:47:04,908 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 20:48:21,348 [Worker-91: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:48:21,349 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 20:48:21,350 [Worker-91: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:48:21,350 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 20:50:08,202 [Worker-87: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:50:08,203 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 20:50:08,204 [Worker-87: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:50:08,204 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 20:50:56,111 [Worker-87: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:50:56,111 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 20:50:56,112 [Worker-87: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:50:56,113 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 20:51:28,769 [Worker-90: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:51:28,770 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 20:51:28,771 [Worker-90: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:51:28,771 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 20:56:22,802 [Worker-87: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:56:22,803 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 20:56:22,804 [Worker-87: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:56:22,804 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 20:57:30,984 [Worker-90: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:57:30,984 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 20:57:30,986 [Worker-90: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:57:30,987 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 20:57:45,260 [Worker-95: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:57:45,260 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 20:57:45,261 [Worker-95: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:57:45,261 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 20:58:34,413 [Worker-87: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:58:34,414 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 20:58:34,415 [Worker-87: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:58:34,415 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 20:58:39,327 [Worker-85: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:58:39,328 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 20:58:39,329 [Worker-85: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 20:58:39,330 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 21:01:46,500 [Worker-95: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:01:46,501 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 21:01:46,502 [Worker-95: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:01:46,503 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 21:01:49,179 [Worker-90: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:01:49,181 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 21:01:49,182 [Worker-90: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:01:49,183 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 21:03:21,259 [Worker-85: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:03:21,261 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 21:03:21,263 [Worker-85: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:03:21,264 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 21:03:34,709 [Worker-90: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:03:34,710 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 21:03:34,711 [Worker-90: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:03:34,711 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 21:03:38,640 [Worker-85: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:03:38,640 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 21:03:38,641 [Worker-85: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:03:38,642 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 21:06:35,988 [Worker-85: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:06:35,988 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 21:06:35,990 [Worker-85: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:06:35,990 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 21:06:58,206 [Worker-94: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:06:58,207 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 21:06:58,208 [Worker-94: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:06:58,209 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 21:08:28,935 [Worker-95: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:08:28,935 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 21:08:28,937 [Worker-95: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:08:28,938 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 21:09:19,873 [Worker-95: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:09:19,874 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 21:09:19,875 [Worker-95: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:09:19,875 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 21:09:56,864 [Worker-96: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:09:56,864 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 21:09:56,865 [Worker-96: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:09:56,865 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 21:10:04,512 [Worker-96: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:10:04,513 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 21:10:04,516 [Worker-96: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:10:04,518 [Worker-96: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 21:10:30,595 [Worker-85: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:10:30,595 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 21:10:30,596 [Worker-85: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:10:30,596 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 21:33:44,372 [Worker-95: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:33:44,373 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 21:33:44,374 [Worker-95: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:33:44,374 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 21:34:02,139 [Worker-90: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:34:02,139 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 21:34:02,140 [Worker-90: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:34:02,141 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 21:34:14,847 [Worker-90: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:34:14,847 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 21:34:14,848 [Worker-90: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:34:14,849 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 21:36:41,505 [Worker-99: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:36:41,505 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 21:36:41,506 [Worker-99: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:36:41,507 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 21:36:50,110 [Worker-95: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:36:50,111 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 21:36:50,112 [Worker-95: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:36:50,112 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 21:36:59,061 [Worker-98: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:36:59,061 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 21:36:59,063 [Worker-98: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:36:59,063 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 21:37:23,696 [Worker-99: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:37:23,696 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 21:37:23,697 [Worker-99: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:37:23,697 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 21:37:29,107 [Worker-90: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:37:29,107 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 21:37:29,108 [Worker-90: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:37:29,108 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 21:37:34,143 [Worker-100: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:37:34,144 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 21:37:34,144 [Worker-100: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:37:34,145 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 21:37:39,471 [Worker-98: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:37:39,472 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 21:37:39,473 [Worker-98: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:37:39,473 [Worker-98: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 21:38:06,386 [Worker-90: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:38:06,387 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 21:38:06,388 [Worker-90: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:38:06,388 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 21:40:40,214 [Worker-90: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:40:40,215 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 21:40:40,226 [Worker-90: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:40:40,227 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 21:40:43,224 [Worker-90: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:40:43,224 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 21:40:43,225 [Worker-90: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:40:43,225 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 21:41:38,222 [Worker-95: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:41:38,223 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 21:41:38,225 [Worker-95: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:41:38,225 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 21:42:24,712 [Worker-95: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:42:24,713 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 21:42:24,713 [Worker-95: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:42:24,714 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 21:42:27,778 [Worker-99: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:42:27,779 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 21:42:27,779 [Worker-99: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:42:27,780 [Worker-99: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 21:47:11,700 [Worker-103: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:47:11,701 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 21:47:11,702 [Worker-103: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:47:11,702 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 21:47:19,557 [Worker-104: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:47:19,558 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 21:47:19,558 [Worker-104: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:47:19,559 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 21:47:45,524 [Worker-90: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:47:45,524 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 21:47:45,525 [Worker-90: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:47:45,526 [Worker-90: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 21:48:17,346 [Worker-103: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:48:17,346 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 21:48:17,347 [Worker-103: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:48:17,347 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 21:49:58,158 [Worker-105: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:49:58,159 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 21:49:58,159 [Worker-105: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:49:58,160 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 21:50:17,240 [Worker-95: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:50:17,241 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 21:50:17,243 [Worker-95: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:50:17,243 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 21:50:27,682 [Worker-102: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:50:27,682 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 21:50:27,683 [Worker-102: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:50:27,683 [Worker-102: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 21:54:37,906 [Worker-110: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:54:37,907 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 21:54:37,908 [Worker-110: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:54:37,908 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 21:55:20,460 [Worker-111: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:55:20,461 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 21:55:20,462 [Worker-111: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:55:20,462 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 21:56:11,489 [Worker-108: Launching MainProject (6)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:56:11,489 [Worker-108: Launching MainProject (6)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 21:56:11,490 [Worker-108: Launching MainProject (6)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:56:11,490 [Worker-108: Launching MainProject (6)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 21:57:05,923 [Worker-114: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:57:05,923 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 21:57:05,924 [Worker-114: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:57:05,924 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 21:57:12,351 [Worker-112: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:57:12,351 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 21:57:12,352 [Worker-112: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:57:12,352 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 21:59:57,992 [Worker-116: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:59:57,993 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 21:59:57,994 [Worker-116: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:59:57,994 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 21:59:59,061 [Worker-115: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:59:59,061 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 21:59:59,062 [Worker-115: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 21:59:59,062 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 22:00:17,284 [Worker-114: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 22:00:17,285 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 22:00:17,286 [Worker-114: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 22:00:17,286 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 22:00:34,058 [Worker-115: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 22:00:34,058 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 22:00:34,059 [Worker-115: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 22:00:34,059 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 22:01:42,736 [Worker-112: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 22:01:42,737 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 22:01:42,738 [Worker-112: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 22:01:42,738 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 22:01:53,618 [Worker-112: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 22:01:53,619 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 22:01:53,620 [Worker-112: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 22:01:53,620 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 22:02:38,093 [Worker-114: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 22:02:38,093 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 22:02:38,094 [Worker-114: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 22:02:38,094 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 22:03:45,028 [Worker-119: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 22:03:45,028 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 22:03:45,029 [Worker-119: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 22:03:45,030 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 22:03:56,005 [Worker-112: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 22:03:56,005 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 22:03:56,006 [Worker-112: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 22:03:56,007 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 22:04:10,305 [Worker-114: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 22:04:10,305 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 22:04:10,306 [Worker-114: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 22:04:10,307 [Worker-114: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 22:04:12,328 [Worker-112: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 22:04:12,329 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 22:04:12,329 [Worker-112: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 22:04:12,330 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 22:05:38,797 [Worker-116: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 22:05:38,797 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 22:05:38,798 [Worker-116: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 22:05:38,798 [Worker-116: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 22:09:16,778 [Worker-120: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 22:09:16,780 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 22:09:16,783 [Worker-120: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 22:09:16,784 [Worker-120: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 22:09:24,620 [Worker-121: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 22:09:24,621 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 22:09:24,621 [Worker-121: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 22:09:24,622 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 22:09:51,148 [Worker-119: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 22:09:51,149 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 22:09:51,150 [Worker-119: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 22:09:51,150 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 22:10:11,784 [Worker-119: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 22:10:11,785 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 22:10:11,786 [Worker-119: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 22:10:11,786 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 22:10:28,915 [Worker-119: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 22:10:28,916 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 22:10:28,917 [Worker-119: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 22:10:28,918 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 22:10:40,970 [Worker-122: Launching MainProject (6)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 22:10:40,970 [Worker-122: Launching MainProject (6)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 22:10:40,971 [Worker-122: Launching MainProject (6)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 22:10:40,972 [Worker-122: Launching MainProject (6)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 22:12:52,401 [Worker-122: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 22:12:52,402 [Worker-122: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 22:12:52,402 [Worker-122: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 22:12:52,403 [Worker-122: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 22:15:29,716 [Worker-124: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 22:15:29,716 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 22:15:29,717 [Worker-124: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 22:15:29,717 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 22:15:39,553 [Worker-124: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 22:15:39,553 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 22:15:39,554 [Worker-124: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 22:15:39,555 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 22:15:52,277 [Worker-121: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 22:15:52,278 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 22:15:52,279 [Worker-121: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 22:15:52,279 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 22:17:30,907 [Worker-119: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 22:17:30,908 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 22:17:30,909 [Worker-119: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 22:17:30,910 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 22:17:45,852 [Worker-119: Launching MainProject (6)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 22:17:45,852 [Worker-119: Launching MainProject (6)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 22:17:45,853 [Worker-119: Launching MainProject (6)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 22:17:45,854 [Worker-119: Launching MainProject (6)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 22:20:38,603 [Worker-127: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 22:20:38,603 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 22:20:38,604 [Worker-127: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 22:20:38,605 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 22:21:03,608 [Worker-127: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 22:21:03,609 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 22:21:03,610 [Worker-127: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 22:21:03,610 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 22:23:22,502 [Worker-125: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 22:23:22,503 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 22:23:22,504 [Worker-125: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 22:23:22,504 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 22:23:43,633 [Worker-126: Launching MainProject (6)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 22:23:43,633 [Worker-126: Launching MainProject (6)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 22:23:43,635 [Worker-126: Launching MainProject (6)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 22:23:43,635 [Worker-126: Launching MainProject (6)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 22:24:06,644 [Worker-124: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 22:24:06,645 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 22:24:06,646 [Worker-124: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 22:24:06,646 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 22:24:19,478 [Worker-124: Launching MainProject (6)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 22:24:19,478 [Worker-124: Launching MainProject (6)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 22:24:19,479 [Worker-124: Launching MainProject (6)] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 22:24:19,480 [Worker-124: Launching MainProject (6)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 22:24:28,329 [Worker-119: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 22:24:28,330 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 22:24:28,331 [Worker-119: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 22:24:28,331 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
+2023-05-21 22:24:30,402 [Worker-124: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 22:24:30,403 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/main/resources
+2023-05-21 22:24:30,403 [Worker-124: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-05-21 22:24:30,404 [Worker-124: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manu/eclipse-workspace/W3-D5/src/test/resources
