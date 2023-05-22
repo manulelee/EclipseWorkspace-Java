@@ -23,12 +23,10 @@ public class Prestito {
 	private int id;
 	
 	@ManyToOne
-	@Column(nullable=false)
 	@JoinColumn(name = "numero_tessera")
 	private Utente utente;
 	
 	@ManyToOne
-	@Column(nullable=false)
 	@JoinColumn(name = "isbn")
 	private ElementoBibliotecario elementoPrestato;
 	
