@@ -13,7 +13,7 @@ import javax.persistence.Table;
 
 @Entity
 //@Table(name = "elementi_bibliotecari")
-@Inheritance(strategy = InheritanceType.TABLE_PER_CLASS) 
+@Inheritance(strategy = InheritanceType.JOINED) 
 public abstract class ElementoBibliotecario {
 	
 	@Id

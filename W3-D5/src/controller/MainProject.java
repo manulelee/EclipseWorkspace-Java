@@ -30,15 +30,15 @@ public class MainProject {
 		
 		ElementoBibliotecarioDAO El_Dao = new ElementoBibliotecarioDAO();
 		//dao.aggiungi(l2);
-		El_Dao.tuttiGliElementiBibliotecari().forEach(el -> System.out.println(el));;
+		//El_Dao.tuttiGliElementiBibliotecari().forEach(el -> System.out.println(el));;
 	
 		//dao.cercaAnnoPubblicazione(2023).forEach(el -> System.out.println(el));;
-		El_Dao.cercaAutore("commedia").forEach(el -> System.out.println(el));;
+		//El_Dao.cercaAutore("commedia").forEach(el -> System.out.println(el));;
 		
 		UtenteDAO U_Dao = new UtenteDAO();
 		Utente u1 = new Utente("Emanuele", "Syrbe", LocalDate.of(1997, 01, 27));
 		
-		U_Dao.aggiungi(u1);
+		//U_Dao.aggiungi(u1);
 		
 		PrestitoDAO P_Dao = new PrestitoDAO();
 		
