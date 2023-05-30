@@ -91,10 +91,10 @@ public class W5D1Application {
 		Drink d1 = (Drink) appContext.getBean("drink", "Acqua", 0, 1.29, 0.5);
 		System.out.println(d1);
 		
-		Drink d2 = (Drink) appContext.getBean("drink", "Limonata", 0, 1.29, 128);
+		Drink d2 = (Drink) appContext.getBean("drink", "Limonata", 128, 1.29, 0.33);
 		System.out.println(d2);
 		
-		Drink d3 = (Drink) appContext.getBean("alcolicDrink", "Vino", 0, 7.49, 607, 13);
+		Drink d3 = (Drink) appContext.getBean("alcolicDrink", "Vino", 607, 7.49, 0.75, 13);
 		System.out.println(d3);
 		
 		appContext.close();

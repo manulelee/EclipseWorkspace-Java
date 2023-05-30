@@ -10,7 +10,6 @@ import lombok.ToString;
 @AllArgsConstructor
 @Getter
 @Setter
-@ToString
 public class Drink {
 
 	private String nome;
@@ -25,4 +24,12 @@ public class Drink {
 		this.prezzo= prezzo;
 		this.formato= formato;
 	}
+
+	@Override
+	public String toString() {
+		return "Bibita - " + nome + ", calorie: " + calorie + " kcal, prezzo: " + prezzo + "€ , formato: " + formato
+				+ " ml" + ( volumi!=0 ? ", volumi: " + volumi +"%":"");
+	}
+	
+	
 }

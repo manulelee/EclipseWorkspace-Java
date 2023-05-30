@@ -1,0 +1,52 @@
+14:50:55.947 [restartedMain] INFO  c.e.G.GodfathersPizzaApplication - Starting GodfathersPizzaApplication using Java 17.0.7 with PID 88057 (/Users/manu/eclipse-workspace/W5-D2/target/classes started by manu in /Users/manu/eclipse-workspace/W5-D2)
+14:50:55.949 [restartedMain] INFO  c.e.G.GodfathersPizzaApplication - No active profile set, falling back to 1 default profile: "default"
+14:50:55.988 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+14:50:56.381 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+14:50:56.398 [restartedMain] INFO  c.e.G.GodfathersPizzaApplication - Started GodfathersPizzaApplication in 0.711 seconds (process running for 1.273)
+14:51:07.845 [restartedMain] INFO  c.e.G.GodfathersPizzaApplication - Starting GodfathersPizzaApplication using Java 17.0.7 with PID 88063 (/Users/manu/eclipse-workspace/W5-D2/target/classes started by manu in /Users/manu/eclipse-workspace/W5-D2)
+14:51:07.847 [restartedMain] INFO  c.e.G.GodfathersPizzaApplication - No active profile set, falling back to 1 default profile: "default"
+14:51:07.887 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+14:51:08.249 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+14:51:08.266 [restartedMain] INFO  c.e.G.GodfathersPizzaApplication - Started GodfathersPizzaApplication in 0.68 seconds (process running for 1.298)
+14:51:10.224 [restartedMain] INFO  c.e.G.GodfathersPizzaApplication - Starting GodfathersPizzaApplication using Java 17.0.7 with PID 88065 (/Users/manu/eclipse-workspace/W5-D2/target/classes started by manu in /Users/manu/eclipse-workspace/W5-D2)
+14:51:10.226 [restartedMain] INFO  c.e.G.GodfathersPizzaApplication - No active profile set, falling back to 1 default profile: "default"
+14:51:10.268 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+14:51:10.642 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+14:51:10.660 [restartedMain] INFO  c.e.G.GodfathersPizzaApplication - Started GodfathersPizzaApplication in 0.697 seconds (process running for 1.33)
+14:51:15.027 [restartedMain] INFO  c.e.G.GodfathersPizzaApplication - Starting GodfathersPizzaApplication using Java 17.0.7 with PID 88067 (/Users/manu/eclipse-workspace/W5-D2/target/classes started by manu in /Users/manu/eclipse-workspace/W5-D2)
+14:51:15.029 [restartedMain] INFO  c.e.G.GodfathersPizzaApplication - No active profile set, falling back to 1 default profile: "default"
+14:51:15.070 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+14:51:15.509 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+14:51:15.526 [restartedMain] INFO  c.e.G.GodfathersPizzaApplication - Started GodfathersPizzaApplication in 0.828 seconds (process running for 1.223)
+14:57:47.463 [restartedMain] INFO  c.e.G.GodfathersPizzaApplication - Starting GodfathersPizzaApplication using Java 17.0.7 with PID 88434 (/Users/manu/eclipse-workspace/W5-D2/target/classes started by manu in /Users/manu/eclipse-workspace/W5-D2)
+14:57:47.465 [restartedMain] INFO  c.e.G.GodfathersPizzaApplication - No active profile set, falling back to 1 default profile: "default"
+14:57:47.514 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+14:57:48.052 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+14:57:48.072 [restartedMain] INFO  c.e.G.GodfathersPizzaApplication - Started GodfathersPizzaApplication in 0.994 seconds (process running for 1.633)
+14:57:48.089 [restartedMain] INFO  c.e.G.runner.RunnerClass - Pizza Margherita (tomato, cheese) - calories: 1104.0 - price: 4.99
+14:57:48.089 [restartedMain] INFO  c.e.G.runner.RunnerClass - Pizza Hawaiian (tomato, cheese, ham, pineapple) - calories: 1024.0 - price: 6.49
+14:57:48.089 [restartedMain] INFO  c.e.G.runner.RunnerClass - Pizza Salami (tomato, cheese, salami) - calories: 1024.0 - price: 6.49
+14:57:48.089 [restartedMain] INFO  c.e.G.runner.RunnerClass - Family Size for Pizza - calories: x1.95 - price: +4.15
+14:57:48.090 [restartedMain] INFO  c.e.G.runner.RunnerClass - Cheese - calories: 92.0 - price: 0.69
+14:57:48.090 [restartedMain] INFO  c.e.G.runner.RunnerClass - Onions - calories: 22.0 - price: 0.69
+14:57:48.090 [restartedMain] INFO  c.e.G.runner.RunnerClass - Salami - calories: 86.0 - price: 0.99
+14:57:48.091 [restartedMain] INFO  c.e.G.runner.RunnerClass - Lemonade (0.33l) - calories: 128.0 - price: 1.29
+14:57:48.091 [restartedMain] INFO  c.e.G.runner.RunnerClass - Water (0.5l) - calories: 0.0 - price: 1.29
+14:57:48.092 [restartedMain] INFO  c.e.G.runner.RunnerClass - Mug - price: 4.99
+14:57:48.092 [restartedMain] INFO  c.e.G.runner.RunnerClass - Shirt - price: 21.99
+14:58:12.624 [restartedMain] INFO  c.e.G.GodfathersPizzaApplication - Starting GodfathersPizzaApplication using Java 17.0.7 with PID 88446 (/Users/manu/eclipse-workspace/W5-D2/target/classes started by manu in /Users/manu/eclipse-workspace/W5-D2)
+14:58:12.626 [restartedMain] INFO  c.e.G.GodfathersPizzaApplication - No active profile set, falling back to 1 default profile: "default"
+14:58:12.667 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+14:58:13.083 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+14:58:13.102 [restartedMain] INFO  c.e.G.GodfathersPizzaApplication - Started GodfathersPizzaApplication in 0.774 seconds (process running for 1.421)
+14:58:13.114 [restartedMain] INFO  c.e.G.runner.RunnerClass - Pizza Margherita (tomato, cheese) - calories: 1104.0 - price: 4.99
+14:58:13.114 [restartedMain] INFO  c.e.G.runner.RunnerClass - Pizza Hawaiian (tomato, cheese, ham, pineapple) - calories: 1024.0 - price: 6.49
+14:58:13.114 [restartedMain] INFO  c.e.G.runner.RunnerClass - Pizza Salami (tomato, cheese, salami) - calories: 1024.0 - price: 6.49
+14:58:13.114 [restartedMain] INFO  c.e.G.runner.RunnerClass - Family Size for Pizza - calories: x1.95 - price: +4.15
+14:58:13.114 [restartedMain] INFO  c.e.G.runner.RunnerClass - Cheese - calories: 92.0 - price: 0.69
+14:58:13.115 [restartedMain] INFO  c.e.G.runner.RunnerClass - Onions - calories: 22.0 - price: 0.69
+14:58:13.115 [restartedMain] INFO  c.e.G.runner.RunnerClass - Salami - calories: 86.0 - price: 0.99
+14:58:13.115 [restartedMain] INFO  c.e.G.runner.RunnerClass - Lemonade (0.33l) - calories: 128.0 - price: 1.29
+14:58:13.115 [restartedMain] INFO  c.e.G.runner.RunnerClass - Water (0.5l) - calories: 0.0 - price: 1.29
+14:58:13.116 [restartedMain] INFO  c.e.G.runner.RunnerClass - Mug - price: 4.99
+14:58:13.116 [restartedMain] INFO  c.e.G.runner.RunnerClass - Shirt - price: 21.99

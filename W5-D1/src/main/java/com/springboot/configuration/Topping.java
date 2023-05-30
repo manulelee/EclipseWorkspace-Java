@@ -11,10 +11,15 @@ import lombok.ToString;
 @AllArgsConstructor
 @Getter
 @Setter
-@ToString
 public class Topping {
 
 	private String nome;
 	private int calorie;
-	private double price;
+	private double prezzo;
+	@Override
+	public String toString() {
+		return nome + ", calorie:" + calorie + ", prezzo:" + prezzo + "€";
+	}
+	
+	
 }

@@ -10,9 +10,15 @@ import lombok.ToString;
 @AllArgsConstructor
 @Getter
 @Setter
-@ToString
 public class Merchandising {
 	
 	private String nome;
 	private double prezzo;
+	
+	@Override
+	public String toString() {
+		return "Merch - " + nome + ", prezzo: " + prezzo +"€";
+	}
+	
+	
 }
