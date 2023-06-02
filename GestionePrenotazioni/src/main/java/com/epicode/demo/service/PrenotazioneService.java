@@ -2,6 +2,7 @@ package com.epicode.demo.service;
 
 import java.time.LocalDate;
 import java.util.List;
+import java.util.concurrent.atomic.AtomicBoolean;
 
 import org.springframework.beans.factory.ObjectProvider;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,21 +18,40 @@ import com.epicode.demo.repository.PrenotazioneDaoRepository;
 public class PrenotazioneService {
 
 	@Autowired PrenotazioneDaoRepository prenotazione;
+	@Autowired private UtenteService userService;
 	
 	@Autowired @Qualifier("PrenotazioneFakeBean") ObjectProvider<Prenotazione> prenotazioneFakeProvider;
 	@Autowired @Qualifier("PrenotazioneBean") ObjectProvider<Prenotazione> prenotazioneProvider;
 
-	public Prenotazione creaPostazioneFake() {
+	public Prenotazione creaPrenotazioneFake() {
 		return prenotazioneFakeProvider.getObject();
 	}
 	
-	public Prenotazione creaPostazione(LocalDate giorno, Postazione postazione, Utente utente) {
+	public Prenotazione creaPrenotazione(LocalDate giorno, Postazione postazione, Utente utente) {
 		return prenotazioneProvider.getObject(giorno, postazione, utente);
 	}
 	
-	public void insertBooking(Prenotazione p) {
-		prenotazione.save(p);
-		System.out.println("Prenotazione di " + p.getUtente().getNome() + " " + p.getUtente().getCognome() + " (" + p.getPostazione().getEdificio().getNome() + " • " + p.getGiorno() + ") salvata nel database...");
+	public void insertBooking(Prenotazione b) {
+		Utente u = b.getUtente();
+		AtomicBoolean control = new AtomicBoolean(true);
+		List<Prenotazione> lista = u.getListaPrenotazioni();
+		lista.forEach(p -> {
+		    if (p.getGiorno().equals(b.getGiorno())) {
+		        control.set(false);
+		    }
+		});
+		
+		boolean finalControl = control.get();
+		
+		if (finalControl) {
+			prenotazione.save(b);
+			System.out.println("Prenotazione di " + u.getNome() + " " + u.getCognome() + " (" + b.getPostazione().getEdificio().getNome() + " • " + b.getGiorno() + ") salvata nel database...");					u.getListaPrenotazioni().add(b);
+			userService.updateUser(u);
+		}
+		else {
+			System.out.println("L'utente " + u.getNome() +" "+ u.getCognome() + " ha già una prenotazione per questa data ("+ b.getGiorno()+ ")...");
+		}
+				
 	}
 	
 	public void updateBooking(Prenotazione p) {

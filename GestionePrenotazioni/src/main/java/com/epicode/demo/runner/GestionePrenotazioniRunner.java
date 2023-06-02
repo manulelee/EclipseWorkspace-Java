@@ -1,6 +1,6 @@
 package com.epicode.demo.runner;
 
-import java.util.List;
+import java.time.LocalDate;
 import java.util.Locale;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,8 +18,6 @@ import com.epicode.demo.service.PrenotazioneService;
 import com.epicode.demo.service.UtenteService;
 import com.github.javafaker.Faker;
 
-
-
 @Component
 public class GestionePrenotazioniRunner implements ApplicationRunner{
 
@@ -31,28 +29,28 @@ public class GestionePrenotazioniRunner implements ApplicationRunner{
 	@Override
 	public void run(ApplicationArguments args) throws Exception {
 		// TODO Auto-generated method stub
+		Faker fake = Faker.instance(new Locale("it-IT"));
+		
 		System.out.println("UserRunner...");
 		
 		System.out.println();
 		System.out.println("*** SEZIONE UTENTI ***");
 		System.out.println();
 		
+// 		//Inserimento untente admin
 //		Utente u1 = userService.creaUtenteAdmin();
-//		Utente u2 = userService.creaUtenteFake();
-//		Utente u3 = userService.creaUtenteFake();
-//		Utente u4 = userService.creaUtenteFake();
-//		Utente u5 = userService.creaUtente("Emanuele", "Umberto", "EMANUELE.UMBERTO", "ema.umbe@gmail.com");	
-//		System.out.println(u1);
-//		System.out.println(u2);
-//		System.out.println(u3);
-//		System.out.println(u4);
-//		System.out.println(u5);		
 //		userService.insertUser(u1);
+//		
+// 		//Inserimento untente custom
+//		Utente u2 = userService.creaUtente("Emanuele", "Umberto", "EMANUELE.UMBERTO", "ema.umbe@gmail.com");
 //		userService.insertUser(u2);
-//		userService.insertUser(u3);
-//		userService.insertUser(u4);
-//		userService.insertUser(u5);
-		
+//	
+// 		//Inserimento di n utenti custom
+//		
+//		for(int i=0;  i<8; i++) {
+//			Utente u = userService.creaUtenteFake();
+//			userService.insertUser(u);
+//		}
 		
 		userService.getAll().forEach(u->System.out.println("ID: " + u.getId() + " - " + u.getNome() + 
 															" " + u.getCognome() + " (" + u.getUsername() + ")"));
@@ -60,17 +58,17 @@ public class GestionePrenotazioniRunner implements ApplicationRunner{
 		System.out.println();
  		System.out.println("*** SEZIONE EDIFICI ***");
  		System.out.println();
-		
-//		Edificio e1 = buildingService.creaEdificio("Palazzo Doglio", "Via san Lucifero", 21, "Cagliari");
-//		Edificio e2 = buildingService.creaEdificioFake();
-//		Edificio e3 = buildingService.creaEdificioFake();	
-//		System.out.println(e1);
-//		System.out.println(e2);
-//		System.out.println(e3);		
-//		buildingService.insertBuilding(e1);
-//		buildingService.insertBuilding(e2);
-//		buildingService.insertBuilding(e3);
-		
+ 		
+// 		//Inserimento edificio custom
+// 		Edificio e1 = buildingService.creaEdificio("Palazzo Doglio", "Via san Lucifero", 21, "Cagliari");
+// 		buildingService.insertBuilding(e1);
+//		
+// 		//Inserimento di 3 edifici
+//		for(int i=0;  i<3; i++) {
+//			Edificio e = buildingService.creaEdificioFake();
+//			buildingService.insertBuilding(e);
+//		}
+ 	
 		buildingService.getAll().forEach(e->System.out.println("ID: " + e.getId() + " - " + e.getNome() + " (" + e.getVia() + 
 																", " + e.getCivico() + " - " + e.getCitta() + ")"));
 
@@ -78,21 +76,14 @@ public class GestionePrenotazioniRunner implements ApplicationRunner{
 		System.out.println("*** SEZIONE POSTAZIONI ***");
 		System.out.println();
 		
-//		Postazione p1 = workstationService.creaPostazioneFake();
-//		p1.setEdificio(buildingService.getByID(1));
-//		Postazione p2 = workstationService.creaPostazioneFake();
-//		p2.setEdificio(buildingService.getByID(2));
-//		Postazione p3 = workstationService.creaPostazioneFake();
-//		p3.setEdificio(buildingService.getByID(2));
-//		Postazione p4 = workstationService.creaPostazioneFake();
-//		p4.setEdificio(buildingService.getByID(1));
-//		Postazione p5 = workstationService.creaPostazioneFake();
-//		p5.setEdificio(buildingService.getByID(3));
-//		workstationService.insertWorkstation(p1);
-//		workstationService.insertWorkstation(p2);
-//		workstationService.insertWorkstation(p3);
-//		workstationService.insertWorkstation(p4);
-//		workstationService.insertWorkstation(p5);
+//		//Inserimento di 5 postazioni
+//		
+//		for(int i=0;  i<5; i++) {
+//			int buildingID = fake.random().nextInt(1,buildingService.getAll().size());
+//			Postazione p = workstationService.creaPostazioneFake();
+//			p.setEdificio(buildingService.getByID(buildingID));
+//			workstationService.insertWorkstation(p);
+//		}
 		
 		workstationService.getAll().forEach(w->System.out.println("ID: " + w.getId() + " - " + w.getDescrizione() + " • " + w.getTipo().toString().toLowerCase() + 
 																 " • "+ w.getNumeroMassimo() + " persone max (" + w.getEdificio().getNome() + " - " + w.getEdificio().getCitta() + ")"));
@@ -102,29 +93,29 @@ public class GestionePrenotazioniRunner implements ApplicationRunner{
 		System.out.println("*** SEZIONE PRENOTAZIONI ***");
 		System.out.println();
 		
-		Prenotazione b1 = bookingService.creaPostazioneFake();
-		bookingService.insertBooking(b1);
-		Prenotazione b2 = bookingService.creaPostazioneFake();
-		bookingService.insertBooking(b2);
-		Prenotazione b3 = bookingService.creaPostazioneFake();
-		bookingService.insertBooking(b3);
-		Prenotazione b4 = bookingService.creaPostazioneFake();
-		bookingService.insertBooking(b4);
-		Prenotazione b5 = bookingService.creaPostazioneFake();
-		bookingService.insertBooking(b5);
-		Prenotazione b6 = bookingService.creaPostazioneFake();
-		bookingService.insertBooking(b6);
-		Prenotazione b7 = bookingService.creaPostazioneFake();
-		bookingService.insertBooking(b7);
-		Prenotazione b8 = bookingService.creaPostazioneFake();
-		bookingService.insertBooking(b8);
+	
+//		//Inserimento di 20 prenotazioni con controllo sulla lista
+//		
+//		for(int i=0;  i<20; i++) {
+//			Prenotazione b = bookingService.creaPrenotazioneFake();
+//			bookingService.insertBooking(b);
+//		}
+//				
+//		//Inserimento prenotazione custom con controllo sulla lista
+//		
+//		Utente me = userService.getByID(1);
+//		Prenotazione b_me = bookingService.creaPrenotazione(LocalDate.of(2023, 07, 01), workstationService.getAll().get(2), me);
+//		bookingService.insertBooking(b_me);
+//		Prenotazione b_me2 = bookingService.creaPrenotazione(LocalDate.of(2023, 07, 01), workstationService.getAll().get(3), me);
+//		bookingService.insertBooking(b_me2);
 		
 		bookingService.getAll().forEach(b->System.out.println("ID: " + b.getId() + " - " + b.getUtente().getNome() + " " + b.getUtente().getCognome() + " @ " + b.getPostazione().getEdificio().getNome() + " ("+ b.getPostazione().getTipo().toString().toLowerCase() + 
-				 ") • "+ b.getPostazione().getNumeroMassimo() + " persone max (" + b.getPostazione().getEdificio().getVia()+ ", "+b.getPostazione().getEdificio().getCivico() + " - " + b.getPostazione().getEdificio().getCitta() + ")"));
+				 ") " + b.getGiorno() +" • "+ b.getPostazione().getNumeroMassimo() + " persone max (" + b.getPostazione().getEdificio().getVia()+ ", "+b.getPostazione().getEdificio().getCivico() + " - " + b.getPostazione().getEdificio().getCitta() + ")"));
+	
+		System.out.println();
+		System.out.println("***********************************************************************************************************************************************************");
+		System.out.println();
 		
-		System.out.println();
-		System.out.println("****************************************************************************************************************************");
-		System.out.println();
 		
 	}
 }

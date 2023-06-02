@@ -27,9 +27,9 @@ public class PrenotazioneConfiguration {
 	@Scope("prototype")
 	public Prenotazione fake() {
 		Faker fake = Faker.instance(new Locale("it-IT"));
-		LocalDate giorno = fake.date().future(1, TimeUnit.DAYS).toInstant().atZone(ZoneId.systemDefault()).toLocalDate();
-		Utente utente =  userService.getByID(fake.random().nextInt(1,5));
-		Postazione postazione = workstationService.getByID(fake.random().nextInt(1,5));
+		LocalDate giorno = fake.date().future(10, TimeUnit.DAYS).toInstant().atZone(ZoneId.systemDefault()).toLocalDate();
+		Utente utente =  userService.getByID(fake.random().nextInt(1,userService.getAll().size()));
+		Postazione postazione = workstationService.getByID(fake.random().nextInt(1,workstationService.getAll().size()));
 		Prenotazione prenotazioneFake = new Prenotazione(giorno, postazione, utente);
 		return prenotazioneFake;
 	}

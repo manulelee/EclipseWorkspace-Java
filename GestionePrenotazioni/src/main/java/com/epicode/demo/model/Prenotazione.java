@@ -3,6 +3,7 @@ package com.epicode.demo.model;
 import java.time.LocalDate;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
@@ -26,10 +27,10 @@ public class Prenotazione {
 	
 	private LocalDate giorno;
 	
-	@ManyToOne () 
+	@ManyToOne (fetch = FetchType.EAGER)
 	private Postazione postazione;
 	
-	@ManyToOne 
+	@ManyToOne (fetch = FetchType.EAGER)
 	private Utente utente;
 
 	public Prenotazione(LocalDate giorno, Postazione postazione, Utente utente) {
@@ -37,6 +38,11 @@ public class Prenotazione {
 		this.giorno = giorno;
 		this.postazione = postazione;
 		this.utente = utente;
+	}
+
+	@Override
+	public String toString() {
+		return "ID: " + id + " • giorno: " + giorno + ", " + postazione.getTipo().toString() + ", utente " + utente.getUsername();
 	}
 	
 	
