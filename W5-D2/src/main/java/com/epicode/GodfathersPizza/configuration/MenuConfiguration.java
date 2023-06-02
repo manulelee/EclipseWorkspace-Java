@@ -1,7 +1,5 @@
 package com.epicode.GodfathersPizza.configuration;
 
-import java.util.List;
-
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -45,7 +43,7 @@ public class MenuConfiguration {
 		
 		m.getMenuFranchise().add(franchiseMug());
 		m.getMenuFranchise().add(franchiseShirt());
-		
+
 		return m;
 	}
 	

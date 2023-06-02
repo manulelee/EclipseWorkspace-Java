@@ -1,52 +1,282 @@
-14:50:55.947 [restartedMain] INFO  c.e.G.GodfathersPizzaApplication - Starting GodfathersPizzaApplication using Java 17.0.7 with PID 88057 (/Users/manu/eclipse-workspace/W5-D2/target/classes started by manu in /Users/manu/eclipse-workspace/W5-D2)
-14:50:55.949 [restartedMain] INFO  c.e.G.GodfathersPizzaApplication - No active profile set, falling back to 1 default profile: "default"
-14:50:55.988 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-14:50:56.381 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-14:50:56.398 [restartedMain] INFO  c.e.G.GodfathersPizzaApplication - Started GodfathersPizzaApplication in 0.711 seconds (process running for 1.273)
-14:51:07.845 [restartedMain] INFO  c.e.G.GodfathersPizzaApplication - Starting GodfathersPizzaApplication using Java 17.0.7 with PID 88063 (/Users/manu/eclipse-workspace/W5-D2/target/classes started by manu in /Users/manu/eclipse-workspace/W5-D2)
-14:51:07.847 [restartedMain] INFO  c.e.G.GodfathersPizzaApplication - No active profile set, falling back to 1 default profile: "default"
-14:51:07.887 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-14:51:08.249 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-14:51:08.266 [restartedMain] INFO  c.e.G.GodfathersPizzaApplication - Started GodfathersPizzaApplication in 0.68 seconds (process running for 1.298)
-14:51:10.224 [restartedMain] INFO  c.e.G.GodfathersPizzaApplication - Starting GodfathersPizzaApplication using Java 17.0.7 with PID 88065 (/Users/manu/eclipse-workspace/W5-D2/target/classes started by manu in /Users/manu/eclipse-workspace/W5-D2)
-14:51:10.226 [restartedMain] INFO  c.e.G.GodfathersPizzaApplication - No active profile set, falling back to 1 default profile: "default"
-14:51:10.268 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-14:51:10.642 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-14:51:10.660 [restartedMain] INFO  c.e.G.GodfathersPizzaApplication - Started GodfathersPizzaApplication in 0.697 seconds (process running for 1.33)
-14:51:15.027 [restartedMain] INFO  c.e.G.GodfathersPizzaApplication - Starting GodfathersPizzaApplication using Java 17.0.7 with PID 88067 (/Users/manu/eclipse-workspace/W5-D2/target/classes started by manu in /Users/manu/eclipse-workspace/W5-D2)
-14:51:15.029 [restartedMain] INFO  c.e.G.GodfathersPizzaApplication - No active profile set, falling back to 1 default profile: "default"
-14:51:15.070 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-14:51:15.509 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-14:51:15.526 [restartedMain] INFO  c.e.G.GodfathersPizzaApplication - Started GodfathersPizzaApplication in 0.828 seconds (process running for 1.223)
-14:57:47.463 [restartedMain] INFO  c.e.G.GodfathersPizzaApplication - Starting GodfathersPizzaApplication using Java 17.0.7 with PID 88434 (/Users/manu/eclipse-workspace/W5-D2/target/classes started by manu in /Users/manu/eclipse-workspace/W5-D2)
-14:57:47.465 [restartedMain] INFO  c.e.G.GodfathersPizzaApplication - No active profile set, falling back to 1 default profile: "default"
-14:57:47.514 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-14:57:48.052 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-14:57:48.072 [restartedMain] INFO  c.e.G.GodfathersPizzaApplication - Started GodfathersPizzaApplication in 0.994 seconds (process running for 1.633)
-14:57:48.089 [restartedMain] INFO  c.e.G.runner.RunnerClass - Pizza Margherita (tomato, cheese) - calories: 1104.0 - price: 4.99
-14:57:48.089 [restartedMain] INFO  c.e.G.runner.RunnerClass - Pizza Hawaiian (tomato, cheese, ham, pineapple) - calories: 1024.0 - price: 6.49
-14:57:48.089 [restartedMain] INFO  c.e.G.runner.RunnerClass - Pizza Salami (tomato, cheese, salami) - calories: 1024.0 - price: 6.49
-14:57:48.089 [restartedMain] INFO  c.e.G.runner.RunnerClass - Family Size for Pizza - calories: x1.95 - price: +4.15
-14:57:48.090 [restartedMain] INFO  c.e.G.runner.RunnerClass - Cheese - calories: 92.0 - price: 0.69
-14:57:48.090 [restartedMain] INFO  c.e.G.runner.RunnerClass - Onions - calories: 22.0 - price: 0.69
-14:57:48.090 [restartedMain] INFO  c.e.G.runner.RunnerClass - Salami - calories: 86.0 - price: 0.99
-14:57:48.091 [restartedMain] INFO  c.e.G.runner.RunnerClass - Lemonade (0.33l) - calories: 128.0 - price: 1.29
-14:57:48.091 [restartedMain] INFO  c.e.G.runner.RunnerClass - Water (0.5l) - calories: 0.0 - price: 1.29
-14:57:48.092 [restartedMain] INFO  c.e.G.runner.RunnerClass - Mug - price: 4.99
-14:57:48.092 [restartedMain] INFO  c.e.G.runner.RunnerClass - Shirt - price: 21.99
-14:58:12.624 [restartedMain] INFO  c.e.G.GodfathersPizzaApplication - Starting GodfathersPizzaApplication using Java 17.0.7 with PID 88446 (/Users/manu/eclipse-workspace/W5-D2/target/classes started by manu in /Users/manu/eclipse-workspace/W5-D2)
-14:58:12.626 [restartedMain] INFO  c.e.G.GodfathersPizzaApplication - No active profile set, falling back to 1 default profile: "default"
-14:58:12.667 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-14:58:13.083 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-14:58:13.102 [restartedMain] INFO  c.e.G.GodfathersPizzaApplication - Started GodfathersPizzaApplication in 0.774 seconds (process running for 1.421)
-14:58:13.114 [restartedMain] INFO  c.e.G.runner.RunnerClass - Pizza Margherita (tomato, cheese) - calories: 1104.0 - price: 4.99
-14:58:13.114 [restartedMain] INFO  c.e.G.runner.RunnerClass - Pizza Hawaiian (tomato, cheese, ham, pineapple) - calories: 1024.0 - price: 6.49
-14:58:13.114 [restartedMain] INFO  c.e.G.runner.RunnerClass - Pizza Salami (tomato, cheese, salami) - calories: 1024.0 - price: 6.49
-14:58:13.114 [restartedMain] INFO  c.e.G.runner.RunnerClass - Family Size for Pizza - calories: x1.95 - price: +4.15
-14:58:13.114 [restartedMain] INFO  c.e.G.runner.RunnerClass - Cheese - calories: 92.0 - price: 0.69
-14:58:13.115 [restartedMain] INFO  c.e.G.runner.RunnerClass - Onions - calories: 22.0 - price: 0.69
-14:58:13.115 [restartedMain] INFO  c.e.G.runner.RunnerClass - Salami - calories: 86.0 - price: 0.99
-14:58:13.115 [restartedMain] INFO  c.e.G.runner.RunnerClass - Lemonade (0.33l) - calories: 128.0 - price: 1.29
-14:58:13.115 [restartedMain] INFO  c.e.G.runner.RunnerClass - Water (0.5l) - calories: 0.0 - price: 1.29
-14:58:13.116 [restartedMain] INFO  c.e.G.runner.RunnerClass - Mug - price: 4.99
-14:58:13.116 [restartedMain] INFO  c.e.G.runner.RunnerClass - Shirt - price: 21.99
+10:17:29.458 - Starting GodfathersPizzaApplication using Java 17.0.7 with PID 98866 (/Users/manu/eclipse-workspace/W5-D2/target/classes started by manu in /Users/manu/eclipse-workspace/W5-D2)
+10:17:29.461 - No active profile set, falling back to 1 default profile: "default"
+10:17:29.517 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+10:17:30.187 - LiveReload server is running on port 35729
+10:17:30.212 - Started GodfathersPizzaApplication in 1.225 seconds (process running for 7.257)
+10:17:30.227 - Pizza Margherita (tomato, cheese) - calories: 1104.0 - price: 4.99
+10:17:30.228 - Pizza Hawaiian (tomato, cheese, ham, pineapple) - calories: 1024.0 - price: 6.49
+10:17:30.228 - Pizza Salami (tomato, cheese, salami) - calories: 1024.0 - price: 6.49
+10:17:30.228 - Family Size Pizza Margherita (tomato, cheese) - calories: 2152,80 - price: 9.14
+10:17:30.229 - Cheese - calories: 92.0 - price: 0.69
+10:17:30.229 - Onions - calories: 22.0 - price: 0.69
+10:17:30.229 - Salami - calories: 86.0 - price: 0.99
+10:17:30.230 - Lemonade (0.33l) - calories: 128.0 - price: 1.29
+10:17:30.230 - Water (0.5l) - calories: 0.0 - price: 1.29
+10:17:30.230 - Mug - price: 4.99
+10:17:30.231 - Shirt - price: 21.99
+10:17:30.237 - Table(id=1, numeroMax=4, disponibile=true)
+10:17:30.243 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+10:17:30.269 - Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:773)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1305)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1294)
+	at com.epicode.GodfathersPizza.GodfathersPizzaApplication.main(GodfathersPizzaApplication.java:19)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'order' defined in com.epicode.GodfathersPizza.configuration.OrderConfigurator: Failed to instantiate [com.epicode.GodfathersPizza.model.Order]: Factory method 'order' threw exception with message: Cannot invoke "java.util.List.toArray()" because "this.prodotti" is null
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:659)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:493)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:344)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1156)
+	at com.epicode.GodfathersPizza.runner.RunnerClass.configOrderWith_Bean(RunnerClass.java:61)
+	at com.epicode.GodfathersPizza.runner.RunnerClass.run(RunnerClass.java:26)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:770)
+	... 10 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.epicode.GodfathersPizza.model.Order]: Factory method 'order' threw exception with message: Cannot invoke "java.util.List.toArray()" because "this.prodotti" is null
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655)
+	... 21 common frames omitted
+Caused by: java.lang.NullPointerException: Cannot invoke "java.util.List.toArray()" because "this.prodotti" is null
+	at com.epicode.GodfathersPizza.model.Order.calcoloTotale(Order.java:35)
+	at com.epicode.GodfathersPizza.model.Order.<init>(Order.java:30)
+	at com.epicode.GodfathersPizza.configuration.OrderConfigurator.order(OrderConfigurator.java:25)
+	at com.epicode.GodfathersPizza.configuration.OrderConfigurator$$SpringCGLIB$$0.CGLIB$order$1(<generated>)
+	at com.epicode.GodfathersPizza.configuration.OrderConfigurator$$SpringCGLIB$$2.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at com.epicode.GodfathersPizza.configuration.OrderConfigurator$$SpringCGLIB$$0.order(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139)
+	... 22 common frames omitted
+10:17:32.717 - Starting GodfathersPizzaApplication using Java 17.0.7 with PID 98869 (/Users/manu/eclipse-workspace/W5-D2/target/classes started by manu in /Users/manu/eclipse-workspace/W5-D2)
+10:17:32.719 - No active profile set, falling back to 1 default profile: "default"
+10:17:32.762 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+10:17:33.448 - LiveReload server is running on port 35729
+10:17:33.475 - Started GodfathersPizzaApplication in 1.085 seconds (process running for 6.853)
+10:17:33.488 - Pizza Margherita (tomato, cheese) - calories: 1104.0 - price: 4.99
+10:17:33.489 - Pizza Hawaiian (tomato, cheese, ham, pineapple) - calories: 1024.0 - price: 6.49
+10:17:33.489 - Pizza Salami (tomato, cheese, salami) - calories: 1024.0 - price: 6.49
+10:17:33.490 - Family Size Pizza Margherita (tomato, cheese) - calories: 2152,80 - price: 9.14
+10:17:33.490 - Cheese - calories: 92.0 - price: 0.69
+10:17:33.490 - Onions - calories: 22.0 - price: 0.69
+10:17:33.491 - Salami - calories: 86.0 - price: 0.99
+10:17:33.491 - Lemonade (0.33l) - calories: 128.0 - price: 1.29
+10:17:33.492 - Water (0.5l) - calories: 0.0 - price: 1.29
+10:17:33.492 - Mug - price: 4.99
+10:17:33.493 - Shirt - price: 21.99
+10:17:33.506 - Table(id=1, numeroMax=4, disponibile=true)
+10:17:33.514 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+10:17:33.534 - Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:773)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1305)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1294)
+	at com.epicode.GodfathersPizza.GodfathersPizzaApplication.main(GodfathersPizzaApplication.java:19)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'order' defined in com.epicode.GodfathersPizza.configuration.OrderConfigurator: Failed to instantiate [com.epicode.GodfathersPizza.model.Order]: Factory method 'order' threw exception with message: Cannot invoke "java.util.List.toArray()" because "this.prodotti" is null
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:659)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:493)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:344)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1156)
+	at com.epicode.GodfathersPizza.runner.RunnerClass.configOrderWith_Bean(RunnerClass.java:61)
+	at com.epicode.GodfathersPizza.runner.RunnerClass.run(RunnerClass.java:26)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:770)
+	... 10 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.epicode.GodfathersPizza.model.Order]: Factory method 'order' threw exception with message: Cannot invoke "java.util.List.toArray()" because "this.prodotti" is null
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655)
+	... 21 common frames omitted
+Caused by: java.lang.NullPointerException: Cannot invoke "java.util.List.toArray()" because "this.prodotti" is null
+	at com.epicode.GodfathersPizza.model.Order.calcoloTotale(Order.java:35)
+	at com.epicode.GodfathersPizza.model.Order.<init>(Order.java:30)
+	at com.epicode.GodfathersPizza.configuration.OrderConfigurator.order(OrderConfigurator.java:25)
+	at com.epicode.GodfathersPizza.configuration.OrderConfigurator$$SpringCGLIB$$0.CGLIB$order$1(<generated>)
+	at com.epicode.GodfathersPizza.configuration.OrderConfigurator$$SpringCGLIB$$2.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at com.epicode.GodfathersPizza.configuration.OrderConfigurator$$SpringCGLIB$$0.order(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139)
+	... 22 common frames omitted
+10:17:35.244 - Starting GodfathersPizzaApplication using Java 17.0.7 with PID 98870 (/Users/manu/eclipse-workspace/W5-D2/target/classes started by manu in /Users/manu/eclipse-workspace/W5-D2)
+10:17:35.246 - No active profile set, falling back to 1 default profile: "default"
+10:17:35.290 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+10:17:35.855 - LiveReload server is running on port 35729
+10:17:35.887 - Started GodfathersPizzaApplication in 1.118 seconds (process running for 6.949)
+10:17:35.905 - Pizza Margherita (tomato, cheese) - calories: 1104.0 - price: 4.99
+10:17:35.906 - Pizza Hawaiian (tomato, cheese, ham, pineapple) - calories: 1024.0 - price: 6.49
+10:17:35.907 - Pizza Salami (tomato, cheese, salami) - calories: 1024.0 - price: 6.49
+10:17:35.908 - Family Size Pizza Margherita (tomato, cheese) - calories: 2152,80 - price: 9.14
+10:17:35.910 - Cheese - calories: 92.0 - price: 0.69
+10:17:35.911 - Onions - calories: 22.0 - price: 0.69
+10:17:35.911 - Salami - calories: 86.0 - price: 0.99
+10:17:35.911 - Lemonade (0.33l) - calories: 128.0 - price: 1.29
+10:17:35.912 - Water (0.5l) - calories: 0.0 - price: 1.29
+10:17:35.912 - Mug - price: 4.99
+10:17:35.912 - Shirt - price: 21.99
+10:17:35.919 - Table(id=1, numeroMax=4, disponibile=true)
+10:17:35.923 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+10:17:35.947 - Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:773)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1305)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1294)
+	at com.epicode.GodfathersPizza.GodfathersPizzaApplication.main(GodfathersPizzaApplication.java:19)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'order' defined in com.epicode.GodfathersPizza.configuration.OrderConfigurator: Failed to instantiate [com.epicode.GodfathersPizza.model.Order]: Factory method 'order' threw exception with message: Cannot invoke "java.util.List.toArray()" because "this.prodotti" is null
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:659)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:493)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:344)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1156)
+	at com.epicode.GodfathersPizza.runner.RunnerClass.configOrderWith_Bean(RunnerClass.java:61)
+	at com.epicode.GodfathersPizza.runner.RunnerClass.run(RunnerClass.java:26)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:770)
+	... 10 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.epicode.GodfathersPizza.model.Order]: Factory method 'order' threw exception with message: Cannot invoke "java.util.List.toArray()" because "this.prodotti" is null
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655)
+	... 21 common frames omitted
+Caused by: java.lang.NullPointerException: Cannot invoke "java.util.List.toArray()" because "this.prodotti" is null
+	at com.epicode.GodfathersPizza.model.Order.calcoloTotale(Order.java:35)
+	at com.epicode.GodfathersPizza.model.Order.<init>(Order.java:30)
+	at com.epicode.GodfathersPizza.configuration.OrderConfigurator.order(OrderConfigurator.java:25)
+	at com.epicode.GodfathersPizza.configuration.OrderConfigurator$$SpringCGLIB$$0.CGLIB$order$1(<generated>)
+	at com.epicode.GodfathersPizza.configuration.OrderConfigurator$$SpringCGLIB$$2.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at com.epicode.GodfathersPizza.configuration.OrderConfigurator$$SpringCGLIB$$0.order(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139)
+	... 22 common frames omitted
+10:17:58.552 - Starting GodfathersPizzaApplication using Java 17.0.7 with PID 98882 (/Users/manu/eclipse-workspace/W5-D2/target/classes started by manu in /Users/manu/eclipse-workspace/W5-D2)
+10:17:58.554 - No active profile set, falling back to 1 default profile: "default"
+10:17:58.615 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+10:17:59.266 - LiveReload server is running on port 35729
+10:17:59.290 - Started GodfathersPizzaApplication in 1.248 seconds (process running for 1.913)
+10:17:59.315 - Pizza Margherita (tomato, cheese) - calories: 1104.0 - price: 4.99
+10:17:59.316 - Pizza Hawaiian (tomato, cheese, ham, pineapple) - calories: 1024.0 - price: 6.49
+10:17:59.316 - Pizza Salami (tomato, cheese, salami) - calories: 1024.0 - price: 6.49
+10:17:59.316 - Family Size Pizza Margherita (tomato, cheese) - calories: 2152,80 - price: 9.14
+10:17:59.317 - Cheese - calories: 92.0 - price: 0.69
+10:17:59.317 - Onions - calories: 22.0 - price: 0.69
+10:17:59.317 - Salami - calories: 86.0 - price: 0.99
+10:17:59.317 - Lemonade (0.33l) - calories: 128.0 - price: 1.29
+10:17:59.318 - Water (0.5l) - calories: 0.0 - price: 1.29
+10:17:59.318 - Mug - price: 4.99
+10:17:59.318 - Shirt - price: 21.99
+10:17:59.333 - Table(id=1, numeroMax=4, disponibile=true)
+10:17:59.338 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+10:17:59.364 - Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:773)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1305)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1294)
+	at com.epicode.GodfathersPizza.GodfathersPizzaApplication.main(GodfathersPizzaApplication.java:19)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'order' defined in com.epicode.GodfathersPizza.configuration.OrderConfigurator: Failed to instantiate [com.epicode.GodfathersPizza.model.Order]: Factory method 'order' threw exception with message: Cannot invoke "java.util.List.toArray()" because "this.prodotti" is null
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:659)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:493)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:344)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1156)
+	at com.epicode.GodfathersPizza.runner.RunnerClass.configOrderWith_Bean(RunnerClass.java:61)
+	at com.epicode.GodfathersPizza.runner.RunnerClass.run(RunnerClass.java:26)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:770)
+	... 10 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.epicode.GodfathersPizza.model.Order]: Factory method 'order' threw exception with message: Cannot invoke "java.util.List.toArray()" because "this.prodotti" is null
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655)
+	... 21 common frames omitted
+Caused by: java.lang.NullPointerException: Cannot invoke "java.util.List.toArray()" because "this.prodotti" is null
+	at com.epicode.GodfathersPizza.model.Order.calcoloTotale(Order.java:35)
+	at com.epicode.GodfathersPizza.model.Order.<init>(Order.java:30)
+	at com.epicode.GodfathersPizza.configuration.OrderConfigurator.order(OrderConfigurator.java:25)
+	at com.epicode.GodfathersPizza.configuration.OrderConfigurator$$SpringCGLIB$$0.CGLIB$order$1(<generated>)
+	at com.epicode.GodfathersPizza.configuration.OrderConfigurator$$SpringCGLIB$$2.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at com.epicode.GodfathersPizza.configuration.OrderConfigurator$$SpringCGLIB$$0.order(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139)
+	... 22 common frames omitted
+10:20:10.642 - Starting GodfathersPizzaApplication using Java 17.0.7 with PID 98935 (/Users/manu/eclipse-workspace/W5-D2/target/classes started by manu in /Users/manu/eclipse-workspace/W5-D2)
+10:20:10.645 - No active profile set, falling back to 1 default profile: "default"
+10:20:10.699 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+10:20:11.327 - LiveReload server is running on port 35729
+10:20:11.352 - Started GodfathersPizzaApplication in 1.135 seconds (process running for 1.751)
+10:20:11.368 - Pizza Margherita (tomato, cheese) - calories: 1104.0 - price: 4.99
+10:20:11.368 - Pizza Hawaiian (tomato, cheese, ham, pineapple) - calories: 1024.0 - price: 6.49
+10:20:11.368 - Pizza Salami (tomato, cheese, salami) - calories: 1024.0 - price: 6.49
+10:20:11.369 - Family Size Pizza Margherita (tomato, cheese) - calories: 2152,80 - price: 9.14
+10:20:11.369 - Cheese - calories: 92.0 - price: 0.69
+10:20:11.369 - Onions - calories: 22.0 - price: 0.69
+10:20:11.369 - Salami - calories: 86.0 - price: 0.99
+10:20:11.370 - Lemonade (0.33l) - calories: 128.0 - price: 1.29
+10:20:11.370 - Water (0.5l) - calories: 0.0 - price: 1.29
+10:20:11.371 - Mug - price: 4.99
+10:20:11.372 - Shirt - price: 21.99
+10:20:11.383 - Table(id=1, numeroMax=4, disponibile=true)
+10:20:11.387 - Order(costoCoperto=${tavolo.coperto.costo}, id=0, coperti=0, tavolo=null, prodotti=null, note=null, stato=null, ora=null, totale=0.0)
