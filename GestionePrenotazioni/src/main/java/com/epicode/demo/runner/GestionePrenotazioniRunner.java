@@ -12,6 +12,7 @@ import org.springframework.stereotype.Component;
 import com.epicode.demo.model.Edificio;
 import com.epicode.demo.model.Postazione;
 import com.epicode.demo.model.Prenotazione;
+import com.epicode.demo.model.TipoPostazione;
 import com.epicode.demo.model.Utente;
 import com.epicode.demo.service.EdificioService;
 import com.epicode.demo.service.PostazioneService;
@@ -85,6 +86,11 @@ public class GestionePrenotazioniRunner implements ApplicationRunner{
 //			p.setEdificio(buildingService.getByID(buildingID));
 //			workstationService.insertWorkstation(p);
 //		}
+		
+		
+//		//Ricerca da citta e tipo postazione
+//		System.out.println(workstationService.findByCittaAndTipo("Cagliari", TipoPostazione.SALA_RIUNIONI));
+//		System.out.println();
 		
 		workstationService.getAll().forEach(w->System.out.println("ID: " + w.getId() + " - " + w.getDescrizione() + " • " + w.getTipo().toString().toLowerCase() + 
 																 " • "+ w.getNumeroMassimo() + " persone max (" + w.getEdificio().getNome() + " - " + w.getEdificio().getCitta() + ")"));

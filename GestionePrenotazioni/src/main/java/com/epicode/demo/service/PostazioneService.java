@@ -9,7 +9,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
+import com.epicode.demo.model.Edificio;
 import com.epicode.demo.model.Postazione;
+import com.epicode.demo.model.TipoPostazione;
 import com.epicode.demo.repository.PostazioneDaoRepository;
 
 @Service
@@ -52,4 +54,13 @@ public class PostazioneService {
 	public List<Postazione> getAll() {
 		return postazione.findAll();
 	}
+	
+	public List<Postazione> findByEdificioAndTipo (Edificio edificio, TipoPostazione tipo){
+		return postazione.findByEdificioAndTipo (edificio, tipo);
+	}
+	
+	public List<Postazione> findByCittaAndTipo(String citta, TipoPostazione tipo){
+		return postazione.findByCittaAndTipo(citta, tipo);
+	}
+	
 }
