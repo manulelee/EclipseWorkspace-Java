@@ -1,6 +1,7 @@
 package com.epicode.demo.runner;
 
 import java.time.LocalDate;
+import java.util.List;
 import java.util.Locale;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -94,13 +95,13 @@ public class GestionePrenotazioniRunner implements ApplicationRunner{
 		System.out.println();
 		
 	
-//		//Inserimento di 20 prenotazioni con controllo sulla lista
-//		
-//		for(int i=0;  i<20; i++) {
-//			Prenotazione b = bookingService.creaPrenotazioneFake();
-//			bookingService.insertBooking(b);
-//		}
-//				
+		//Inserimento di 20 prenotazioni con controllo sulla lista
+		
+		for(int i=0;  i<5; i++) {
+			Prenotazione b = bookingService.creaPrenotazioneFake();
+			bookingService.insertBooking(b);
+		}
+				
 //		//Inserimento prenotazione custom con controllo sulla lista
 //		
 //		Utente me = userService.getByID(1);
@@ -108,8 +109,13 @@ public class GestionePrenotazioniRunner implements ApplicationRunner{
 //		bookingService.insertBooking(b_me);
 //		Prenotazione b_me2 = bookingService.creaPrenotazione(LocalDate.of(2023, 07, 01), workstationService.getAll().get(3), me);
 //		bookingService.insertBooking(b_me2);
+//		System.out.println();
+//		
+//		List<Prenotazione> c = bookingService.findByGiornoAndPostazione(LocalDate.of(2023, 06, 06), workstationService.getByID(2));
+//		System.out.println(c.size());
 		
-		bookingService.getAll().forEach(b->System.out.println("ID: " + b.getId() + " - " + b.getUtente().getNome() + " " + b.getUtente().getCognome() + " @ " + b.getPostazione().getEdificio().getNome() + " ("+ b.getPostazione().getTipo().toString().toLowerCase() + 
+		
+		bookingService.getAll().forEach(b->System.out.println("ID: " + b.getId() + " - " + b.getUtente().getNome() + " " + b.getUtente().getCognome() + " @ " + b.getPostazione().getDescrizione() + " ("+ b.getPostazione().getTipo().toString().toLowerCase() + 
 				 ") " + b.getGiorno() +" • "+ b.getPostazione().getNumeroMassimo() + " persone max (" + b.getPostazione().getEdificio().getVia()+ ", "+b.getPostazione().getEdificio().getCivico() + " - " + b.getPostazione().getEdificio().getCitta() + ")"));
 	
 		System.out.println();
