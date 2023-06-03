@@ -2,6 +2,8 @@ package com.epicode.demo.service;
 
 import java.util.List;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.ObjectProvider;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -20,6 +22,8 @@ public class UtenteService {
 	@Autowired @Qualifier("UtenteFakeBean") ObjectProvider<Utente> utenteFakeProvider;
 	@Autowired @Qualifier("UtenteBean") ObjectProvider<Utente> utenteProvider;
 	
+	public static Logger log = LoggerFactory.getLogger(UtenteService.class);
+	
 	public Utente creaUtenteAdmin() {
 		return utenteAdminProvider.getObject();
 	}
@@ -34,17 +38,17 @@ public class UtenteService {
 	
 	public void insertUser(Utente u) {
 		utente.save(u);
-		System.out.println("Utente " + u.getNome() + " " + u.getCognome() + " salvato nel database...");
+		log.info("Utente " + u.getNome() + " " + u.getCognome() + " salvato nel database...");
 	}
 	
 	public void updateUser(Utente u) {
 		utente.save(u);
-		System.out.println("Utente " + u.getNome() + " " + u.getCognome() + " modificato nel database...");
+		log.info("Utente " + u.getNome() + " " + u.getCognome() + " modificato nel database...");
 	}
 	
 	public void deleteUser(Utente u) {
 		utente.delete(u);
-		System.out.println("Utente " + u.getNome() + " " + u.getCognome() + " eliminato dal database...");
+		log.info("Utente " + u.getNome() + " " + u.getCognome() + " eliminato dal database...");
 	}
 	
 	public Utente getByID(int id) {

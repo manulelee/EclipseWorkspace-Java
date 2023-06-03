@@ -2,6 +2,8 @@ package com.epicode.demo.service;
 
 import java.util.List;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.ObjectProvider;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -19,6 +21,8 @@ public class EdificioService {
 	@Autowired @Qualifier("EdificioFakeBean") ObjectProvider<Edificio> edificioFakeProvider;
 	@Autowired @Qualifier("EdificioBean") ObjectProvider<Edificio> edificioProvider;
 	
+	public static Logger log = LoggerFactory.getLogger(EdificioService.class);
+	
 	public Edificio creaEdificioFake() {
 		return edificioFakeProvider.getObject();
 	}
@@ -29,17 +33,17 @@ public class EdificioService {
 	
 	public void insertBuilding(Edificio e) {
 		edificio.save(e);
-		System.out.println("Edificio " + e.getNome() + " (" + e.getCitta() + ") salvato nel database...");
+		log.info("Edificio " + e.getNome() + " (" + e.getCitta() + ") salvato nel database...");
 	}
 	
 	public void updateBuilding(Edificio e) {
 		edificio.save(e);
-		System.out.println("Edificio " + e.getNome() + " (" + e.getCitta() + ") modificato nel database...");
+		log.info("Edificio " + e.getNome() + " (" + e.getCitta() + ") modificato nel database...");
 	}
 	
 	public void deleteBuilding(Edificio e) {
 		edificio.delete(e);
-		System.out.println("Edificio " + e.getNome() + " (" + e.getCitta() + ") eliminato dal database...");
+		log.info("Edificio " + e.getNome() + " (" + e.getCitta() + ") eliminato dal database...");
 	}
 	
 	public Edificio getByID(int id) {

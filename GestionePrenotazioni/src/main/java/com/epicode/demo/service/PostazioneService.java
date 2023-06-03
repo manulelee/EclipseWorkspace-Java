@@ -2,6 +2,8 @@ package com.epicode.demo.service;
 
 import java.util.List;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.ObjectProvider;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -18,6 +20,8 @@ public class PostazioneService {
 	@Autowired @Qualifier("PostazioneFakeBean") ObjectProvider<Postazione> postazioneFakeProvider;
 	@Autowired @Qualifier("PostazioneBean") ObjectProvider<Postazione> postazioneProvider;
 
+	public static Logger log = LoggerFactory.getLogger(PostazioneService.class);
+	
 	public Postazione creaPostazioneFake() {
 		return postazioneFakeProvider.getObject();
 	}
@@ -28,17 +32,17 @@ public class PostazioneService {
 	
 	public void insertWorkstation(Postazione p) {
 		postazione.save(p);
-		System.out.println("Postazione " + p.getTipo() + " (" + p.getEdificio().getNome() + ") salvata nel database...");
+		log.info("Postazione " + p.getTipo() + " (" + p.getEdificio().getNome() + ") salvata nel database...");
 	}
 	
 	public void updateWorkstation(Postazione p) {
 		postazione.save(p);
-		System.out.println("Postazione " + p.getTipo() + " (" + p.getEdificio().getNome() + ") modificata nel database...");
+		log.info("Postazione " + p.getTipo() + " (" + p.getEdificio().getNome() + ") modificata nel database...");
 	}
 	
 	public void deleteWorkstation(Postazione p) {
 		postazione.delete(p);
-		System.out.println("Postazione " + p.getTipo() + " (" + p.getEdificio().getNome() + ") eliminata dal database...");
+		log.info("Postazione " + p.getTipo() + " (" + p.getEdificio().getNome() + ") eliminata dal database...");
 	}
 	
 	public Postazione getByID(int id) {

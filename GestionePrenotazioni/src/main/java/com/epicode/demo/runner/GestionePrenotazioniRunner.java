@@ -46,7 +46,7 @@ public class GestionePrenotazioniRunner implements ApplicationRunner{
 //		Utente u2 = userService.creaUtente("Emanuele", "Umberto", "EMANUELE.UMBERTO", "ema.umbe@gmail.com");
 //		userService.insertUser(u2);
 //	
-// 		//Inserimento di n utenti custom
+// 		//Inserimento di n utenti fake
 //		
 //		for(int i=0;  i<8; i++) {
 //			Utente u = userService.creaUtenteFake();
@@ -95,26 +95,13 @@ public class GestionePrenotazioniRunner implements ApplicationRunner{
 		System.out.println();
 		
 	
-		//Inserimento di 20 prenotazioni con controllo sulla lista
-		
-		for(int i=0;  i<5; i++) {
-			Prenotazione b = bookingService.creaPrenotazioneFake();
-			bookingService.insertBooking(b);
-		}
-				
-//		//Inserimento prenotazione custom con controllo sulla lista
+//		//Inserimento di 20 prenotazioni con controllo sulla lista
 //		
-//		Utente me = userService.getByID(1);
-//		Prenotazione b_me = bookingService.creaPrenotazione(LocalDate.of(2023, 07, 01), workstationService.getAll().get(2), me);
-//		bookingService.insertBooking(b_me);
-//		Prenotazione b_me2 = bookingService.creaPrenotazione(LocalDate.of(2023, 07, 01), workstationService.getAll().get(3), me);
-//		bookingService.insertBooking(b_me2);
-//		System.out.println();
-//		
-//		List<Prenotazione> c = bookingService.findByGiornoAndPostazione(LocalDate.of(2023, 06, 06), workstationService.getByID(2));
-//		System.out.println(c.size());
-		
-		
+//		for(int i=0;  i<5; i++) {
+//			Prenotazione b = bookingService.creaPrenotazioneFake();
+//			bookingService.insertBooking(b);
+//		}		
+	
 		bookingService.getAll().forEach(b->System.out.println("ID: " + b.getId() + " - " + b.getUtente().getNome() + " " + b.getUtente().getCognome() + " @ " + b.getPostazione().getDescrizione() + " ("+ b.getPostazione().getTipo().toString().toLowerCase() + 
 				 ") " + b.getGiorno() +" • "+ b.getPostazione().getNumeroMassimo() + " persone max (" + b.getPostazione().getEdificio().getVia()+ ", "+b.getPostazione().getEdificio().getCivico() + " - " + b.getPostazione().getEdificio().getCitta() + ")"));
 	
