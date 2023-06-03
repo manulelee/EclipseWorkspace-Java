@@ -24,7 +24,6 @@
     <fullyQualifiedTypeName name="com.epicode.demo.repository.EdificioDaoRepository"/>
     <fullyQualifiedTypeName name="com.epicode.demo.service.EdificioService"/>
     <fullyQualifiedTypeName name="com.github.javafaker.Address"/>
-    <fullyQualifiedTypeName name="com.epicode.demo.model.TipoPostazione"/>
     <fullyQualifiedTypeName name="com.epicode.demo.repository.PostazioneDaoRepository"/>
     <fullyQualifiedTypeName name="com.epicode.demo.model.postazione"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
@@ -42,9 +41,7 @@
     <fullyQualifiedTypeName name="com.epicode.demo.GestionePrenotazioniApplication"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.concurrent.atomic.AtomicBoolean"/>
-    <fullyQualifiedTypeName name="com.epicode.demo.model.Edificio"/>
     <fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.security.reactive.ReactiveUserDetailsServiceAutoConfiguration"/>
-    <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.Query"/>
     <fullyQualifiedTypeName name="com.epicode.demo.model.Postazione"/>
     <fullyQualifiedTypeName name="com.epicode.demo.repository.UtenteDaoRepository"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
@@ -60,4 +57,7 @@
     <fullyQualifiedTypeName name="com.epicode.demo.service.PostazioneService"/>
     <fullyQualifiedTypeName name="com.epicode.demo.service.UtenteService"/>
     <fullyQualifiedTypeName name="com.epicode.demo.service.PrenotazioneService"/>
+    <fullyQualifiedTypeName name="com.epicode.demo.model.TipoPostazione"/>
+    <fullyQualifiedTypeName name="com.epicode.demo.model.Edificio"/>
+    <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.Query"/>
 </qualifiedTypeNameHistroy>
