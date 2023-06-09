@@ -14,18 +14,14 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.epicode.model.Device;
 import com.epicode.model.User;
 import com.epicode.repository.UserRepository;
-import com.epicode.service.DeviceService;
-
 
 @RestController
 @RequestMapping("/api/users")
 public class UserController {
 	
 	@Autowired private UserRepository userService;
-	@Autowired private DeviceService deviceService;
 	
 	@GetMapping
 	@PreAuthorize("isAuthenticated()")
