@@ -32,19 +32,20 @@ public class PostazioneService {
 		return postazioneProvider.getObject(nome, cognome, username, email);
 	}
 	
-	public void insertWorkstation(Postazione p) {
-		postazione.save(p);
-		log.info("Postazione " + p.getTipo() + " (" + p.getEdificio().getNome() + ") salvata nel database...");
+	public Postazione insertWorkstation(Postazione p) {
+		return postazione.save(p);
+		//log.info("Postazione " + p.getTipo() + " (" + p.getEdificio().getNome() + ") salvata nel database...");
 	}
 	
-	public void updateWorkstation(Postazione p) {
-		postazione.save(p);
-		log.info("Postazione " + p.getTipo() + " (" + p.getEdificio().getNome() + ") modificata nel database...");
+	public Postazione updateWorkstation(Postazione p) {
+		return postazione.save(p);
+		//log.info("Postazione " + p.getTipo() + " (" + p.getEdificio().getNome() + ") modificata nel database...");
 	}
 	
-	public void deleteWorkstation(Postazione p) {
-		postazione.delete(p);
-		log.info("Postazione " + p.getTipo() + " (" + p.getEdificio().getNome() + ") eliminata dal database...");
+	public String deleteWorkstation(Integer id) {
+		postazione.deleteById(id);
+		//log.info("Postazione " + p.getTipo() + " (" + p.getEdificio().getNome() + ") eliminata dal database...");
+		return "Postazione "+ id + " eliminata";
 	}
 	
 	public Postazione getByID(int id) {

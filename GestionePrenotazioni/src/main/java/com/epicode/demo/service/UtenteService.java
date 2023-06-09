@@ -36,19 +36,20 @@ public class UtenteService {
 		return utenteProvider.getObject(nome, cognome, username, email);
 	}
 	
-	public void insertUser(Utente u) {
-		utente.save(u);
-		log.info("Utente " + u.getNome() + " " + u.getCognome() + " salvato nel database...");
+	public Utente insertUser(Utente u) {
+		return utente.save(u);
+		//log.info("Utente " + u.getNome() + " " + u.getCognome() + " salvato nel database...");
 	}
 	
-	public void updateUser(Utente u) {
-		utente.save(u);
-		log.info("Utente " + u.getNome() + " " + u.getCognome() + " modificato nel database...");
+	public Utente updateUser(Utente u) {
+		return utente.save(u);
+		//log.info("Utente " + u.getNome() + " " + u.getCognome() + " modificato nel database...");
 	}
 	
-	public void deleteUser(Utente u) {
-		utente.delete(u);
-		log.info("Utente " + u.getNome() + " " + u.getCognome() + " eliminato dal database...");
+	public String deleteUser(Integer id) {
+		utente.deleteById(id);
+		//log.info("Utente " + u.getNome() + " " + u.getCognome() + " eliminato dal database...");
+		return "Utente " + id + " eliminato";
 	}
 	
 	public Utente getByID(int id) {

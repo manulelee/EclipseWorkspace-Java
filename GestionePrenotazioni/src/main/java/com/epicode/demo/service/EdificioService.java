@@ -31,19 +31,20 @@ public class EdificioService {
 		return edificioProvider.getObject(nome, via, civico, citta);
 	}
 	
-	public void insertBuilding(Edificio e) {
-		edificio.save(e);
-		log.info("Edificio " + e.getNome() + " (" + e.getCitta() + ") salvato nel database...");
+	public Edificio insertBuilding(Edificio e) {
+		//log.info("Edificio " + e.getNome() + " (" + e.getCitta() + ") salvato nel database...");
+		return edificio.save(e);
 	}
 	
-	public void updateBuilding(Edificio e) {
-		edificio.save(e);
-		log.info("Edificio " + e.getNome() + " (" + e.getCitta() + ") modificato nel database...");
+	public Edificio updateBuilding(Edificio e) {
+		//log.info("Edificio " + e.getNome() + " (" + e.getCitta() + ") modificato nel database...");
+		return edificio.save(e);
 	}
 	
-	public void deleteBuilding(Edificio e) {
-		edificio.delete(e);
-		log.info("Edificio " + e.getNome() + " (" + e.getCitta() + ") eliminato dal database...");
+	public String deleteBuilding(Integer id) {
+		edificio.deleteById(id);
+		//log.info("Edificio " + e.getNome() + " (" + e.getCitta() + ") eliminato dal database...");
+		return "Edificio " + id + " eliminato";
 	}
 	
 	public Edificio getByID(int id) {

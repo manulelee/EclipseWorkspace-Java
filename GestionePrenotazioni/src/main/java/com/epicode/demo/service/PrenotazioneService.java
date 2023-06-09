@@ -37,41 +37,44 @@ public class PrenotazioneService {
 		return prenotazioneProvider.getObject(giorno, postazione, utente);
 	}
 	
-	public void insertBooking(Prenotazione b) {
-		Utente u = b.getUtente();
-		AtomicBoolean control = new AtomicBoolean(true);
-		List<Prenotazione> lista = u.getListaPrenotazioni();
-		List<Prenotazione> prenotazioniPostazione = this.findByGiornoAndPostazione(b.getGiorno(), b.getPostazione());
-		if (prenotazioniPostazione.size()==0) {
-		lista.forEach(p -> {
-		    if (p.getGiorno().equals(b.getGiorno())) {
-		        control.set(false);
-		    }
-		});
-		boolean finalControl = control.get();
-		if (finalControl) {
-			prenotazione.save(b);
-			log.info("Prenotazione di " + u.getNome() + " " + u.getCognome() + " (" + b.getPostazione().getEdificio().getNome() + " • " + b.getGiorno() + ") salvata nel database...");					u.getListaPrenotazioni().add(b);
-			userService.updateUser(u);
-		}
-		else {
-			log.info("L'utente " + u.getNome() +" "+ u.getCognome() + " ha già una prenotazione per questa data ("+ b.getGiorno()+ ")...");
-		}
-		}
-		else {
-			log.info("La postazione " + b.getPostazione().getDescrizione() + " ha già una prenotazione per questa data ("+ b.getGiorno()+ ")...");
-		}
-				
+	public Prenotazione insertBooking(Prenotazione b) {
+//		Utente u = b.getUtente();
+//		AtomicBoolean control = new AtomicBoolean(true);
+//		List<Prenotazione> lista = u.getListaPrenotazioni();
+//		List<Prenotazione> prenotazioniPostazione = this.findByGiornoAndPostazione(b.getGiorno(), b.getPostazione());
+//		if (prenotazioniPostazione.size()==0) {
+//		lista.forEach(p -> {
+//		    if (p.getGiorno().equals(b.getGiorno())) {
+//		        control.set(false);
+//		    }
+//		});
+//		boolean finalControl = control.get();
+//		if (finalControl) {
+//			log.info("Prenotazione di " + u.getNome() + " " + u.getCognome() + " (" + b.getPostazione().getEdificio().getNome() + " • " + b.getGiorno() + ") salvata nel database...");					u.getListaPrenotazioni().add(b);
+//			userService.updateUser(u);
+			return prenotazione.save(b);
+//		}
+//		else {
+//			log.info("L'utente " + u.getNome() +" "+ u.getCognome() + " ha già una prenotazione per questa data ("+ b.getGiorno()+ ")...");
+//			return null;
+//		}
+//		}
+//		else {
+//			log.info("La postazione " + b.getPostazione().getDescrizione() + " ha già una prenotazione per questa data ("+ b.getGiorno()+ ")...");
+//			return null;
+//		}
+//				
 	}
 	
-	public void updateBooking(Prenotazione p) {
-		prenotazione.save(p);
-		log.info("Prenotazione di " + p.getUtente().getNome() + " " + p.getUtente().getCognome() + " (" + p.getPostazione().getEdificio().getNome() + " • " + p.getGiorno() + ") modificata nel database...");
+	public Prenotazione updateBooking(Prenotazione p) {
+		return prenotazione.save(p);
+		//log.info("Prenotazione di " + p.getUtente().getNome() + " " + p.getUtente().getCognome() + " (" + p.getPostazione().getEdificio().getNome() + " • " + p.getGiorno() + ") modificata nel database...");
 	}
 	
-	public void deleteBooking(Prenotazione p) {
-		prenotazione.delete(p);
-		log.info("Prenotazione di " + p.getUtente().getNome() + " " + p.getUtente().getCognome() + " (" + p.getPostazione().getEdificio().getNome() + " • " + p.getGiorno() + ") eliminata dal database...");
+	public String deleteBooking(Integer id) {
+		prenotazione.deleteById(id);
+		return "Prenotazione "+ id +" eliminata correttamnte";
+		//log.info("Prenotazione di " + p.getUtente().getNome() + " " + p.getUtente().getCognome() + " (" + p.getPostazione().getEdificio().getNome() + " • " + p.getGiorno() + ") eliminata dal database...");
 	}
 	
 	public Prenotazione getByID(int id) {

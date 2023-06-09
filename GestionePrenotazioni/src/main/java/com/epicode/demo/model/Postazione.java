@@ -3,6 +3,8 @@ package com.epicode.demo.model;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
@@ -42,6 +44,7 @@ public class Postazione {
 	private int numeroMassimo;
 	
 	@OneToMany (mappedBy = "postazione", fetch = FetchType.EAGER)
+	@JsonIgnore
 	private List<Prenotazione> prenotazioni = new ArrayList<Prenotazione>();
 	
 	@ManyToOne

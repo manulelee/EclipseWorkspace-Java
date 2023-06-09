@@ -1,0 +1,438 @@
+16:08:31.278 [restartedMain] - Starting GestionePrenotazioniApplication using Java 17.0.7 with PID 44768 (/Users/manu/eclipse-workspace/GestionePrenotazioni/target/classes started by manu in /Users/manu/eclipse-workspace/GestionePrenotazioni)
+16:08:31.280 [restartedMain] - No active profile set, falling back to 1 default profile: "default"
+16:08:31.325 [restartedMain] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:08:31.615 [restartedMain] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16:08:31.672 [restartedMain] - Finished Spring Data repository scanning in 50 ms. Found 4 JPA repository interfaces.
+16:08:31.934 [restartedMain] - HHH000204: Processing PersistenceUnitInfo [name: default]
+16:08:31.969 [restartedMain] - HHH000412: Hibernate ORM core version 6.2.2.Final
+16:08:31.970 [restartedMain] - HHH000406: Using bytecode reflection optimizer
+16:08:32.065 [restartedMain] - HHH000021: Bytecode provider name : bytebuddy
+16:08:32.147 [restartedMain] - No LoadTimeWeaver setup: ignoring JPA class transformer
+16:08:32.157 [restartedMain] - HikariPool-1 - Starting...
+16:08:32.278 [restartedMain] - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@45c6a992
+16:08:32.279 [restartedMain] - HikariPool-1 - Start completed.
+16:08:32.318 [restartedMain] - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@53d44483
+16:08:32.486 [restartedMain] - HHH000021: Bytecode provider name : bytebuddy
+16:08:32.929 [restartedMain] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:08:32.987 [restartedMain] - SQL Warning Code: 0, SQLState: 00000
+16:08:32.988 [restartedMain] - constraint "uk_9b90mk1nolf3ou90p42a93tjo" of relation "utenti" does not exist, skipping
+16:08:32.990 [restartedMain] - SQL Warning Code: 0, SQLState: 00000
+16:08:32.990 [restartedMain] - constraint "uk_tn8mwk6h2wn28yyj7fco65gls" of relation "utenti" does not exist, skipping
+16:08:33.000 [restartedMain] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16:08:33.310 [restartedMain] - Hibernate is in classpath; If applicable, HQL parser will be used.
+16:08:33.594 [restartedMain] - LiveReload server is running on port 35729
+16:08:33.613 [restartedMain] - Started GestionePrenotazioniApplication in 2.574 seconds (process running for 3.394)
+16:08:33.703 [restartedMain] - Utente Emanuele Syrbe salvato nel database...
+16:08:33.707 [restartedMain] - Utente Emanuele Umberto salvato nel database...
+16:08:33.779 [restartedMain] - Utente Ileana Romano salvato nel database...
+16:08:33.791 [restartedMain] - Utente Jole Moretti salvato nel database...
+16:08:33.803 [restartedMain] - Utente Giulio Marian salvato nel database...
+16:08:33.818 [restartedMain] - Utente Umberto Santoro salvato nel database...
+16:08:33.831 [restartedMain] - Utente Rocco Ricci salvato nel database...
+16:08:33.842 [restartedMain] - Utente Quarto Rizzi salvato nel database...
+16:08:33.854 [restartedMain] - Utente Tazio Battaglia salvato nel database...
+16:08:33.865 [restartedMain] - Utente Alighieri Longo salvato nel database...
+16:08:33.945 [restartedMain] - Edificio Palazzo Doglio (Cagliari) salvato nel database...
+16:08:33.968 [restartedMain] - Edificio Haps Diner building (Quarto Vinicio nell'emilia) salvato nel database...
+16:08:33.984 [restartedMain] - Edificio Blue Pine Lodge building (Settimo Grazia laziale) salvato nel database...
+16:08:34.003 [restartedMain] - Edificio Town Hall building (Serr nell'emilia) salvato nel database...
+16:08:34.035 [restartedMain] - Postazione PRIVATO (Blue Pine Lodge building) salvata nel database...
+16:08:34.066 [restartedMain] - Postazione SALA_RIUNIONI (Palazzo Doglio) salvata nel database...
+16:08:34.087 [restartedMain] - Postazione OPENSPACE (Blue Pine Lodge building) salvata nel database...
+16:08:34.107 [restartedMain] - Postazione OPENSPACE (Blue Pine Lodge building) salvata nel database...
+16:08:34.126 [restartedMain] - Postazione PRIVATO (Town Hall building) salvata nel database...
+16:08:34.214 [restartedMain] - Prenotazione di Rocco Ricci (Blue Pine Lodge building • 2023-06-07) salvata nel database...
+16:08:34.225 [restartedMain] - Utente Rocco Ricci modificato nel database...
+16:08:34.254 [restartedMain] - Prenotazione di Emanuele Syrbe (Blue Pine Lodge building • 2023-06-05) salvata nel database...
+16:08:34.260 [restartedMain] - Utente Emanuele Syrbe modificato nel database...
+16:08:34.289 [restartedMain] - Prenotazione di Ileana Romano (Blue Pine Lodge building • 2023-06-04) salvata nel database...
+16:08:34.294 [restartedMain] - Utente Ileana Romano modificato nel database...
+16:08:34.324 [restartedMain] - Prenotazione di Jole Moretti (Palazzo Doglio • 2023-06-07) salvata nel database...
+16:08:34.329 [restartedMain] - Utente Jole Moretti modificato nel database...
+16:08:34.358 [restartedMain] - Prenotazione di Giulio Marian (Palazzo Doglio • 2023-06-09) salvata nel database...
+16:08:34.367 [restartedMain] - Utente Giulio Marian modificato nel database...
+16:08:34.384 [SpringApplicationShutdownHook] - Closing JPA EntityManagerFactory for persistence unit 'default'
+16:08:34.386 [SpringApplicationShutdownHook] - HikariPool-1 - Shutdown initiated...
+16:08:34.389 [SpringApplicationShutdownHook] - HikariPool-1 - Shutdown completed.
+16:12:04.347 [restartedMain] - Starting GestionePrenotazioniApplication using Java 17.0.7 with PID 44974 (/Users/manu/eclipse-workspace/GestionePrenotazioni/target/classes started by manu in /Users/manu/eclipse-workspace/GestionePrenotazioni)
+16:12:04.349 [restartedMain] - No active profile set, falling back to 1 default profile: "default"
+16:12:04.398 [restartedMain] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:12:04.743 [restartedMain] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16:12:04.795 [restartedMain] - Finished Spring Data repository scanning in 45 ms. Found 4 JPA repository interfaces.
+16:12:05.098 [restartedMain] - HHH000204: Processing PersistenceUnitInfo [name: default]
+16:12:05.141 [restartedMain] - HHH000412: Hibernate ORM core version 6.2.2.Final
+16:12:05.143 [restartedMain] - HHH000406: Using bytecode reflection optimizer
+16:12:05.262 [restartedMain] - HHH000021: Bytecode provider name : bytebuddy
+16:12:05.372 [restartedMain] - No LoadTimeWeaver setup: ignoring JPA class transformer
+16:12:05.385 [restartedMain] - HikariPool-1 - Starting...
+16:12:05.542 [restartedMain] - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@48fe0129
+16:12:05.543 [restartedMain] - HikariPool-1 - Start completed.
+16:12:05.586 [restartedMain] - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@30bade75
+16:12:05.789 [restartedMain] - HHH000021: Bytecode provider name : bytebuddy
+16:12:06.362 [restartedMain] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:12:06.459 [restartedMain] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16:12:06.780 [restartedMain] - Hibernate is in classpath; If applicable, HQL parser will be used.
+16:12:07.089 [restartedMain] - LiveReload server is running on port 35729
+16:12:07.109 [restartedMain] - Started GestionePrenotazioniApplication in 3.067 seconds (process running for 3.777)
+16:12:07.297 [SpringApplicationShutdownHook] - Closing JPA EntityManagerFactory for persistence unit 'default'
+16:12:07.302 [SpringApplicationShutdownHook] - HikariPool-1 - Shutdown initiated...
+16:12:07.305 [SpringApplicationShutdownHook] - HikariPool-1 - Shutdown completed.
+16:30:54.025 [restartedMain] - Starting GestionePrenotazioniApplication using Java 17.0.7 with PID 45352 (/Users/manu/eclipse-workspace/GestionePrenotazioni/target/classes started by manu in /Users/manu/eclipse-workspace/GestionePrenotazioni)
+16:30:54.027 [restartedMain] - No active profile set, falling back to 1 default profile: "default"
+16:30:54.078 [restartedMain] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:30:54.434 [restartedMain] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16:30:54.497 [restartedMain] - Finished Spring Data repository scanning in 56 ms. Found 4 JPA repository interfaces.
+16:30:54.817 [restartedMain] - HHH000204: Processing PersistenceUnitInfo [name: default]
+16:30:54.852 [restartedMain] - HHH000412: Hibernate ORM core version 6.2.2.Final
+16:30:54.854 [restartedMain] - HHH000406: Using bytecode reflection optimizer
+16:30:54.967 [restartedMain] - HHH000021: Bytecode provider name : bytebuddy
+16:30:55.073 [restartedMain] - No LoadTimeWeaver setup: ignoring JPA class transformer
+16:30:55.086 [restartedMain] - HikariPool-1 - Starting...
+16:30:55.231 [restartedMain] - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@d079a1f
+16:30:55.233 [restartedMain] - HikariPool-1 - Start completed.
+16:30:55.271 [restartedMain] - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@780dc9b9
+16:30:55.463 [restartedMain] - HHH000021: Bytecode provider name : bytebuddy
+16:30:56.019 [restartedMain] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:30:56.115 [restartedMain] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16:30:56.362 [restartedMain] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'prenotazioneConfiguration': Unsatisfied dependency expressed through field 'workstationService': Error creating bean with name 'postazioneService': Unsatisfied dependency expressed through field 'postazione': Error creating bean with name 'postazioneDaoRepository' defined in com.epicode.demo.repository.PostazioneDaoRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Could not create query for public abstract java.util.List com.epicode.demo.repository.PostazioneDaoRepository.findByCittaAndTipo(java.lang.String,com.epicode.demo.model.TipoPostazione); Reason: Failed to create query for method public abstract java.util.List com.epicode.demo.repository.PostazioneDaoRepository.findByCittaAndTipo(java.lang.String,com.epicode.demo.model.TipoPostazione); No property 'citta' found for type 'Postazione'
+16:30:56.363 [restartedMain] - Closing JPA EntityManagerFactory for persistence unit 'default'
+16:30:56.366 [restartedMain] - HikariPool-1 - Shutdown initiated...
+16:30:56.370 [restartedMain] - HikariPool-1 - Shutdown completed.
+16:30:56.379 [restartedMain] - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+16:30:56.396 [restartedMain] - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'prenotazioneConfiguration': Unsatisfied dependency expressed through field 'workstationService': Error creating bean with name 'postazioneService': Unsatisfied dependency expressed through field 'postazione': Error creating bean with name 'postazioneDaoRepository' defined in com.epicode.demo.repository.PostazioneDaoRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Could not create query for public abstract java.util.List com.epicode.demo.repository.PostazioneDaoRepository.findByCittaAndTipo(java.lang.String,com.epicode.demo.model.TipoPostazione); Reason: Failed to create query for method public abstract java.util.List com.epicode.demo.repository.PostazioneDaoRepository.findByCittaAndTipo(java.lang.String,com.epicode.demo.model.TipoPostazione); No property 'citta' found for type 'Postazione'
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:713)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:693)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:133)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:482)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1416)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:941)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:733)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:435)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1305)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1294)
+	at com.epicode.demo.GestionePrenotazioniApplication.main(GestionePrenotazioniApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'postazioneService': Unsatisfied dependency expressed through field 'postazione': Error creating bean with name 'postazioneDaoRepository' defined in com.epicode.demo.repository.PostazioneDaoRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Could not create query for public abstract java.util.List com.epicode.demo.repository.PostazioneDaoRepository.findByCittaAndTipo(java.lang.String,com.epicode.demo.model.TipoPostazione); Reason: Failed to create query for method public abstract java.util.List com.epicode.demo.repository.PostazioneDaoRepository.findByCittaAndTipo(java.lang.String,com.epicode.demo.model.TipoPostazione); No property 'citta' found for type 'Postazione'
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:713)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:693)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:133)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:482)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1416)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:710)
+	... 24 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'postazioneDaoRepository' defined in com.epicode.demo.repository.PostazioneDaoRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Could not create query for public abstract java.util.List com.epicode.demo.repository.PostazioneDaoRepository.findByCittaAndTipo(java.lang.String,com.epicode.demo.model.TipoPostazione); Reason: Failed to create query for method public abstract java.util.List com.epicode.demo.repository.PostazioneDaoRepository.findByCittaAndTipo(java.lang.String,com.epicode.demo.model.TipoPostazione); No property 'citta' found for type 'Postazione'
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1770)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:710)
+	... 38 common frames omitted
+Caused by: org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract java.util.List com.epicode.demo.repository.PostazioneDaoRepository.findByCittaAndTipo(java.lang.String,com.epicode.demo.model.TipoPostazione); Reason: Failed to create query for method public abstract java.util.List com.epicode.demo.repository.PostazioneDaoRepository.findByCittaAndTipo(java.lang.String,com.epicode.demo.model.TipoPostazione); No property 'citta' found for type 'Postazione'
+	at org.springframework.data.repository.query.QueryCreationException.create(QueryCreationException.java:101)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:115)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.mapMethodsToQuery(QueryExecutorMethodInterceptor.java:99)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$new$0(QueryExecutorMethodInterceptor.java:88)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.<init>(QueryExecutorMethodInterceptor.java:88)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:357)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:279)
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:245)
+	at org.springframework.data.util.Lazy.get(Lazy.java:114)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:285)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:132)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1816)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1766)
+	... 48 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.List com.epicode.demo.repository.PostazioneDaoRepository.findByCittaAndTipo(java.lang.String,com.epicode.demo.model.TipoPostazione); No property 'citta' found for type 'Postazione'
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:107)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:124)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:258)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:95)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:111)
+	... 60 common frames omitted
+Caused by: org.springframework.data.mapping.PropertyReferenceException: No property 'citta' found for type 'Postazione'
+	at org.springframework.data.mapping.PropertyPath.<init>(PropertyPath.java:90)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:405)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:381)
+	at org.springframework.data.mapping.PropertyPath.lambda$from$0(PropertyPath.java:334)
+	at java.base/java.util.concurrent.ConcurrentMap.computeIfAbsent(ConcurrentMap.java:330)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:316)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:299)
+	at org.springframework.data.repository.query.parser.Part.<init>(Part.java:81)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.lambda$new$0(PartTree.java:242)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.<init>(PartTree.java:243)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.lambda$new$0(PartTree.java:372)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.<init>(PartTree.java:373)
+	at org.springframework.data.repository.query.parser.PartTree.<init>(PartTree.java:96)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:100)
+	... 64 common frames omitted
+16:32:38.546 [restartedMain] - Starting GestionePrenotazioniApplication using Java 17.0.7 with PID 45393 (/Users/manu/eclipse-workspace/GestionePrenotazioni/target/classes started by manu in /Users/manu/eclipse-workspace/GestionePrenotazioni)
+16:32:38.548 [restartedMain] - No active profile set, falling back to 1 default profile: "default"
+16:32:38.593 [restartedMain] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:32:38.925 [restartedMain] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16:32:38.974 [restartedMain] - Finished Spring Data repository scanning in 43 ms. Found 4 JPA repository interfaces.
+16:32:39.292 [restartedMain] - HHH000204: Processing PersistenceUnitInfo [name: default]
+16:32:39.346 [restartedMain] - HHH000412: Hibernate ORM core version 6.2.2.Final
+16:32:39.348 [restartedMain] - HHH000406: Using bytecode reflection optimizer
+16:32:39.479 [restartedMain] - HHH000021: Bytecode provider name : bytebuddy
+16:32:39.600 [restartedMain] - No LoadTimeWeaver setup: ignoring JPA class transformer
+16:32:39.614 [restartedMain] - HikariPool-1 - Starting...
+16:32:39.796 [restartedMain] - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5c41ac34
+16:32:39.798 [restartedMain] - HikariPool-1 - Start completed.
+16:32:39.840 [restartedMain] - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@25700633
+16:32:40.018 [restartedMain] - HHH000021: Bytecode provider name : bytebuddy
+16:32:40.546 [restartedMain] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:32:40.632 [restartedMain] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16:32:40.942 [restartedMain] - Hibernate is in classpath; If applicable, HQL parser will be used.
+16:32:41.223 [restartedMain] - LiveReload server is running on port 35729
+16:32:41.245 [restartedMain] - Started GestionePrenotazioniApplication in 3.004 seconds (process running for 3.699)
+16:32:41.385 [restartedMain] - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+16:32:41.400 [restartedMain] - Application run failed
+java.lang.Error: Unresolved compilation problem: 
+	The method findByCittaAndTipo(String, TipoPostazione) is undefined for the type PostazioneDaoRepository
+
+	at com.epicode.demo.service.PostazioneService.findByCittaAndTipo(PostazioneService.java:58)
+	at com.epicode.demo.runner.GestionePrenotazioniRunner.run(GestionePrenotazioniRunner.java:89)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:761)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:751)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1305)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1294)
+	at com.epicode.demo.GestionePrenotazioniApplication.main(GestionePrenotazioniApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+16:32:41.410 [restartedMain] - Closing JPA EntityManagerFactory for persistence unit 'default'
+16:32:41.413 [restartedMain] - HikariPool-1 - Shutdown initiated...
+16:32:41.416 [restartedMain] - HikariPool-1 - Shutdown completed.
+16:33:51.905 [restartedMain] - Starting GestionePrenotazioniApplication using Java 17.0.7 with PID 45421 (/Users/manu/eclipse-workspace/GestionePrenotazioni/target/classes started by manu in /Users/manu/eclipse-workspace/GestionePrenotazioni)
+16:33:51.907 [restartedMain] - No active profile set, falling back to 1 default profile: "default"
+16:33:51.959 [restartedMain] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:33:52.253 [restartedMain] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16:33:52.303 [restartedMain] - Finished Spring Data repository scanning in 44 ms. Found 4 JPA repository interfaces.
+16:33:52.569 [restartedMain] - HHH000204: Processing PersistenceUnitInfo [name: default]
+16:33:52.607 [restartedMain] - HHH000412: Hibernate ORM core version 6.2.2.Final
+16:33:52.608 [restartedMain] - HHH000406: Using bytecode reflection optimizer
+16:33:52.713 [restartedMain] - HHH000021: Bytecode provider name : bytebuddy
+16:33:52.803 [restartedMain] - No LoadTimeWeaver setup: ignoring JPA class transformer
+16:33:52.814 [restartedMain] - HikariPool-1 - Starting...
+16:33:52.957 [restartedMain] - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7eabc220
+16:33:52.958 [restartedMain] - HikariPool-1 - Start completed.
+16:33:52.997 [restartedMain] - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@720cc34a
+16:33:53.174 [restartedMain] - HHH000021: Bytecode provider name : bytebuddy
+16:33:53.654 [restartedMain] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:33:53.734 [restartedMain] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16:33:54.019 [restartedMain] - Hibernate is in classpath; If applicable, HQL parser will be used.
+16:33:54.279 [restartedMain] - LiveReload server is running on port 35729
+16:33:54.301 [restartedMain] - Started GestionePrenotazioniApplication in 2.659 seconds (process running for 3.416)
+16:33:54.304 [restartedMain] - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+16:33:54.327 [restartedMain] - Application run failed
+java.lang.Error: Unresolved compilation problem: 
+	The method findByCittaAndTipo(String, TipoPostazione) is undefined for the type PostazioneService
+
+	at com.epicode.demo.runner.GestionePrenotazioniRunner.run(GestionePrenotazioniRunner.java:89)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:761)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:751)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1305)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1294)
+	at com.epicode.demo.GestionePrenotazioniApplication.main(GestionePrenotazioniApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+16:33:54.335 [restartedMain] - Closing JPA EntityManagerFactory for persistence unit 'default'
+16:33:54.338 [restartedMain] - HikariPool-1 - Shutdown initiated...
+16:33:54.341 [restartedMain] - HikariPool-1 - Shutdown completed.
+16:35:22.076 [restartedMain] - Starting GestionePrenotazioniApplication using Java 17.0.7 with PID 45453 (/Users/manu/eclipse-workspace/GestionePrenotazioni/target/classes started by manu in /Users/manu/eclipse-workspace/GestionePrenotazioni)
+16:35:22.077 [restartedMain] - No active profile set, falling back to 1 default profile: "default"
+16:35:22.126 [restartedMain] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:35:22.427 [restartedMain] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16:35:22.478 [restartedMain] - Finished Spring Data repository scanning in 44 ms. Found 4 JPA repository interfaces.
+16:35:22.735 [restartedMain] - HHH000204: Processing PersistenceUnitInfo [name: default]
+16:35:22.771 [restartedMain] - HHH000412: Hibernate ORM core version 6.2.2.Final
+16:35:22.773 [restartedMain] - HHH000406: Using bytecode reflection optimizer
+16:35:22.874 [restartedMain] - HHH000021: Bytecode provider name : bytebuddy
+16:35:22.966 [restartedMain] - No LoadTimeWeaver setup: ignoring JPA class transformer
+16:35:22.978 [restartedMain] - HikariPool-1 - Starting...
+16:35:23.113 [restartedMain] - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@135ae8db
+16:35:23.114 [restartedMain] - HikariPool-1 - Start completed.
+16:35:23.151 [restartedMain] - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@622ca45d
+16:35:23.318 [restartedMain] - HHH000021: Bytecode provider name : bytebuddy
+16:35:23.795 [restartedMain] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:35:23.877 [restartedMain] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16:35:24.194 [restartedMain] - Hibernate is in classpath; If applicable, HQL parser will be used.
+16:35:24.500 [restartedMain] - LiveReload server is running on port 35729
+16:35:24.521 [restartedMain] - Started GestionePrenotazioniApplication in 2.734 seconds (process running for 3.465)
+16:35:24.761 [SpringApplicationShutdownHook] - Closing JPA EntityManagerFactory for persistence unit 'default'
+16:35:24.764 [SpringApplicationShutdownHook] - HikariPool-1 - Shutdown initiated...
+16:35:24.767 [SpringApplicationShutdownHook] - HikariPool-1 - Shutdown completed.
+16:35:39.156 [restartedMain] - Starting GestionePrenotazioniApplication using Java 17.0.7 with PID 45468 (/Users/manu/eclipse-workspace/GestionePrenotazioni/target/classes started by manu in /Users/manu/eclipse-workspace/GestionePrenotazioni)
+16:35:39.158 [restartedMain] - No active profile set, falling back to 1 default profile: "default"
+16:35:39.206 [restartedMain] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:35:39.493 [restartedMain] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16:35:39.541 [restartedMain] - Finished Spring Data repository scanning in 41 ms. Found 4 JPA repository interfaces.
+16:35:39.805 [restartedMain] - HHH000204: Processing PersistenceUnitInfo [name: default]
+16:35:39.842 [restartedMain] - HHH000412: Hibernate ORM core version 6.2.2.Final
+16:35:39.844 [restartedMain] - HHH000406: Using bytecode reflection optimizer
+16:35:39.950 [restartedMain] - HHH000021: Bytecode provider name : bytebuddy
+16:35:40.041 [restartedMain] - No LoadTimeWeaver setup: ignoring JPA class transformer
+16:35:40.052 [restartedMain] - HikariPool-1 - Starting...
+16:35:40.194 [restartedMain] - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5c41ac34
+16:35:40.195 [restartedMain] - HikariPool-1 - Start completed.
+16:35:40.234 [restartedMain] - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@25700633
+16:35:40.408 [restartedMain] - HHH000021: Bytecode provider name : bytebuddy
+16:35:40.891 [restartedMain] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:35:40.976 [restartedMain] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16:35:41.283 [restartedMain] - Hibernate is in classpath; If applicable, HQL parser will be used.
+16:35:41.590 [restartedMain] - LiveReload server is running on port 35729
+16:35:41.612 [restartedMain] - Started GestionePrenotazioniApplication in 2.698 seconds (process running for 3.346)
+16:35:41.847 [SpringApplicationShutdownHook] - Closing JPA EntityManagerFactory for persistence unit 'default'
+16:35:41.850 [SpringApplicationShutdownHook] - HikariPool-1 - Shutdown initiated...
+16:35:41.855 [SpringApplicationShutdownHook] - HikariPool-1 - Shutdown completed.
+16:35:57.971 [restartedMain] - Starting GestionePrenotazioniApplication using Java 17.0.7 with PID 45484 (/Users/manu/eclipse-workspace/GestionePrenotazioni/target/classes started by manu in /Users/manu/eclipse-workspace/GestionePrenotazioni)
+16:35:57.973 [restartedMain] - No active profile set, falling back to 1 default profile: "default"
+16:35:58.020 [restartedMain] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:35:58.312 [restartedMain] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16:35:58.360 [restartedMain] - Finished Spring Data repository scanning in 42 ms. Found 4 JPA repository interfaces.
+16:35:58.616 [restartedMain] - HHH000204: Processing PersistenceUnitInfo [name: default]
+16:35:58.653 [restartedMain] - HHH000412: Hibernate ORM core version 6.2.2.Final
+16:35:58.654 [restartedMain] - HHH000406: Using bytecode reflection optimizer
+16:35:58.758 [restartedMain] - HHH000021: Bytecode provider name : bytebuddy
+16:35:58.848 [restartedMain] - No LoadTimeWeaver setup: ignoring JPA class transformer
+16:35:58.860 [restartedMain] - HikariPool-1 - Starting...
+16:35:59.000 [restartedMain] - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5c41ac34
+16:35:59.001 [restartedMain] - HikariPool-1 - Start completed.
+16:35:59.038 [restartedMain] - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@25700633
+16:35:59.210 [restartedMain] - HHH000021: Bytecode provider name : bytebuddy
+16:35:59.679 [restartedMain] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:35:59.761 [restartedMain] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16:36:00.079 [restartedMain] - Hibernate is in classpath; If applicable, HQL parser will be used.
+16:36:00.367 [restartedMain] - LiveReload server is running on port 35729
+16:36:00.391 [restartedMain] - Started GestionePrenotazioniApplication in 2.672 seconds (process running for 3.377)
+16:36:00.646 [SpringApplicationShutdownHook] - Closing JPA EntityManagerFactory for persistence unit 'default'
+16:36:00.650 [SpringApplicationShutdownHook] - HikariPool-1 - Shutdown initiated...
+16:36:00.654 [SpringApplicationShutdownHook] - HikariPool-1 - Shutdown completed.
+16:40:25.452 [restartedMain] - Starting GestionePrenotazioniApplication using Java 17.0.7 with PID 45572 (/Users/manu/eclipse-workspace/GestionePrenotazioni/target/classes started by manu in /Users/manu/eclipse-workspace/GestionePrenotazioni)
+16:40:25.453 [restartedMain] - No active profile set, falling back to 1 default profile: "default"
+16:40:25.499 [restartedMain] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:40:25.839 [restartedMain] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16:40:25.890 [restartedMain] - Finished Spring Data repository scanning in 44 ms. Found 4 JPA repository interfaces.
+16:40:26.175 [restartedMain] - HHH000204: Processing PersistenceUnitInfo [name: default]
+16:40:26.209 [restartedMain] - HHH000412: Hibernate ORM core version 6.2.2.Final
+16:40:26.211 [restartedMain] - HHH000406: Using bytecode reflection optimizer
+16:40:26.311 [restartedMain] - HHH000021: Bytecode provider name : bytebuddy
+16:40:26.401 [restartedMain] - No LoadTimeWeaver setup: ignoring JPA class transformer
+16:40:26.413 [restartedMain] - HikariPool-1 - Starting...
+16:40:26.550 [restartedMain] - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@8833f5f
+16:40:26.552 [restartedMain] - HikariPool-1 - Start completed.
+16:40:26.600 [restartedMain] - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@110a7d9d
+16:40:26.773 [restartedMain] - HHH000021: Bytecode provider name : bytebuddy
+16:40:27.270 [restartedMain] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:40:27.351 [restartedMain] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16:40:27.561 [restartedMain] - Hibernate is in classpath; If applicable, HQL parser will be used.
+16:40:27.914 [restartedMain] - LiveReload server is running on port 35729
+16:40:27.942 [restartedMain] - Started GestionePrenotazioniApplication in 2.752 seconds (process running for 3.44)
+16:40:28.169 [SpringApplicationShutdownHook] - Closing JPA EntityManagerFactory for persistence unit 'default'
+16:40:28.172 [SpringApplicationShutdownHook] - HikariPool-1 - Shutdown initiated...
+16:40:28.175 [SpringApplicationShutdownHook] - HikariPool-1 - Shutdown completed.
+16:41:34.854 [restartedMain] - Starting GestionePrenotazioniApplication using Java 17.0.7 with PID 45623 (/Users/manu/eclipse-workspace/GestionePrenotazioni/target/classes started by manu in /Users/manu/eclipse-workspace/GestionePrenotazioni)
+16:41:34.855 [restartedMain] - No active profile set, falling back to 1 default profile: "default"
+16:41:34.897 [restartedMain] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:41:35.237 [restartedMain] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16:41:35.288 [restartedMain] - Finished Spring Data repository scanning in 45 ms. Found 4 JPA repository interfaces.
+16:41:35.580 [restartedMain] - HHH000204: Processing PersistenceUnitInfo [name: default]
+16:41:35.619 [restartedMain] - HHH000412: Hibernate ORM core version 6.2.2.Final
+16:41:35.620 [restartedMain] - HHH000406: Using bytecode reflection optimizer
+16:41:35.730 [restartedMain] - HHH000021: Bytecode provider name : bytebuddy
+16:41:35.838 [restartedMain] - No LoadTimeWeaver setup: ignoring JPA class transformer
+16:41:35.853 [restartedMain] - HikariPool-1 - Starting...
+16:41:36.003 [restartedMain] - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1ac2dfe5
+16:41:36.005 [restartedMain] - HikariPool-1 - Start completed.
+16:41:36.042 [restartedMain] - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@32068fe6
+16:41:36.218 [restartedMain] - HHH000021: Bytecode provider name : bytebuddy
+16:41:36.732 [restartedMain] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:41:36.827 [restartedMain] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16:41:37.063 [restartedMain] - Hibernate is in classpath; If applicable, HQL parser will be used.
+16:41:37.434 [restartedMain] - LiveReload server is running on port 35729
+16:41:37.466 [restartedMain] - Started GestionePrenotazioniApplication in 2.935 seconds (process running for 3.714)
+16:41:37.683 [SpringApplicationShutdownHook] - Closing JPA EntityManagerFactory for persistence unit 'default'
+16:41:37.685 [SpringApplicationShutdownHook] - HikariPool-1 - Shutdown initiated...
+16:41:37.689 [SpringApplicationShutdownHook] - HikariPool-1 - Shutdown completed.
+16:41:53.383 [restartedMain] - Starting GestionePrenotazioniApplication using Java 17.0.7 with PID 45638 (/Users/manu/eclipse-workspace/GestionePrenotazioni/target/classes started by manu in /Users/manu/eclipse-workspace/GestionePrenotazioni)
+16:41:53.385 [restartedMain] - No active profile set, falling back to 1 default profile: "default"
+16:41:53.430 [restartedMain] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:41:53.768 [restartedMain] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16:41:53.818 [restartedMain] - Finished Spring Data repository scanning in 44 ms. Found 4 JPA repository interfaces.
+16:41:54.105 [restartedMain] - HHH000204: Processing PersistenceUnitInfo [name: default]
+16:41:54.144 [restartedMain] - HHH000412: Hibernate ORM core version 6.2.2.Final
+16:41:54.145 [restartedMain] - HHH000406: Using bytecode reflection optimizer
+16:41:54.253 [restartedMain] - HHH000021: Bytecode provider name : bytebuddy
+16:41:54.344 [restartedMain] - No LoadTimeWeaver setup: ignoring JPA class transformer
+16:41:54.356 [restartedMain] - HikariPool-1 - Starting...
+16:41:54.492 [restartedMain] - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@74b5899b
+16:41:54.493 [restartedMain] - HikariPool-1 - Start completed.
+16:41:54.532 [restartedMain] - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@546fca46
+16:41:54.713 [restartedMain] - HHH000021: Bytecode provider name : bytebuddy
+16:41:55.247 [restartedMain] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:41:55.327 [restartedMain] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16:41:55.537 [restartedMain] - Hibernate is in classpath; If applicable, HQL parser will be used.
+16:41:55.897 [restartedMain] - LiveReload server is running on port 35729
+16:41:55.915 [restartedMain] - Started GestionePrenotazioniApplication in 2.836 seconds (process running for 3.87)
+16:41:56.136 [SpringApplicationShutdownHook] - Closing JPA EntityManagerFactory for persistence unit 'default'
+16:41:56.138 [SpringApplicationShutdownHook] - HikariPool-1 - Shutdown initiated...
+16:41:56.141 [SpringApplicationShutdownHook] - HikariPool-1 - Shutdown completed.
