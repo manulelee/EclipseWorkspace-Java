@@ -8061,3 +8061,256 @@ Identify and stop the process that's listening on port 8080 or configure this ap
 16:45:05.951 [restartedMain] - Tomcat started on port(s): 8080 (http) with context path ''
 16:45:05.957 [restartedMain] - Started GestioneIncendiApplication in 0.58 seconds (process running for 86.739)
 16:45:05.962 [restartedMain] - Condition evaluation unchanged
+16:50:06.060 [File Watcher] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+16:50:06.065 [Thread-11] - Stopping service [Tomcat]
+16:50:06.073 [Thread-11] - Closing JPA EntityManagerFactory for persistence unit 'default'
+16:50:06.074 [Thread-11] - HikariPool-3 - Shutdown initiated...
+16:50:06.076 [Thread-11] - HikariPool-3 - Shutdown completed.
+16:50:06.168 [restartedMain] - Starting GestioneIncendiApplication using Java 17.0.7 with PID 4262 (/Users/manu/eclipse-workspace/GestioneIncendi/target/classes started by manu in /Users/manu/eclipse-workspace/GestioneIncendi)
+16:50:06.169 [restartedMain] - No active profile set, falling back to 1 default profile: "default"
+16:50:06.328 [restartedMain] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16:50:06.330 [restartedMain] - Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+16:50:06.425 [restartedMain] - Tomcat initialized with port(s): 8080 (http)
+16:50:06.426 [restartedMain] - Starting service [Tomcat]
+16:50:06.426 [restartedMain] - Starting Servlet engine: [Apache Tomcat/10.1.8]
+16:50:06.437 [restartedMain] - Initializing Spring embedded WebApplicationContext
+16:50:06.437 [restartedMain] - Root WebApplicationContext: initialization completed in 265 ms
+16:50:06.486 [restartedMain] - HHH000204: Processing PersistenceUnitInfo [name: default]
+16:50:06.495 [restartedMain] - HHH000021: Bytecode provider name : bytebuddy
+16:50:06.495 [restartedMain] - No LoadTimeWeaver setup: ignoring JPA class transformer
+16:50:06.496 [restartedMain] - HikariPool-4 - Starting...
+16:50:06.527 [restartedMain] - HikariPool-4 - Added connection org.postgresql.jdbc.PgConnection@73eb3b87
+16:50:06.527 [restartedMain] - HikariPool-4 - Start completed.
+16:50:06.531 [restartedMain] - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@62a051d3
+16:50:06.534 [restartedMain] - HHH000021: Bytecode provider name : bytebuddy
+16:50:06.542 [restartedMain] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:50:06.543 [restartedMain] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16:50:06.568 [restartedMain] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+16:50:06.694 [restartedMain] - LiveReload server is running on port 35729
+16:50:06.704 [restartedMain] - Tomcat started on port(s): 8080 (http) with context path ''
+16:50:06.712 [restartedMain] - Started GestioneIncendiApplication in 0.57 seconds (process running for 387.49)
+16:50:06.714 [restartedMain] - Condition evaluation unchanged
+16:50:13.249 [restartedMain] - Starting GestioneIncendiApplication using Java 17.0.7 with PID 4448 (/Users/manu/eclipse-workspace/GestioneIncendi/target/classes started by manu in /Users/manu/eclipse-workspace/GestioneIncendi)
+16:50:13.253 [restartedMain] - No active profile set, falling back to 1 default profile: "default"
+16:50:13.315 [restartedMain] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:50:13.315 [restartedMain] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+16:50:13.859 [restartedMain] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16:50:13.883 [restartedMain] - Finished Spring Data repository scanning in 16 ms. Found 0 JPA repository interfaces.
+16:50:14.471 [restartedMain] - Tomcat initialized with port(s): 8080 (http)
+16:50:14.482 [restartedMain] - Starting service [Tomcat]
+16:50:14.483 [restartedMain] - Starting Servlet engine: [Apache Tomcat/10.1.8]
+16:50:14.571 [restartedMain] - Initializing Spring embedded WebApplicationContext
+16:50:14.572 [restartedMain] - Root WebApplicationContext: initialization completed in 1256 ms
+16:50:14.732 [restartedMain] - HHH000204: Processing PersistenceUnitInfo [name: default]
+16:50:14.789 [restartedMain] - HHH000412: Hibernate ORM core version 6.2.2.Final
+16:50:14.792 [restartedMain] - HHH000406: Using bytecode reflection optimizer
+16:50:14.931 [restartedMain] - HHH000021: Bytecode provider name : bytebuddy
+16:50:15.072 [restartedMain] - No LoadTimeWeaver setup: ignoring JPA class transformer
+16:50:15.087 [restartedMain] - HikariPool-1 - Starting...
+16:50:15.267 [restartedMain] - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2100ca7e
+16:50:15.269 [restartedMain] - HikariPool-1 - Start completed.
+16:50:15.320 [restartedMain] - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@5828219a
+16:50:15.430 [restartedMain] - HHH000021: Bytecode provider name : bytebuddy
+16:50:15.670 [restartedMain] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:50:15.677 [restartedMain] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16:50:15.749 [restartedMain] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+16:50:16.124 [restartedMain] - Unable to start LiveReload server
+16:50:16.150 [restartedMain] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+16:50:16.154 [restartedMain] - Closing JPA EntityManagerFactory for persistence unit 'default'
+16:50:16.159 [restartedMain] - HikariPool-1 - Shutdown initiated...
+16:50:16.162 [restartedMain] - HikariPool-1 - Shutdown completed.
+16:50:16.164 [restartedMain] - Stopping service [Tomcat]
+16:50:16.182 [restartedMain] - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+16:50:16.213 [restartedMain] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+16:50:19.316 [RMI TCP Connection(11)-127.0.0.1] - Application shutdown requested.
+16:50:19.321 [RMI TCP Connection(11)-127.0.0.1] - Stopping service [Tomcat]
+16:50:19.327 [RMI TCP Connection(11)-127.0.0.1] - Closing JPA EntityManagerFactory for persistence unit 'default'
+16:50:19.328 [RMI TCP Connection(11)-127.0.0.1] - HikariPool-4 - Shutdown initiated...
+16:50:19.332 [RMI TCP Connection(11)-127.0.0.1] - HikariPool-4 - Shutdown completed.
+16:50:22.641 [restartedMain] - Starting GestioneIncendiApplication using Java 17.0.7 with PID 4460 (/Users/manu/eclipse-workspace/GestioneIncendi/target/classes started by manu in /Users/manu/eclipse-workspace/GestioneIncendi)
+16:50:22.643 [restartedMain] - No active profile set, falling back to 1 default profile: "default"
+16:50:22.704 [restartedMain] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+16:50:22.704 [restartedMain] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+16:50:23.257 [restartedMain] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16:50:23.281 [restartedMain] - Finished Spring Data repository scanning in 16 ms. Found 0 JPA repository interfaces.
+16:50:23.875 [restartedMain] - Tomcat initialized with port(s): 8080 (http)
+16:50:23.885 [restartedMain] - Starting service [Tomcat]
+16:50:23.887 [restartedMain] - Starting Servlet engine: [Apache Tomcat/10.1.8]
+16:50:23.980 [restartedMain] - Initializing Spring embedded WebApplicationContext
+16:50:23.981 [restartedMain] - Root WebApplicationContext: initialization completed in 1276 ms
+16:50:24.208 [restartedMain] - HHH000204: Processing PersistenceUnitInfo [name: default]
+16:50:24.262 [restartedMain] - HHH000412: Hibernate ORM core version 6.2.2.Final
+16:50:24.264 [restartedMain] - HHH000406: Using bytecode reflection optimizer
+16:50:24.401 [restartedMain] - HHH000021: Bytecode provider name : bytebuddy
+16:50:24.539 [restartedMain] - No LoadTimeWeaver setup: ignoring JPA class transformer
+16:50:24.556 [restartedMain] - HikariPool-1 - Starting...
+16:50:24.739 [restartedMain] - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4950cfcf
+16:50:24.741 [restartedMain] - HikariPool-1 - Start completed.
+16:50:24.801 [restartedMain] - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@46199f71
+16:50:24.909 [restartedMain] - HHH000021: Bytecode provider name : bytebuddy
+16:50:25.117 [restartedMain] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:50:25.127 [restartedMain] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16:50:25.178 [restartedMain] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+16:50:25.535 [restartedMain] - LiveReload server is running on port 35729
+16:50:25.573 [restartedMain] - Tomcat started on port(s): 8080 (http) with context path ''
+16:50:25.584 [restartedMain] - Started GestioneIncendiApplication in 3.397 seconds (process running for 4.671)
+16:51:50.710 [File Watcher] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+16:51:50.717 [Thread-5] - Stopping service [Tomcat]
+16:51:50.725 [Thread-5] - Closing JPA EntityManagerFactory for persistence unit 'default'
+16:51:50.728 [Thread-5] - HikariPool-1 - Shutdown initiated...
+16:51:50.732 [Thread-5] - HikariPool-1 - Shutdown completed.
+16:51:50.797 [restartedMain] - Starting GestioneIncendiApplication using Java 17.0.7 with PID 4460 (/Users/manu/eclipse-workspace/GestioneIncendi/target/classes started by manu in /Users/manu/eclipse-workspace/GestioneIncendi)
+16:51:50.798 [restartedMain] - No active profile set, falling back to 1 default profile: "default"
+16:51:50.946 [restartedMain] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16:51:50.948 [restartedMain] - Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+16:51:51.042 [restartedMain] - Tomcat initialized with port(s): 8080 (http)
+16:51:51.042 [restartedMain] - Starting service [Tomcat]
+16:51:51.042 [restartedMain] - Starting Servlet engine: [Apache Tomcat/10.1.8]
+16:51:51.054 [restartedMain] - Initializing Spring embedded WebApplicationContext
+16:51:51.054 [restartedMain] - Root WebApplicationContext: initialization completed in 254 ms
+16:51:51.091 [restartedMain] - HHH000204: Processing PersistenceUnitInfo [name: default]
+16:51:51.097 [restartedMain] - HHH000021: Bytecode provider name : bytebuddy
+16:51:51.097 [restartedMain] - No LoadTimeWeaver setup: ignoring JPA class transformer
+16:51:51.098 [restartedMain] - HikariPool-2 - Starting...
+16:51:51.123 [restartedMain] - HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@6208603b
+16:51:51.123 [restartedMain] - HikariPool-2 - Start completed.
+16:51:51.126 [restartedMain] - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@697fd21c
+16:51:51.130 [restartedMain] - HHH000021: Bytecode provider name : bytebuddy
+16:51:51.134 [restartedMain] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:51:51.135 [restartedMain] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16:51:51.153 [restartedMain] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+16:51:51.253 [restartedMain] - LiveReload server is running on port 35729
+16:51:51.264 [restartedMain] - Tomcat started on port(s): 8080 (http) with context path ''
+16:51:51.270 [restartedMain] - Started GestioneIncendiApplication in 0.496 seconds (process running for 90.357)
+16:51:51.272 [restartedMain] - Condition evaluation unchanged
+16:54:08.872 [File Watcher] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+16:54:08.876 [Thread-7] - Stopping service [Tomcat]
+16:54:08.879 [Thread-7] - Closing JPA EntityManagerFactory for persistence unit 'default'
+16:54:08.880 [Thread-7] - HikariPool-2 - Shutdown initiated...
+16:54:08.881 [Thread-7] - HikariPool-2 - Shutdown completed.
+16:54:08.956 [restartedMain] - Starting GestioneIncendiApplication using Java 17.0.7 with PID 4460 (/Users/manu/eclipse-workspace/GestioneIncendi/target/classes started by manu in /Users/manu/eclipse-workspace/GestioneIncendi)
+16:54:08.957 [restartedMain] - No active profile set, falling back to 1 default profile: "default"
+16:54:09.079 [restartedMain] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16:54:09.080 [restartedMain] - Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+16:54:09.157 [restartedMain] - Tomcat initialized with port(s): 8080 (http)
+16:54:09.158 [restartedMain] - Starting service [Tomcat]
+16:54:09.158 [restartedMain] - Starting Servlet engine: [Apache Tomcat/10.1.8]
+16:54:09.168 [restartedMain] - Initializing Spring embedded WebApplicationContext
+16:54:09.168 [restartedMain] - Root WebApplicationContext: initialization completed in 210 ms
+16:54:09.203 [restartedMain] - HHH000204: Processing PersistenceUnitInfo [name: default]
+16:54:09.209 [restartedMain] - HHH000021: Bytecode provider name : bytebuddy
+16:54:09.209 [restartedMain] - No LoadTimeWeaver setup: ignoring JPA class transformer
+16:54:09.210 [restartedMain] - HikariPool-3 - Starting...
+16:54:09.240 [restartedMain] - HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@2f35e481
+16:54:09.241 [restartedMain] - HikariPool-3 - Start completed.
+16:54:09.245 [restartedMain] - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@5e6042f0
+16:54:09.249 [restartedMain] - HHH000021: Bytecode provider name : bytebuddy
+16:54:09.254 [restartedMain] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:54:09.254 [restartedMain] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16:54:09.272 [restartedMain] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+16:54:09.369 [restartedMain] - LiveReload server is running on port 35729
+16:54:09.379 [restartedMain] - Tomcat started on port(s): 8080 (http) with context path ''
+16:54:09.383 [restartedMain] - Started GestioneIncendiApplication in 0.447 seconds (process running for 228.468)
+16:54:09.384 [restartedMain] - Condition evaluation unchanged
+16:54:49.114 [File Watcher] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+16:54:49.118 [Thread-11] - Stopping service [Tomcat]
+16:54:49.121 [Thread-11] - Closing JPA EntityManagerFactory for persistence unit 'default'
+16:54:49.121 [Thread-11] - HikariPool-3 - Shutdown initiated...
+16:54:49.122 [Thread-11] - HikariPool-3 - Shutdown completed.
+16:54:49.188 [restartedMain] - Starting GestioneIncendiApplication using Java 17.0.7 with PID 4460 (/Users/manu/eclipse-workspace/GestioneIncendi/target/classes started by manu in /Users/manu/eclipse-workspace/GestioneIncendi)
+16:54:49.189 [restartedMain] - No active profile set, falling back to 1 default profile: "default"
+16:54:49.309 [restartedMain] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16:54:49.311 [restartedMain] - Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+16:54:49.393 [restartedMain] - Tomcat initialized with port(s): 8080 (http)
+16:54:49.393 [restartedMain] - Starting service [Tomcat]
+16:54:49.394 [restartedMain] - Starting Servlet engine: [Apache Tomcat/10.1.8]
+16:54:49.404 [restartedMain] - Initializing Spring embedded WebApplicationContext
+16:54:49.405 [restartedMain] - Root WebApplicationContext: initialization completed in 215 ms
+16:54:49.444 [restartedMain] - HHH000204: Processing PersistenceUnitInfo [name: default]
+16:54:49.454 [restartedMain] - HHH000021: Bytecode provider name : bytebuddy
+16:54:49.454 [restartedMain] - No LoadTimeWeaver setup: ignoring JPA class transformer
+16:54:49.456 [restartedMain] - HikariPool-4 - Starting...
+16:54:49.486 [restartedMain] - HikariPool-4 - Added connection org.postgresql.jdbc.PgConnection@261a43c7
+16:54:49.486 [restartedMain] - HikariPool-4 - Start completed.
+16:54:49.493 [restartedMain] - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@96c1484
+16:54:49.497 [restartedMain] - HHH000021: Bytecode provider name : bytebuddy
+16:54:49.501 [restartedMain] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:54:49.501 [restartedMain] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16:54:49.520 [restartedMain] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+16:54:49.617 [restartedMain] - LiveReload server is running on port 35729
+16:54:49.627 [restartedMain] - Tomcat started on port(s): 8080 (http) with context path ''
+16:54:49.632 [restartedMain] - Started GestioneIncendiApplication in 0.464 seconds (process running for 268.716)
+16:54:49.633 [restartedMain] - Condition evaluation unchanged
+16:55:07.165 [File Watcher] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+16:55:07.169 [Thread-15] - Stopping service [Tomcat]
+16:55:07.173 [Thread-15] - Closing JPA EntityManagerFactory for persistence unit 'default'
+16:55:07.174 [Thread-15] - HikariPool-4 - Shutdown initiated...
+16:55:07.176 [Thread-15] - HikariPool-4 - Shutdown completed.
+16:55:07.238 [restartedMain] - Starting GestioneIncendiApplication using Java 17.0.7 with PID 4460 (/Users/manu/eclipse-workspace/GestioneIncendi/target/classes started by manu in /Users/manu/eclipse-workspace/GestioneIncendi)
+16:55:07.239 [restartedMain] - No active profile set, falling back to 1 default profile: "default"
+16:55:07.352 [restartedMain] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16:55:07.353 [restartedMain] - Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+16:55:07.423 [restartedMain] - Tomcat initialized with port(s): 8080 (http)
+16:55:07.424 [restartedMain] - Starting service [Tomcat]
+16:55:07.425 [restartedMain] - Starting Servlet engine: [Apache Tomcat/10.1.8]
+16:55:07.435 [restartedMain] - Initializing Spring embedded WebApplicationContext
+16:55:07.435 [restartedMain] - Root WebApplicationContext: initialization completed in 195 ms
+16:55:07.468 [restartedMain] - HHH000204: Processing PersistenceUnitInfo [name: default]
+16:55:07.476 [restartedMain] - HHH000021: Bytecode provider name : bytebuddy
+16:55:07.476 [restartedMain] - No LoadTimeWeaver setup: ignoring JPA class transformer
+16:55:07.476 [restartedMain] - HikariPool-5 - Starting...
+16:55:07.502 [restartedMain] - HikariPool-5 - Added connection org.postgresql.jdbc.PgConnection@6bd29f88
+16:55:07.502 [restartedMain] - HikariPool-5 - Start completed.
+16:55:07.507 [restartedMain] - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@6bd01777
+16:55:07.511 [restartedMain] - HHH000021: Bytecode provider name : bytebuddy
+16:55:07.515 [restartedMain] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:55:07.515 [restartedMain] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16:55:07.532 [restartedMain] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+16:55:07.623 [restartedMain] - LiveReload server is running on port 35729
+16:55:07.632 [restartedMain] - Tomcat started on port(s): 8080 (http) with context path ''
+16:55:07.637 [restartedMain] - Started GestioneIncendiApplication in 0.415 seconds (process running for 286.721)
+16:55:07.639 [restartedMain] - Condition evaluation unchanged
+16:55:59.471 [File Watcher] - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+16:55:59.475 [Thread-19] - Stopping service [Tomcat]
+16:55:59.478 [Thread-19] - Closing JPA EntityManagerFactory for persistence unit 'default'
+16:55:59.478 [Thread-19] - HikariPool-5 - Shutdown initiated...
+16:55:59.479 [Thread-19] - HikariPool-5 - Shutdown completed.
+16:55:59.544 [restartedMain] - Starting GestioneIncendiApplication using Java 17.0.7 with PID 4460 (/Users/manu/eclipse-workspace/GestioneIncendi/target/classes started by manu in /Users/manu/eclipse-workspace/GestioneIncendi)
+16:55:59.545 [restartedMain] - No active profile set, falling back to 1 default profile: "default"
+16:55:59.662 [restartedMain] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16:55:59.664 [restartedMain] - Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+16:55:59.737 [restartedMain] - Tomcat initialized with port(s): 8080 (http)
+16:55:59.739 [restartedMain] - Starting service [Tomcat]
+16:55:59.740 [restartedMain] - Starting Servlet engine: [Apache Tomcat/10.1.8]
+16:55:59.749 [restartedMain] - Initializing Spring embedded WebApplicationContext
+16:55:59.750 [restartedMain] - Root WebApplicationContext: initialization completed in 204 ms
+16:55:59.783 [restartedMain] - HHH000204: Processing PersistenceUnitInfo [name: default]
+16:55:59.791 [restartedMain] - HHH000021: Bytecode provider name : bytebuddy
+16:55:59.791 [restartedMain] - No LoadTimeWeaver setup: ignoring JPA class transformer
+16:55:59.792 [restartedMain] - HikariPool-6 - Starting...
+16:55:59.819 [restartedMain] - HikariPool-6 - Added connection org.postgresql.jdbc.PgConnection@2efd895c
+16:55:59.819 [restartedMain] - HikariPool-6 - Start completed.
+16:55:59.824 [restartedMain] - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@4479d477
+16:55:59.828 [restartedMain] - HHH000021: Bytecode provider name : bytebuddy
+16:55:59.832 [restartedMain] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+16:55:59.833 [restartedMain] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16:55:59.850 [restartedMain] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+16:55:59.944 [restartedMain] - LiveReload server is running on port 35729
+16:55:59.954 [restartedMain] - Tomcat started on port(s): 8080 (http) with context path ''
+16:55:59.960 [restartedMain] - Started GestioneIncendiApplication in 0.433 seconds (process running for 339.044)
+16:55:59.961 [restartedMain] - Condition evaluation unchanged

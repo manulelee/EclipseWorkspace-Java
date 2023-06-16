@@ -65,7 +65,7 @@ public class Sonda implements Subject{
 	public void setSmokeLevel(Integer n) {
 		this.smokeLevel=n;
 		if (smokeLevel>5) {
-			this.notify( "La sonda :" + this.id + " ha registrato un livello pari a " + this.smokeLevel);
+			this.notify( "La sonda " + this.id + " ha registrato un livello pari a " + this.smokeLevel);
 		}
 	
 	}
@@ -91,7 +91,7 @@ public class Sonda implements Subject{
 		// TODO Auto-generated method stub
 		// stazioniControllo.forEach(o-> o.update("Centro di controllo: " + message));
 		for (Observer o : stazioniControllo) {
-			o.update(message);
+			o.update(((CentroControllo)o).getNome() +" - " + message);
 		}
 	}
 
