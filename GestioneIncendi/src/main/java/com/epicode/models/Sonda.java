@@ -17,56 +17,83 @@ import lombok.NoArgsConstructor;
 
 @NoArgsConstructor
 @AllArgsConstructor
-@Data
 //@Entity
 //@Table(name="sonde")
 public class Sonda implements Subject{
 
-	
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Long id;
-	
-	@Column(nullable=false)
+	private Integer id;
 	private String lat;
-	
-	@Column(nullable=false)
 	private String lon;
-	
-	
 	private Integer smokeLevel = 0;
+	private List<Observer> stazioniControllo = new ArrayList<Observer>();
 	
-	private List<Observer> stazioneControllo = new ArrayList<Observer>();
+	public Sonda(Integer id, String lat, String lon) {
+		super();
+		this.id = id;
+		this.lat = lat;
+		this.lon = lon;
+	}
+	
+	public void setId(Integer id) {
+		this.id = id;
+	}
+	
+	public Integer getId() {
+		return this.id;
+	}
+	
+	public void setLat(String lat) {
+		this.lat = lat;
+	}
+	
+	public String getLat() {
+		return this.lat;
+	}
+	
+	public void setLon(String lon) {
+		this.lon = lon;
+	}
+	
+	public String getLon() {
+		return this.lon;
+	}
 
+	public Integer getSmokeLevel() {
+		return this.smokeLevel;
+	}
 	
-	public void setSmokeLevel(Integer l) {
-		this.smokeLevel=l;
+	public void setSmokeLevel(Integer n) {
+		this.smokeLevel=n;
 		if (smokeLevel>5) {
-			this.notify( "La sonda :" + this.lon + "ha registrato un livello pari a " + this.smokeLevel);
+			this.notify( "La sonda :" + this.id + " ha registrato un livello pari a " + this.smokeLevel);
 		}
 	
 	}
 
 	@Override
-	public void addSonda(Observer o) {
+	public void addReciver(Observer o) {
 		// TODO Auto-generated method stub
-		stazioneControllo.add(o);
-		System.out.println("Sonda aggiunta alla stazione di controllo");
+		stazioniControllo.add(o);
+		System.out.println("Sonda " + this.id + " aggiunta alla stazione di controllo");
 	}
 
 
 	@Override
-	public void removeSonda(Observer o) {
+	public void removeReciver(Observer o) {
 		// TODO Auto-generated method stub
-		stazioneControllo.remove(o);
-		System.out.println("Sonda rimossa dalla stazione di controllo");
+		stazioniControllo.remove(o);
+		System.out.println("Sonda " + this.id + " rimossa dalla stazione di controllo");
 	}
 
 
 	@Override
 	public void notify(String message) {
 		// TODO Auto-generated method stub
-		stazioneControllo.forEach(o-> o.update("Sonda " + this.id + ":" + message));
+		// stazioniControllo.forEach(o-> o.update("Centro di controllo: " + message));
+		for (Observer o : stazioniControllo) {
+			o.update(message);
+		}
 	}
+
 	
 }

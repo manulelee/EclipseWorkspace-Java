@@ -14,34 +14,24 @@ public class GestioneIncendiApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(GestioneIncendiApplication.class, args);
 		
-		CentroControllo c= new CentroControllo();
-		c.setLuogo("Luogo x");
-		c.setNome("Stazione di controllo principale");
+		CentroControllo c1= new CentroControllo(1, "Stazione di controllo Roma", "Roma");
+		CentroControllo c2= new CentroControllo(1, "Stazione di controllo Milano", "Milano");
 		
-		Sonda s1 = new Sonda();
-		s1.setLat("8892d8782n");
-		s1.setLon("8982978223");
+		Sonda s1 = new Sonda(1, "39.223841", "9.121661");
+		Sonda s2 = new Sonda(2, "41.9027835", "12.4963655");
+		Sonda s3 = new Sonda(3, "45.4654219", "9.1859243");
 		
-		s1.addSonda(c);
+		s1.addReciver(c1);
+		s2.addReciver(c1);
 		
-		Sonda s2 = new Sonda();
-		s2.setLat("8892d8782n");
-		s2.setLon("8982978223");
+		s1.addReciver(c2);
 		
-		s2.addSonda(c);
+		s1.setSmokeLevel(6); // Verranno richiamate c1 e c2
+		s2.setSmokeLevel(4); // Non verrà richiamata c2 perchè il livello è inferiore a 5
+		s3.setSmokeLevel(4); // s3 non è collegata a nessun cetro di controllo
 		
-		System.out.println(s2.toString());
-		
-		s1.setSmokeLevel(6);
-		
-		Sonda s3 = new Sonda();
-		s3.setLat("8892d8782n");
-		s3.setLon("8982978223");
-		
-		s3.addSonda(c);
-		
-		s3.removeSonda(c);
-		s3.setSmokeLevel(6);
+
+
 	}
 	
 	}

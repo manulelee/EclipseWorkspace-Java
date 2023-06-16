@@ -5,7 +5,6 @@ INDEX VERSION 1.132+/Users/manu/eclipse-workspace/.metadata/.plugins/org.eclipse
 1281643043.index
 3397599216.index
 3547018515.index
-1308012032.index
 1865797976.index
 3615304009.index
 2077362262.index
