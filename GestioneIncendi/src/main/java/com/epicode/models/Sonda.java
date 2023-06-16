@@ -4,14 +4,7 @@ package com.epicode.models;
 import java.util.ArrayList;
 import java.util.List;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
-import lombok.Data;
 import lombok.NoArgsConstructor;
 
 
@@ -91,7 +84,9 @@ public class Sonda implements Subject{
 		// TODO Auto-generated method stub
 		// stazioniControllo.forEach(o-> o.update("Centro di controllo: " + message));
 		for (Observer o : stazioniControllo) {
-			o.update(((CentroControllo)o).getNome() +" - " + message);
+			if (o instanceof CentroControllo) {
+				o.update(((CentroControllo)o).getNome() +" - " + message);				
+			}
 		}
 	}
 

@@ -26,10 +26,13 @@ public class GestioneIncendiApplication {
 
 		s1.addReciver(c2); //Aggiungo la sonda 1 al centro 2
 		
+		System.out.println("****************************************************************************");
+		
 		s1.setSmokeLevel(6); // Verranno richiamate c1 e c2
 		s2.setSmokeLevel(4); // Non verrà richiamata c2 perchè il livello è inferiore a 5
 		s3.setSmokeLevel(4); // s3 non è collegata a nessun cetro di controllo
 		
+		System.out.println("****************************************************************************");
 	}
 	
 	}
